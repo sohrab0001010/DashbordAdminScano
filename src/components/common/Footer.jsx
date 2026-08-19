@@ -10,7 +10,7 @@ const Footer = () => {
         rounded-[1rem]
         border
         border-indigo-300/20
-        bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+        bg-[linear-gradient(135deg,#000000,#232526,#414345,#000000)]
         shadow-[0_0_30px_rgba(37,99,235,0.25)]
         overflow-hidden
         relative

@@ -4,13 +4,14 @@ import { Link } from "react-router";
 
 const Home = () => {
     const courses = [
-        { title: "پایه چهارم", emoji: "📒", id: 4 },
-        { title: "پایه پنجم", emoji: "📙", id: 5 },
-        { title: "پایه ششم", emoji: "📘", id: 6 },
-        { title: "پایه هفتم", emoji: "📗", id: 7 },
-        { title: "پایه هشتم", emoji: "📕", id: 8 },
-        { title: "پایه نهم", emoji: "📔", id: 9 },
-    ];
+    { title: "پایه چهارم", emoji: "📒", id: 4, color: "#FFB900" }, // نارنجی
+    { title: "پایه پنجم", emoji: "📙", id: 5, color: "#F97316" }, // نارنجی روشن
+    { title: "پایه ششم", emoji: "📘", id: 6, color: "#2563EB" }, // آبی
+    { title: "پایه هفتم", emoji: "📗", id: 7, color: "#16A34A" }, // سبز
+    { title: "پایه هشتم", emoji: "📕", id: 8, color: "#DC2626" }, // قرمز
+    { title: "پایه نهم", emoji: "📔", id: 9, color: "#F7D7C4" }, // صورتی
+];
+    
 
     return (
         <main
@@ -46,7 +47,7 @@ const Home = () => {
         "
             >
                 {courses.map((course) => (
-                    <Link to={"#"}>
+                    <Link to={`/year/${course.id}`}>
                         <Course
                             key={course.id}
                             {...course}

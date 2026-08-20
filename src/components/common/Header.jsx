@@ -62,6 +62,7 @@ const Header = () => {
         flex-row-reverse
         items-center
         gap-8
+        text-[1.2rem]
         ">
           {<Link to={"/login"}>
             <div className="
@@ -75,6 +76,7 @@ const Header = () => {
            px-4
            py-2
            text-[#404348]
+           text-[1.2rem]
            select-none
            transition-all
            duration-200

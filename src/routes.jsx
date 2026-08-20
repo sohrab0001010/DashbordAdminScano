@@ -2,7 +2,9 @@ import React from 'react'
 import { createBrowserRouter } from 'react-router'
 import RootLayout from './components/layout/RootLayout'
 import Home from "./pages/Home"
-import pageCourse from "./pages/Course"
+import PageCourse from "./pages/Course"
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 const router = createBrowserRouter([
     {
@@ -15,9 +17,18 @@ const router = createBrowserRouter([
             },
             {
                 path: "year/:yearId",
-                element: <pageCourse/>
+                element: <PageCourse/>
             },
         ]
+    },
+
+    {
+        path: "/login",
+        element: <Login/>
+    },
+    {
+        path: "/register",
+        element: <Register/>
     }
 ])
 

@@ -47,9 +47,11 @@ const Home = () => {
         "
             >
                 {courses.map((course) => (
-                    <Link to={`/year/${course.id}`}>
+                    <Link 
+                    to={`/year/${course.id}`}
+                    key={course.id}
+                    >
                         <Course
-                            key={course.id}
                             {...course}
                         />
                     </Link>

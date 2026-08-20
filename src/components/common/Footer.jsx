@@ -7,7 +7,7 @@ const Footer = () => {
         mx-4
         mb-4
         mt-4
-        rounded-[1rem]
+        rounded-2xl
         border
         border-indigo-300/20
         bg-[linear-gradient(135deg,#000000,#232526,#414345,#000000)]

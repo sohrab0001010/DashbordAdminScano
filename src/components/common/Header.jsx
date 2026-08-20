@@ -1,24 +1,109 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router'
 
 const Header = () => {
 
-  const [discounts,setDiscounts] = useState("")
+  const [discounts, setDiscounts] = useState("")
 
   useEffect(() => {
-    
-  },[])
+    const fetchDiscount = async () => {
+      try {
+        const res = await fetch("https://dummyjson.com/quot");
+        const data = await res.json();
+        const existDiscount = data.quotes[0].quote;
+
+        setDiscounts(existDiscount || "با اسکنو اسکن کن و یاد بگیر")
+
+      } catch (error) {
+        console.log(error)
+        setDiscounts("با اسکنو اسکن کن و یاد بگیر")
+      }
+
+    }
+    fetchDiscount()
+  }, [])
+
 
 
 
 
   return (
     <header
-    className="
-    
+      className="
+    flex
+    flex-col
+    select-none
     "
     >
-      <div className="section-top"></div>
-      <div className="section-bottom"></div>
+      <div
+        className="
+      section-top
+      flex
+      flex-row-reverse
+      min-h-20
+      bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+      py-5
+      px-10
+      text-sky-100
+      text-xl
+      ">{discounts}</div>
+      <div className="
+      section-bottom
+      flex
+      flex-row-reverse
+      items-center
+      justify-between
+      p-10
+      border-b
+      border-gray-300
+      ">
+        <div className="
+        flex
+        flex-row-reverse
+        items-center
+        gap-8
+        ">
+          {<Link to={"/login"}>
+            <div className="
+           flex
+           flex-row-reverse
+           items-center
+           gap-3
+           rounded-lg
+           border
+           border-[#404348]
+           px-4
+           py-2
+           text-[#404348]
+           select-none
+           transition-all
+           duration-200
+           hover:bg-[rgba(103,176,255,0.11)]
+           hover:text-[#0C2965]
+           hover:border-[#0C2965]
+            ">
+              <span>ورود</span>
+              <span className="opacity-50">|</span>
+              <span>ثبت نام</span>
+            </div>
+          </Link>}
+
+          <Link>درباره ما</Link>
+          <Link>تماس با ما</Link>
+        </div>
+
+
+
+        <span className="
+        logo
+        cursor-pointer
+        h-16
+        w-16
+        ">
+          <img src="/images/logo/logo.jpeg" alt="" />
+        </span>
+
+      </div>
 
     </header>
   )

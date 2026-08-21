@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
+import OTPInput from "../components/common/OTPInput/OTPInput"
 
 const Login = () => {
   const [number, setNumber] = useState("");
@@ -217,7 +218,9 @@ const Login = () => {
               }
             </span>
 
-            <input
+            {/* {confirm
+            ?<OTPInput/>
+            :<input
               type="text"
               inputMode="numeric"
               placeholder="09123456789"
@@ -235,20 +238,27 @@ const Login = () => {
                 px-4
                 border
                 border-gray-300
-                rounded-[0.5rem]
+                rounded-lg
                 focus:border-[#0C2965]
                 transition-colors
                 duration-200
                 placeholder:text-gray-400
               "
             />
+            } */}
+            <OTPInput/>
+
           </div>
 
           {/* Submit */}
           <input
             onClick={() => confirmPhone(number)}
             type="submit"
-            value="تایید"
+            value={
+                confirm
+                ?"ادامه و ورود به حساب"
+                :"تایید و ورود"
+            }
             className="
               w-full
               max-w-64
@@ -257,7 +267,7 @@ const Login = () => {
               text-white
               bg-[linear-gradient(135deg,#000000,#232526,#414345,#000000)]
               cursor-pointer
-              rounded-[0.5rem]
+              rounded-lg
               transition-all
               duration-200
               hover:scale-[1.02]

@@ -1,72 +1,72 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 const OTPInput = () => {
-
-  const [otp,setOtp] = useState(["","","",""])
+  const [otp, setOtp] = useState(["", "", "", ""])
+  const otpRef = useRef(otp) // آینه‌ی همیشه به‌روز
   const inputRefs = useRef([])
 
-  const handleChange = (value,index) => {
-    if (!/^\d*$/.test(value)) {
-      return
-    };
-
-    const newOtp = [...otp]
-    newOtp[index] = value
+  const updateOtp = (newOtp) => {
+    otpRef.current = newOtp
     setOtp(newOtp)
-    console.log(otp)
-    
   }
 
-  const handleFocus = index => {
-    const firstEmptyIndex = otp.findIndex(item => item === "")
+  const handleChange = (value, index) => {
+    if (!/^\d*$/.test(value)) return
 
-    if (
-      firstEmptyIndex !== -1 && 
-      index > firstEmptyIndex
-    ) {
+    const newOtp = [...otpRef.current]
+    newOtp[index] = value
+    updateOtp(newOtp)
+
+    if (value && index < newOtp.length - 1) {
+      inputRefs.current[index + 1]?.focus()
+    }
+  }
+
+  const handleFocus = (index) => {
+    const firstEmptyIndex = otpRef.current.findIndex(item => item === "")
+
+    if (firstEmptyIndex !== -1 && index > firstEmptyIndex) {
       inputRefs.current[firstEmptyIndex]?.focus()
     }
   }
 
+  const handleKeyDown = (e, index) => {
+    if (e.key === "Backspace" && !otp[index] && index > 0) {
+      inputRefs.current[index - 1]?.focus()
+    }
+  }
 
-  useEffect(() => {inputRefs.current[0]?.focus()},[])
-
-
+  useEffect(() => { inputRefs.current[0]?.focus() }, [])
 
   return (
-    <div 
-    className="
-    inputs
-    flex
-    gap-4
-    ">
-      {
-        otp.map((value,index) => (
-          <input 
+    <div className="inputs flex gap-4">
+      {otp.map((value, index) => (
+        <input
           key={index}
-          ref={element => {inputRefs.current[index] = element}}
-          onChange={e => handleChange(e.target.value,index)}
+          ref={element => { inputRefs.current[index] = element }}
+          value={value}
+          onChange={e => handleChange(e.target.value, index)}
           onFocus={() => handleFocus(index)}
+          onKeyDown={e => handleKeyDown(e, index)}
           placeholder="_"
           inputMode='numeric'
           maxLength={1}
-          type="text" 
+          type="text"
           className="
-          text-[1.2rem]
-          p-4
-          rounde-[0.5rem]
-          border
-          border-gray-300
-          focus:border-[#0C2965]
-          caret-[#0C2965]
-          w-12
-          h-12
-          bg-white
-          outline-none
-          rounded-lg
-          "/>
-        ))
-      }
+            text-[1.2rem]
+            p-4
+            border
+            border-gray-300
+            focus:border-[#0C2965]
+            caret-[#0C2965]
+            w-12
+            h-12
+            bg-white
+            outline-none
+            rounded-lg
+          "
+        />
+      ))}
     </div>
   )
 }

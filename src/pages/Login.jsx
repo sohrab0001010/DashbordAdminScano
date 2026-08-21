@@ -52,7 +52,7 @@ const Login = () => {
         gap-6
         px-4
         py-8
-        bg-[linear-gradient(235deg,rgba(0,221,255,0.381),rgba(0,255,179,0.14),rgba(0,217,255,0.221))]
+        bg-[linear-gradient(235deg,rgba(0,221,255,0.381),rgba(255,255,255),rgba(0,217,255,0.221))]
       "
     >
       {/* Logo */}

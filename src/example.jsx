@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const OTPInput = () => {
   const [otp, setOtp] = useState(["", "", "", ""])
-  const otpRef = useRef(otp) // آینه‌ی همیشه به‌روز
+  const otpRef = useRef(otp) 
   const inputRefs = useRef([])
 
   const updateOtp = (newOtp) => {

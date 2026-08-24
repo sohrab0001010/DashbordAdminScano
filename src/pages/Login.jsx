@@ -1,41 +1,46 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
-import OTPInput from "../components/common/OTPInput/OTPInput"
+import { useNavigate } from "react-router";
+
+import OTPInput from "../components/common/OTPInput/OTPInput";
+import users from "../data/dataUsers"
 
 const Login = () => {
   const [number, setNumber] = useState("");
-  const [confirm,setConfirm] = useState(false);
-  const [modal,setModal] = useState(false);
-  const [arroBack,setArroBack] = useState(false);
-
-
-
-
-
-
-
-
-
+  const [confirm, setConfirm] = useState(false);
+  const inputRef = useRef([]);
+  const navigate = useNavigate()
 
   const phoneRegex = /^09\d{9}$/;
 
 
+  const confirmPhone = (value) => {
+    const validNumber = phoneRegex.test(value);
+    const validUser = users.find(user => user.number === value)
 
-  const confirmPhone = value => {
-    const validation = phoneRegex.test(value)
-    if (validation) {
-        setConfirm(true)
+    if (validNumber && validUser) {
+      setConfirm(true);
+
+    } else if (validNumber && !validUser) {
+      navigate("/register",{
+        state: {phoneNum: value}
+      })
 
     } else {
-        console.log("phoneNuber is not valid")
+      console.log("false")
     }
-  }
+
+    console.log(typeof(value))
+  };
 
   const handleResendCode = () => {
-    console.log("send Code")
-  }
+    console.log("send Code");
+  };
 
 
+  useEffect(() => {
+    inputRef.current.focus()
+  },[])
 
 
 
@@ -138,62 +143,78 @@ const Login = () => {
               text-center
             "
           >
-            {!confirm
-            ?"ورود به حساب کاربری"
-            :"کد تایید را وارد کنید"
-            }
+            {confirm
+              ? "کد تایید را وارد کنید"
+              : "ورود به حساب کاربری"}
           </span>
 
-          {/* Register */}
+          {/* Register / Resend */}
           <div
             dir="rtl"
             className="
+              w-full
+              max-w-64
               flex
               flex-wrap
-              justify-center
               items-center
-              gap-1
+              justify-center
+              gap-x-2
+              gap-y-1
               text-sm
               text-center
+              font-medium
             "
           >
-            <span>
-              {confirm
-              ?"کد را دریافت نکردید؟ "
-              :"هنوز ثبت نام نکرده‌اید؟ "
-              }
-            </span>
+            {confirm && (
+              <>
+                <span>
+                  کد را دریافت نکردید؟
+                </span>
 
-            {confirm
-            ?<button
-                type="button"
-                onClick={handleResendCode}
-                className="
-                border-none
-                bg-transparent
-                p-0
-                text-[#0C2965]
-                cursor-pointer
-                hover:text-[#174EA6]
-            "
-            >
-             ارسال مجدد کد
-            </button>
-            :<Link
-              to="/register"
-              className="
-                text-[#0C2965]
-                hover:text-[#174EA6]
-                transition-colors
-                duration-200
-              "
-            >
-              ثبت نام
-            </Link>
+                <button
+                  type="button"
+                  onClick={handleResendCode}
+                  className="
+                    shrink-0
+                    border-none
+                    bg-transparent
+                    p-0
+                    text-[#0C2965]
+                    cursor-pointer
+                    hover:text-[#174EA6]
+                    transition-colors
+                    duration-200
+                    font-bold
+                  "
+                >
+                  ارسال مجدد کد
+                </button>
+              </>
+            ) 
+            //  (
+            //   <>
+            //     <span>
+            //       هنوز ثبت نام نکرده‌اید؟
+            //     </span>
+
+            //     <Link
+            //       to="/register"
+            //       className="
+            //         shrink-0
+            //         text-[#0C2965]
+            //         hover:text-[#174EA6]
+            //         transition-colors
+            //         duration-200
+            //       "
+            //     >
+            //       ثبت نام
+            //     </Link>
+            //   </>
+            // )
             }
           </div>
 
-          {/* Phone */}
+          {/* Phone / OTP */}
           <div
             className="
               w-full
@@ -203,61 +224,88 @@ const Login = () => {
               gap-3
             "
           >
-            <span
-              dir="rtl"
-              className="
-                w-full
-                max-w-64
-                text-right
-                text-sm
-              "
-            >
-              {confirm
-              ?`کد به ${number} ارسال شد`
-              :"شماره همراه خود را وارد کنید"
-              }
-            </span>
+            {confirm ? (
+              <>
+                <div
+                  dir="rtl"
+                  className="
+                    w-full
+                    max-w-64
+                    flex
+                    flex-col
+                    items-center
+                    gap-2
+                    text-sm
+                    text-center
+                    font-medium
+                  "
+                >
+                  <span>
+                    کد به شماره {number} ارسال شد
+                  </span>
+                </div>
 
-            {/* {confirm
-            ?<OTPInput/>
-            :<input
-              type="text"
-              inputMode="numeric"
-              placeholder="09123456789"
-              dir="rtl"
-              value={number}
-              onChange={(e) => setNumber(e.target.value)}
-              className="
-                w-full
-                max-w-64
-                bg-white
-                text-[1.1rem]
-                text-black
-                outline-none
-                py-2
-                px-4
-                border
-                border-gray-300
-                rounded-lg
-                focus:border-[#0C2965]
-                transition-colors
-                duration-200
-                placeholder:text-gray-400
-              "
-            />
-            } */}
-            <OTPInput/>
+                <OTPInput />
+              </>
+            ) : (
+              <>
+                <span
+                  dir="rtl"
+                  className="
+                    w-full
+                    max-w-64
+                    text-right
+                    text-sm
+                    font-medium
+                  "
+                >
+                  شماره همراه خود را وارد کنید
+                </span>
 
+                <input
+                  type="text"
+                  ref={inputRef}
+                  inputMode="numeric"
+                  placeholder="09123456789"
+                  dir="rtl"
+                  value={number}
+                  onChange={(e) =>
+                    setNumber(e.target.value)
+                  }
+                  className="
+                    w-full
+                    max-w-64
+                    bg-white
+                    text-[1.1rem]
+                    text-black
+                    outline-none
+                    py-2
+                    px-4
+                    border
+                    border-gray-300
+                    rounded-lg
+                    focus:border-[#0C2965]
+                    transition-colors
+                    duration-200
+                    placeholder:text-gray-400
+                  "
+                />
+              </>
+            )}
           </div>
 
           {/* Submit */}
           <input
-            onClick={() => confirmPhone(number)}
+            onClick={() => {
+              if (!confirm) {
+                confirmPhone(number);
+              }
+            }}
             type="submit"
             value={
-                confirm
-                ?"ادامه و ورود به حساب"
-                :"تایید و ورود"
+              confirm
+                ? "ادامه و ورود به حساب"
+                : "تایید و ورود"
             }
             className="
               w-full

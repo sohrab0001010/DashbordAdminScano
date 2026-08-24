@@ -26,6 +26,31 @@ const OTPInput = () => {
     }
   }
 
+  const handlekeyDown = (e,index) => {
+    if (e.key === "Backspace" && !otp[index] && index > 0) {
+      inputRef.current[index - 1]?.focus()
+    }
+  }
+
+  const handleFocuse = index => {
+    const firstEmptyIndex = otpRef.current.findIndex(item => item === "")
+
+    if (firstEmptyIndex !== -1 && index > firstEmptyIndex) {
+      inputRef.current[firstEmptyIndex]?.focus()
+    }
+  }
+
+
+
+
+
+
+  useEffect(() => {inputRef.current[0].focus()},[])
+
+
+
+
+
   return (
     <div className="inputs flex gap-4">
       {otp.map((value, index) => (
@@ -34,6 +59,8 @@ const OTPInput = () => {
           value={value}
           ref={elem => inputRef.current[index] = elem}
           onChange={e => handleChange(e.target.value, index)}
+          onKeyDown={e => handlekeyDown(e,index)}
+          onFocus={() => handleFocuse(index)}
           inputMode='numeric'
           maxLength={1}
           type="text"

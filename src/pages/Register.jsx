@@ -1,43 +1,55 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
+import OTPInput from '../example';
+import OTPTimer from '../components/OTPTimer/OTPTimer';
 
 const Register = () => {
 
   const phoneRegex = /^09\d{9}$/;
 
-
+  const inputNameRef = useRef([])
   const location = useLocation()
   const phoneUser = location.state?.phoneNum || ""
 
   const [number, setNumber] = useState(phoneUser)
   const [username, setUsername] = useState("")
-  const [getCode,setGetCode] = useState(false)
-  const [modal,setModal] = useState(false)
-  const [trueName,setTrueName] = useState(false)
+  const [password,setPassword] = useState("")
+  const [confirmPassword,setContirmPssword] = useState("")
+  const [getCode, setGetCode] = useState(false)
+  const [modal, setModal] = useState(false)
+  const [condition, setCondition] = useState("")
 
 
 
-  const validNum = phoneRegex.test(phoneUser)
+  const validNum = phoneRegex.test(number)
 
 
   const validUsername = () => {
     if (
-      username.trim().length < 6
-      && validNum
+      !validNum
+      || !username
+      || !password
+      || !confirmPassword
     ) {
-      setGetCode(true)
-      
+      setCondition("unComplete")
+      return
+
+    } else if (confirmPassword !== password){
+      setCondition("inequality")
+      return
     }
+
+    setCondition(null)
+    setGetCode(true)
   }
 
 
 
-  const getHandler = 
 
 
 
 
-
+  useEffect(() => {inputNameRef.current.focus()},[])
 
 
   return (
@@ -139,68 +151,133 @@ const Register = () => {
               text-center
             "
           >
-            مشخصات خود را وارد کنید
+            {getCode
+              ? "کد تایید را وارد کنید"
+              : "مشخصات خود را وارد کنید"
+            }
           </span>
 
-          <input
-            type="text"
-            inputMode="numeric"
-            placeholder="نام و نام خانوادگی"
-            dir="rtl"
-            value={username}
-            onChange={e => setUsername(e.target.value)}
-            className="
-                    w-full
-                    max-w-64
-                    bg-white
-                    text-[1.1rem]
-                    text-black
-                    outline-none
-                    py-2
-                    px-4
-                    border
-                    border-gray-300
-                    rounded-lg
-                    focus:border-[#0C2965]
-                    transition-colors
-                    duration-200
-                    placeholder:text-gray-400
-                  "
-          />
 
-          <input
-            type="text"
-            inputMode="numeric"
-            placeholder="09123456789"
-            dir="rtl"
-            value={number}
-            onChange={e => setNumber(e.target.value)}
-            className="
-                    w-full
-                    max-w-64
-                    bg-white
-                    text-[1.1rem]
-                    text-black
-                    outline-none
-                    py-2
-                    px-4
-                    border
-                    border-gray-300
-                    rounded-lg
-                    focus:border-[#0C2965]
-                    transition-colors
-                    duration-200
-                    placeholder:text-gray-400
-                  "
-          />
+
+          {
+            getCode
+              ? <>
+              <OTPTimer/>
+              <OTPInput/>
+              </>
+              : <>
+                <input
+                  type="text"
+                  ref={inputNameRef}
+                  placeholder="نام و نام خانوادگی"
+                  dir="rtl"
+                  value={username}
+                  onChange={e => setUsername(e.target.value)}
+                  className="
+                        w-full
+                        max-w-64
+                        bg-white
+                        text-[1.1rem]
+                        text-black
+                        outline-none
+                        py-2
+                        px-4
+                        border
+                        border-gray-300
+                        rounded-lg
+                        focus:border-[#0C2965]
+                        transition-colors
+                        duration-200
+                        placeholder:text-gray-400
+                      "
+                />
+
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  placeholder="09123456789"
+                  dir="rtl"
+                  value={number}
+                  onChange={e => setNumber(e.target.value)}
+                  className="
+                        w-full
+                        max-w-64
+                        bg-white
+                        text-[1.1rem]
+                        text-black
+                        outline-none
+                        py-2
+                        px-4
+                        border
+                        border-gray-300
+                        rounded-lg
+                        focus:border-[#0C2965]
+                        transition-colors
+                        duration-200
+                        placeholder:text-gray-400
+                      "
+                />
+
+                <input
+                  type="text"
+                  placeholder="یک رمز ایجاد کنید"
+                  dir="rtl"
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  className="
+                        w-full
+                        max-w-64
+                        bg-white
+                        text-[1.1rem]
+                        text-black
+                        outline-none
+                        py-2
+                        px-4
+                        border
+                        border-gray-300
+                        rounded-lg
+                        focus:border-[#0C2965]
+                        transition-colors
+                        duration-200
+                        placeholder:text-gray-400
+                      "
+                />
+
+                <input
+                  type="text"
+                  placeholder="تایید رمز"
+                  dir="rtl"
+                  value={confirmPassword}
+                  onChange={e => setContirmPssword(e.target.value)}
+                  className="
+                        w-full
+                        max-w-64
+                        bg-white
+                        text-[1.1rem]
+                        text-black
+                        outline-none
+                        py-2
+                        px-4
+                        border
+                        border-gray-300
+                        rounded-lg
+                        focus:border-[#0C2965]
+                        transition-colors
+                        duration-200
+                        placeholder:text-gray-400
+                      "
+                />
+
+              </>
+          }
 
           <input
             onClick={() => {
-              if (value === "")
+              validUsername()
             }}
             type="submit"
             value={
-              getCode
+              !getCode
                 ? "دریافت کد"
                 : "تایید و ثبت نام"
             }

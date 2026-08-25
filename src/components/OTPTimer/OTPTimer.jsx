@@ -1,0 +1,57 @@
+import React, { useEffect, useState } from 'react'
+
+const OTPTimer = () => {
+
+  const [time, setTime] = useState(120)
+
+
+  useEffect(() => {
+
+    if (time === 0) return
+
+    const timer = setInterval(() => {
+      setTime(prev => prev - 1)
+      console.log(time)
+    }, 1000)
+
+    return (() => clearInterval(timer))
+  }, [time])
+
+
+  const minutes = Math.floor(time / 60)
+  const seconds = time % 60
+
+
+  return (
+    <div
+      className='flex gap-2'
+    >
+
+      {
+        minutes > 0 || seconds > 0
+        ? <span>{minutes}:{seconds.toString().padStart(2, "0")}</span>
+        : <span
+        className='
+        font-medium 
+        cursor-pointer
+        shrink-0
+        border-none
+        bg-transparent
+        p-0
+        text-[#0C2965]
+        cursor-pointer
+        hover:text-[#174EA6]
+        transition-colors
+        duration-200
+        font-bold
+        '
+        onClick={() => setTime(120)}
+        >ارسال کد</span>
+      }
+      <span>کد را دریافت نکردید؟ </span>
+
+    </div>
+  )
+}
+
+export default OTPTimer

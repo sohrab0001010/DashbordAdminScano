@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 
 import OTPInput from "../components/common/OTPInput/OTPInput";
 import users from "../data/dataUsers"
+import OTPTimer from "../components/OTPTimer/OTPTimer";
 
 const Login = () => {
   const [number, setNumber] = useState("");
@@ -166,30 +167,7 @@ const Login = () => {
             "
           >
             {confirm && (
-              <>
-                <span>
-                  کد را دریافت نکردید؟
-                </span>
-
-                <button
-                  type="button"
-                  onClick={handleResendCode}
-                  className="
-                    shrink-0
-                    border-none
-                    bg-transparent
-                    p-0
-                    text-[#0C2965]
-                    cursor-pointer
-                    hover:text-[#174EA6]
-                    transition-colors
-                    duration-200
-                    font-bold
-                  "
-                >
-                  ارسال مجدد کد
-                </button>
-              </>
+              <OTPTimer/>
             ) 
             //  (
             //   <>
@@ -244,7 +222,6 @@ const Login = () => {
                     کد به شماره {number} ارسال شد
                   </span>
                 </div>
-
                 <OTPInput />
               </>
             ) : (

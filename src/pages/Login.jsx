@@ -16,7 +16,7 @@ const Login = () => {
 
   const confirmPhone = (value) => {
     const validNumber = phoneRegex.test(value);
-    const validUser = users.find(user => user.number === value)
+    const validUser = users.find(user => user.phone === value)
 
     if (validNumber && validUser) {
       setConfirm(true);
@@ -30,7 +30,7 @@ const Login = () => {
       console.log("false")
     }
 
-    console.log(typeof(value))
+    console.log(validUser)
   };
 
   const handleResendCode = () => {

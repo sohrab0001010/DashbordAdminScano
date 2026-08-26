@@ -28,7 +28,7 @@ const Register = () => {
 
   const validUsername = () => {
     if (
-      !validNum
+      !number
       || !username
       || !password
       || !confirmPassword
@@ -41,6 +41,20 @@ const Register = () => {
     } else if (confirmPassword !== password){
       setCondition("inequality")
       setKeymodal(prev => prev + 1)
+      return
+    } else if (!validNum) {
+      setCondition("wrong")
+      setKeymodal(prev => prev + 1)
+      return
+
+    } else if (password.length < 4) {
+      setCondition("shortPassword")
+      setKeymodal(prev => prev + 1)
+      return
+
+    } else if (username.length.trim() < 6) {
+      setCondition("shortUsername") 
+      setKeymodal(prev => pvre + 1)
       return
     }
 
@@ -79,15 +93,17 @@ const Register = () => {
         condition &&
         <Modal
         key={keymodal}
-        title={
-          condition
-          ?modalConfig.error.title
-          :modalConfig.success.title
-        }
+        title={modalConfig.error.title}
         message={
-          condition && condition === "unComplete"
+          condition === "unComplete"
           ?modalConfig.emptyFields.message
-          :modalConfig.equlityPassword.message
+          :condition === "inequality"
+          ?modalConfig.equlityPassword.message
+          :condition === "shortPassword"
+          ?modalConfig.shortPassword.message
+          :condition === "shortUsername"
+          ?modalConfig.shortPassword.message
+          :modalConfig.inValidPhone.message
         }
         icon={modalConfig.error.icon}
         bgIcon={modalConfig.error.iconBg}
@@ -183,7 +199,12 @@ const Register = () => {
               : "مشخصات خود را وارد کنید"
             }
           </span>
-
+          
+          { getCode &&
+            <span>
+              کد به شماره {number} ارسال شد
+            </span>
+          }
 
 
           {

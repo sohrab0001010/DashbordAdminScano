@@ -24,12 +24,15 @@ const modalConfig = {
 
   inValidCode : {message : "کد وارد شده صحیح نیست"},
 
+  shortPassword : {message : "رمز باید حداقل چهار کاراکتر باشد"},
+
+  shortUsername : {message : "نام و نام خانوادگی باید حداقل شش کاراکتر باشد"},
+
   successRegister : {message : "ثبت نام انجام شد"},
 
   successLogin : {message : "شما وارد حساب خود شدید"},
 
 
-  // emptyFields : {message : "message"},
 
   // emptyFields : {message : "message"},
 

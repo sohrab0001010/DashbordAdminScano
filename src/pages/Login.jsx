@@ -1,14 +1,19 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { useNavigate } from "react-router";
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 import OTPInput from "../components/common/OTPInput/OTPInput";
 import users from "../data/dataUsers"
 import OTPTimer from "../components/OTPTimer/OTPTimer";
+import Modal from "../components/Modal/Modal";
+import modalConfig from "../components/Modal/modalConfig";
 
 const Login = () => {
   const [number, setNumber] = useState("");
-  const [confirm, setConfirm] = useState(false);
+  const [confirm, setConfirm] = useState(false);//to control access to the code retireval step on the login page
+  const [condition, setCondition] = useState("")
+  const [modalkey, setModalkey] = useState(0)
   const inputRef = useRef([]);
   const navigate = useNavigate()
 
@@ -16,6 +21,13 @@ const Login = () => {
 
 
   const confirmPhone = (value) => {
+
+    if (!value.trim()) {
+      setCondition("empty")
+      setModalkey(prev => prev + 1)
+      return
+    }
+
     const validNumber = phoneRegex.test(value);
     const validUser = users.find(user => user.phone === value)
 
@@ -23,15 +35,15 @@ const Login = () => {
       setConfirm(true);
 
     } else if (validNumber && !validUser) {
-      navigate("/register",{
-        state: {phoneNum: value}
+      navigate("/register", {
+        state: { phoneNum: value }
       })
 
     } else {
-      console.log("false")
+      setCondition("invalid")
+      setModalkey(prev => prev + 1)
     }
 
-    console.log(validUser)
   };
 
   const handleResendCode = () => {
@@ -41,7 +53,7 @@ const Login = () => {
 
   useEffect(() => {
     inputRef.current.focus()
-  },[])
+  }, [])
 
 
 
@@ -61,6 +73,25 @@ const Login = () => {
         bg-[linear-gradient(235deg,rgba(0,221,255,0.381),rgba(255,255,255),rgba(0,217,255,0.221))]
       "
     >
+      {/* Modal */}
+
+      {condition && (
+        <Modal
+          key={modalkey}
+          title={modalConfig.error.title}
+          message={
+            condition === "empty"
+              ? modalConfig.emptyFields.message
+              : modalConfig.inValidPhone.message
+          }
+          icon={modalConfig.error.icon}
+          bgIcon={modalConfig.error.iconBg}
+          borderIcon={modalConfig.error.borderIcon}
+        />
+      )}
+
+
+
       {/* Logo */}
       <img
         src="/images/logo/logo.jpeg"
@@ -167,28 +198,28 @@ const Login = () => {
             "
           >
             {confirm && (
-              <OTPTimer/>
-            ) 
-            //  (
-            //   <>
-            //     <span>
-            //       هنوز ثبت نام نکرده‌اید؟
-            //     </span>
+              <OTPTimer />
+            )
+              //  (
+              //   <>
+              //     <span>
+              //       هنوز ثبت نام نکرده‌اید؟
+              //     </span>
 
-            //     <Link
-            //       to="/register"
-            //       className="
-            //         shrink-0
-            //         text-[#0C2965]
-            //         hover:text-[#174EA6]
-            //         transition-colors
-            //         duration-200
-            //       "
-            //     >
-            //       ثبت نام
-            //     </Link>
-            //   </>
-            // )
+              //     <Link
+              //       to="/register"
+              //       className="
+              //         shrink-0
+              //         text-[#0C2965]
+              //         hover:text-[#174EA6]
+              //         transition-colors
+              //         duration-200
+              //       "
+              //     >
+              //       ثبت نام
+              //     </Link>
+              //   </>
+              // )
             }
           </div>
 
@@ -246,9 +277,16 @@ const Login = () => {
                   placeholder="09123456789"
                   dir="rtl"
                   value={number}
-                  onChange={(e) =>
-                    setNumber(e.target.value)
-                  }
+                  onChange={(e) => {
+                    if (/^\d*$/.test(e.target.value))
+                      setNumber(e.target.value)
+                  }}
+
+                  onKeyDown={e => {
+                    if (e.key === "Enter")
+                      confirmPhone(number)
+                  }}
+
                   className="
                     w-full
                     max-w-64
@@ -278,6 +316,7 @@ const Login = () => {
                 confirmPhone(number);
               }
             }}
+
             type="submit"
             value={
               confirm

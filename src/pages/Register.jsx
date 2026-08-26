@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
 import OTPInput from '../example';
 import OTPTimer from '../components/OTPTimer/OTPTimer';
+import Modal from '../components/Modal/Modal';
+import modalConfig from '../components/Modal/modalConfig';
 
 const Register = () => {
 
@@ -16,8 +18,8 @@ const Register = () => {
   const [password,setPassword] = useState("")
   const [confirmPassword,setContirmPssword] = useState("")
   const [getCode, setGetCode] = useState(false)
-  const [modal, setModal] = useState(false)
   const [condition, setCondition] = useState("")
+  const [keymodal,setKeymodal] = useState(0)
 
 
 
@@ -32,10 +34,13 @@ const Register = () => {
       || !confirmPassword
     ) {
       setCondition("unComplete")
+      setKeymodal(prev => prev + 1)
+      
       return
 
     } else if (confirmPassword !== password){
       setCondition("inequality")
+      setKeymodal(prev => prev + 1)
       return
     }
 
@@ -68,6 +73,28 @@ const Register = () => {
         bg-[linear-gradient(235deg,rgba(0,221,255,0.381),rgba(255,255,255),rgba(0,217,255,0.221))]
       "
     >
+      {/* Modal */}
+
+      {
+        condition &&
+        <Modal
+        key={keymodal}
+        title={
+          condition
+          ?modalConfig.error.title
+          :modalConfig.success.title
+        }
+        message={
+          condition && condition === "unComplete"
+          ?modalConfig.emptyFields.message
+          :modalConfig.equlityPassword.message
+        }
+        icon={modalConfig.error.icon}
+        bgIcon={modalConfig.error.iconBg}
+        borderIcon={modalConfig.error.borderIcon}
+        />
+      }
+
       {/* Logo */}
       <img
         src="/images/logo/logo.jpeg"

@@ -182,7 +182,6 @@ const Login = () => {
 
           {/* Register / Resend */}
           <div
-            dir="rtl"
             className="
               w-full
               max-w-64
@@ -253,7 +252,9 @@ const Login = () => {
                     کد به شماره {number} ارسال شد
                   </span>
                 </div>
-                <OTPInput />
+                <OTPInput 
+                typeLogin={"login"}
+                />
               </>
             ) : (
               <>

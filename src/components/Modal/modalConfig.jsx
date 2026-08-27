@@ -28,6 +28,8 @@ const modalConfig = {
 
   shortUsername : {message : "نام و نام خانوادگی باید حداقل شش کاراکتر باشد"},
 
+  spaceInPassword : {message : "رمز  نباید  شامل جای خالی باشد"},
+
   successRegister : {message : "ثبت نام انجام شد"},
 
   successLogin : {message : "شما وارد حساب خود شدید"},

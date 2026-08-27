@@ -16,7 +16,7 @@ const Modal = ({
     // بعد از 2 ثانیه خروج
     const timer = setTimeout(() => {
       setModal(false);
-    }, 2000);
+    }, 2400);
 
     return () => clearTimeout(timer);
   }, []);

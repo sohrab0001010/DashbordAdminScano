@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
+import dataCode from "../../../data/dataCode"
 
-const OTPInput = () => {
+const OTPInput = ({onLogin}) => {
+
   const [otp,setOtp] = useState(["","","",""])
+  const [statuse,setStatus] = useState(false)
   const otpRef = useRef(otp)
   const inputRef = useRef([])
 
@@ -21,6 +24,14 @@ const OTPInput = () => {
     newOtp[index] = value
     updateOtp(newOtp)
 
+    if (value && index === newOtp.length - 1) {
+      const code = newOtp.join("")
+      confirmCode(+code)
+
+    } else {
+      setStatus(false)
+    }
+
     if (value && index < newOtp.length - 1) {
       inputRef.current[index + 1]?.focus()
     }
@@ -37,6 +48,20 @@ const OTPInput = () => {
 
     if (firstEmptyIndex !== -1 && index > firstEmptyIndex) {
       inputRef.current[firstEmptyIndex]?.focus()
+    }
+  }
+
+
+  const confirmCode = code => {
+    const findCode = dataCode.find(item => item === code)
+
+    if (findCode) {
+      setStatus("valid")
+      onLogin("valid")
+
+    } else {
+      setStatus("invalid")
+      onLogin("invalid")
     }
   }
 
@@ -64,19 +89,29 @@ const OTPInput = () => {
           inputMode='numeric'
           maxLength={1}
           type="text"
-          className="
+          className={`
             text-[1.2rem]
             p-4
             border
-            border-gray-300
+            ${
+              statuse === "valid"
+              ?"bg-green-100 text-green-600 border-green-400"
+              :statuse === "invalid"
+              ?"bg-red-100 text-red-600 border-red-500"
+              :value
+              ?"bg-sky-50 text-sky-800 border-sky-800"
+              :"bg-white text-gray-500 border-gray-300"
+            }
             focus:border-sky-800
-            caret-border-sky-800]
+            caret-sky-800
             w-12
             h-12
-            bg-white
             outline-none
             rounded-lg
-          "
+            transition-all
+            duration-200
+            ease-out
+            `}
         />
       ))}
     </div>

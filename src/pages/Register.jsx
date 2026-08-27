@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
-import OTPInput from '../example';
+import OTPInput from '../components/common/OTPInput/OTPInput';
 import OTPTimer from '../components/OTPTimer/OTPTimer';
 import Modal from '../components/Modal/Modal';
 import modalConfig from '../components/Modal/modalConfig';
@@ -9,7 +9,7 @@ const Register = () => {
 
   const phoneRegex = /^09\d{9}$/;
 
-  const inputNameRef = useRef([])
+  const inputRef = useRef([])
   const location = useLocation()
   const phoneUser = location.state?.phoneNum || ""
 
@@ -19,6 +19,7 @@ const Register = () => {
   const [confirmPassword,setContirmPssword] = useState("")
   const [getCode, setGetCode] = useState(false)
   const [condition, setCondition] = useState("")
+  const [showPassword,setShowPassword] = useState(false)
   const [keymodal,setKeymodal] = useState(0)
 
 
@@ -26,7 +27,7 @@ const Register = () => {
   const validNum = phoneRegex.test(number)
 
 
-  const validUsername = () => {
+  const validUser = () => {
     if (
       !number
       || !username
@@ -52,10 +53,16 @@ const Register = () => {
       setKeymodal(prev => prev + 1)
       return
 
-    } else if (username.length.trim() < 6) {
+    } else if (username.trim().length < 6) {
       setCondition("shortUsername") 
-      setKeymodal(prev => pvre + 1)
+      setKeymodal(prev => prev + 1)
       return
+
+    } else if (/\s/.test(password)) {
+      setCondition("spaceInPassword")
+      setKeymodal(prev => prev + 1)
+      return
+
     }
 
     setCondition(null)
@@ -63,12 +70,48 @@ const Register = () => {
   }
 
 
+  const handleKey = (e,index) => {
+    if (e.key === "Enter") {
+      e.preventDefault
+
+      inputRef.current[index + 1]?.focus()
+
+      if (index === 3) {
+        validUser()
+      }
+    }
+  }
+
+
+  const handleResendCode = () => {
+    console.log("resend code")
+  }
+
+
+  const handleLogin = type => {
+    if (type === "valid") {
+      controllLogin("register")
+      setCondition("register")
+      setKeymodal(prev => prev + 1)
+      return
+
+    } else {
+      setCondition("noRegister")
+      setKeymodal(prev => prev + 1)
+      return
+    }
+  }
+
+  const controllLogin = typeLogin => {
+    console.log(typeLogin)
+  }
 
 
 
 
 
-  useEffect(() => {inputNameRef.current.focus()},[])
+
+  useEffect(() => {inputRef.current[0].focus()},[])
 
 
   return (
@@ -93,7 +136,11 @@ const Register = () => {
         condition &&
         <Modal
         key={keymodal}
-        title={modalConfig.error.title}
+        title={
+          condition === "register"
+          ?modalConfig.success.title
+          :modalConfig.error.title
+        }
         message={
           condition === "unComplete"
           ?modalConfig.emptyFields.message
@@ -102,12 +149,30 @@ const Register = () => {
           :condition === "shortPassword"
           ?modalConfig.shortPassword.message
           :condition === "shortUsername"
-          ?modalConfig.shortPassword.message
+          ?modalConfig.shortUsername.message
+          :condition === "spaceInPassword"
+          ?modalConfig.spaceInPassword.message
+          :condition === "register"
+          ?modalConfig.successRegister.message
+          :condition === "noRegister"
+          ?modalConfig.inValidCode.message
           :modalConfig.inValidPhone.message
         }
-        icon={modalConfig.error.icon}
-        bgIcon={modalConfig.error.iconBg}
-        borderIcon={modalConfig.error.borderIcon}
+        icon={
+          condition === "register"
+          ?modalConfig.success.icon
+          :modalConfig.error.icon
+        }
+        bgIcon={
+          condition === "register"
+          ?modalConfig.success.iconBg
+          :modalConfig.error.iconBg
+        }
+        borderIcon={
+          condition === "register"
+          ?modalConfig.success.borderIcon
+          :modalConfig.error.borderIcon
+        }
         />
       }
 
@@ -201,7 +266,7 @@ const Register = () => {
           </span>
           
           { getCode &&
-            <span>
+            <span className='font-medium'>
               کد به شماره {number} ارسال شد
             </span>
           }
@@ -211,16 +276,19 @@ const Register = () => {
             getCode
               ? <>
               <OTPTimer/>
-              <OTPInput/>
+              <OTPInput
+              onLogin={handleLogin}
+              />
               </>
               : <>
                 <input
                   type="text"
-                  ref={inputNameRef}
+                  ref={elem => inputRef.current[0] = elem}
                   placeholder="نام و نام خانوادگی"
                   dir="rtl"
                   value={username}
                   onChange={e => setUsername(e.target.value)}
+                  onKeyDown={e => {handleKey(e,0)}}
                   className="
                         w-full
                         max-w-64
@@ -244,9 +312,11 @@ const Register = () => {
                   type="text"
                   inputMode="numeric"
                   placeholder="09123456789"
+                  ref={elem => inputRef.current[1] = elem}
                   dir="rtl"
                   value={number}
                   onChange={e => setNumber(e.target.value)}
+                  onKeyDown={e => handleKey(e,1)}
                   className="
                         w-full
                         max-w-64
@@ -271,6 +341,8 @@ const Register = () => {
                   placeholder="یک رمز ایجاد کنید"
                   dir="rtl"
                   value={password}
+                  ref={elem => inputRef.current[2] = elem}
+                  onKeyDown={e => handleKey(e,2)}
                   onChange={e => setPassword(e.target.value)}
                   className="
                         w-full
@@ -296,6 +368,8 @@ const Register = () => {
                   placeholder="تایید رمز"
                   dir="rtl"
                   value={confirmPassword}
+                  ref={elem => inputRef.current[3] = elem}
+                  onKeyDown={e => handleKey(e,3)}
                   onChange={e => setContirmPssword(e.target.value)}
                   className="
                         w-full
@@ -319,9 +393,12 @@ const Register = () => {
               </>
           }
 
+
           <input
             onClick={() => {
-              validUsername()
+              if (inputRef.current[4].value !== "دریافت کد" && condition === "register")
+                controllLogin("register")
+              validUser()
             }}
             type="submit"
             value={
@@ -329,6 +406,7 @@ const Register = () => {
                 ? "دریافت کد"
                 : "تایید و ثبت نام"
             }
+            ref={elem => inputRef.current[4] = elem}
             className="
               w-full
               max-w-64

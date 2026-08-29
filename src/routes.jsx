@@ -5,6 +5,8 @@ import Home from "./pages/Home"
 import PageCourse from "./pages/Course"
 import Login from './pages/Login'
 import Register from './pages/Register'
+import AboutUs from './pages/AboutUs'
+import ContactUs from './pages/ContactUs'
 
 const router = createBrowserRouter([
     {
@@ -19,17 +21,31 @@ const router = createBrowserRouter([
                 path: "year/:yearId",
                 element: <PageCourse/>
             },
+
+            {
+                path: "login",
+                element: <Login/>,
+                handle:{hideHeaderFooter:true}
+            },
+            {
+                path: "register",
+                element: <Register/>,
+                handle: {hideHeaderFooter:true}
+            },
+            {
+                path: "aboutUs",
+                element: <AboutUs/>
+            },
+            {
+                path: "contactUs",
+                element: <ContactUs/>
+            }
         ]
     },
 
-    {
-        path: "/login",
-        element: <Login/>
-    },
-    {
-        path: "/register",
-        element: <Register/>
-    }
+
+
 ])
+
 
 export default router

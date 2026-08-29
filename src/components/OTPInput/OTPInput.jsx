@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import dataCode from "../../../data/dataCode"
+import dataCode from "../../data/dataCode"
 
 const OTPInput = ({onLogin}) => {
 

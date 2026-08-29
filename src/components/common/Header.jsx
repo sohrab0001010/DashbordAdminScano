@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router'
+import { Link,NavLink } from 'react-router'
+
 
 const Header = () => {
 
@@ -72,10 +73,10 @@ const Header = () => {
            gap-3
            rounded-lg
            border
-           border-[#404348]
+           border-gray-400
            px-4
            py-2
-           text-[#404348]
+           text-gray-400
            text-[1.2rem]
            select-none
            transition-all
@@ -90,8 +91,35 @@ const Header = () => {
             </div>
           </Link>}
 
-          <Link>درباره ما</Link>
-          <Link>تماس با ما</Link>
+          <NavLink 
+          className={({isActive}) => {
+
+            return isActive
+            ?"text-lg font-bold scale-110 text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+          }}end
+          to={"/"}
+          >خانه</NavLink>
+
+          <NavLink 
+          className={({isActive}) => {
+
+            return isActive
+            ?"text-lg font-bold scale-110 text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+          }}end
+          to={"/aboutUs"}
+          >درباره ما</NavLink>
+
+          <NavLink 
+          className={({isActive}) => {
+
+            return isActive
+            ?"text-lg font-bold scale-110 text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+          }}end
+          to={"/contactUs"}
+          >تماس با ما</NavLink>
         </div>
 
 

@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { useNavigate } from "react-router";
-import { IoIosArrowRoundBack } from "react-icons/io";
-
-import OTPInput from "../components/common/OTPInput/OTPInput";
+import { CgArrowLeft } from "react-icons/cg";
+import OTPInput from "../components/OTPInput/OTPInput";
 import users from "../data/dataUsers"
 import OTPTimer from "../components/OTPTimer/OTPTimer";
 import Modal from "../components/Modal/Modal";
@@ -46,9 +45,13 @@ const Login = () => {
 
   };
 
-  const handleResendCode = () => {
-    console.log("send Code");
-  };
+  const handleLogin = type => {
+    if (type === "valid") {
+      setCondition("loginUser")
+      setModalkey(prev => prev + 1)
+
+    }
+  }
 
 
   useEffect(() => {
@@ -78,15 +81,33 @@ const Login = () => {
       {condition && (
         <Modal
           key={modalkey}
-          title={modalConfig.error.title}
+          title={
+            condition === "loginUser"
+            ?modalConfig.success.title
+            :modalConfig.error.title
+          }
           message={
             condition === "empty"
               ? modalConfig.emptyFields.message
+              :condition === "loginUser"
+              ?modalConfig.successLogin.message
               : modalConfig.inValidPhone.message
           }
-          icon={modalConfig.error.icon}
-          bgIcon={modalConfig.error.iconBg}
-          borderIcon={modalConfig.error.borderIcon}
+          icon={
+            condition === "loginUser"
+            ?modalConfig.success.icon
+            :modalConfig.error.icon
+          }
+          bgIcon={
+            condition === "loginUser"
+            ?modalConfig.success.iconBg
+            :modalConfig.error.iconBg
+          }
+          borderIcon={
+            condition === "loginUser"
+            ?modalConfig.success.borderIcon
+            :modalConfig.error.borderIcon
+          }
         />
       )}
 
@@ -167,6 +188,25 @@ const Login = () => {
             border-white/20
           "
         >
+          {/* back botton */}
+          {
+            confirm &&
+            <button
+            onClick={() => setConfirm(false)}
+            className="
+            bg-transparent
+            border-none
+            outline-none
+            cursor-pointer
+            absolute
+            top-4
+            left-4
+            text-gray-700
+            "
+            ><CgArrowLeft />
+            </button>
+          }
+
           {/* Title */}
           <span
             className="
@@ -253,7 +293,7 @@ const Login = () => {
                   </span>
                 </div>
                 <OTPInput 
-                typeLogin={"login"}
+                onLogin={handleLogin}
                 />
               </>
             ) : (

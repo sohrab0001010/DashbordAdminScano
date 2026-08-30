@@ -82,8 +82,8 @@ const OTPInput = ({onLogin}) => {
         <input
           key={index}
           value={value}
-          ref={elem => inputRef.current[index] = elem}
           onChange={e => handleChange(e.target.value, index)}
+          ref={elem => inputRef.current[index] = elem}
           onKeyDown={e => handlekeyDown(e,index)}
           onFocus={() => handleFocuse(index)}
           inputMode='numeric'

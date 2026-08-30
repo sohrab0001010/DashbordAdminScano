@@ -34,6 +34,7 @@ const Header = () => {
     flex
     flex-col
     select-none
+    bg-white
     "
     >
       <div
@@ -56,7 +57,8 @@ const Header = () => {
       justify-between
       p-10
       border-b
-      border-gray-300
+      border-gray-100
+      shadow-[0_4px_15px_rgba(0,0,0,0.08)]
       ">
         <div className="
         flex

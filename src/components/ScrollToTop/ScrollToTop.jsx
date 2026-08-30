@@ -5,14 +5,14 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    console.log("PATH:", pathname);
-    console.log("SCROLL:", window.scrollY);
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+  }, []);
 
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "instant",
-    });
+  useEffect(() => {
+
+    window.scrollTo(0 , 0);
   }, [pathname]);
 
   return null;

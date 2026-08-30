@@ -47,15 +47,10 @@ const ContactUs = () => {
             max-w-full
             p-4
             rounded-xl
-            border
-            border-[#0C2965]
             cursor-pointer
-            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             transition-all
             duration-300
             hover:-translate-x-2
-            hover:shadow-md
-            hover:border-sky-300
           "
         >
 
@@ -83,11 +78,11 @@ const ContactUs = () => {
 
           <span
             className="
-              text-gray-200
+              text-gray-500
               font-medium
               transition-all
               duration-300
-              group-hover:text-sky-50
+              group-hover:text-gray-800
             "
           >
             {item.text}

@@ -2,7 +2,7 @@ import { Outlet, ScrollRestoration, useMatches } from "react-router"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
 import BackgroundUi from "../common/BackgroundUi"
-import ScrollToTop from "../ScrollToTop/scrollToTop"
+import ScrollToTop from "../ScrollToTop/ScrollToTop"
 
 
 

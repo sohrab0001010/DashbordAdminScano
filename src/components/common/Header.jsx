@@ -96,7 +96,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
           }}end
           to={"/"}
           >خانه</NavLink>
@@ -106,7 +106,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
           }}end
           to={"/aboutUs"}
           >درباره ما</NavLink>
@@ -116,7 +116,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover: text-[#0C2965]"
+            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
           }}end
           to={"/contactUs"}
           >تماس با ما</NavLink>

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Course = ({ title, emoji, color = "#2563EB" }) => {
+const Course = ({ nameGrade, emoji, color = "#2563EB" }) => {
   return (
     <div
-      style={{ "--course-color": color }}
+      style={{ "--course-color": "#003bbc" }}
       className="
         group
         flex
@@ -69,7 +69,7 @@ const Course = ({ title, emoji, color = "#2563EB" }) => {
           group-hover:drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)]
         "
       >
-        {title}
+        {nameGrade}
       </span>
     </div>
   );

@@ -1,105 +1,529 @@
 const courses = [
   {
     gradeId: 4,
-    emoji: "📒", 
+    emoji: "📒",
     color: "#FFB900",
     subject: "math",
     nameGrade: "پایه چهارم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -109,11 +533,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -121,11 +545,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -133,11 +557,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -145,11 +569,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -157,11 +581,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -169,11 +593,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -181,11 +605,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -193,115 +617,541 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],
   },
 
   {
-    gradeId: 5,
+    gradeId: 4,
+    emoji: "📙",
+    color: "#FFB900",
     subject: "math",
     nameGrade: "پایه پنجم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -311,11 +1161,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -323,11 +1173,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -335,11 +1185,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -347,11 +1197,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -359,11 +1209,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -371,11 +1221,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -383,11 +1233,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -395,115 +1245,541 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],
   },
 
   {
-    gradeId: 6,
+    gradeId: 4,
+    emoji: "📘",
+    color: "#FFB900",
     subject: "math",
     nameGrade: "پایه ششم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -513,11 +1789,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -525,11 +1801,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -537,11 +1813,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -549,11 +1825,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -561,11 +1837,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -573,11 +1849,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -585,11 +1861,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -597,115 +1873,541 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],
   },
 
   {
-    gradeId: 7,
+    gradeId: 4,
+    emoji: "📗",
+    color: "#FFB900",
     subject: "math",
     nameGrade: "پایه هفتم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -715,11 +2417,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -727,11 +2429,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -739,11 +2441,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -751,11 +2453,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -763,11 +2465,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -775,11 +2477,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -787,11 +2489,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -799,115 +2501,541 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],
   },
 
   {
-    gradeId: 8,
+    gradeId: 4,
+    emoji: "📕",
+    color: "#FFB900",
     subject: "math",
     nameGrade: "پایه هشتم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -917,11 +3045,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -929,11 +3057,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -941,11 +3069,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -953,11 +3081,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -965,11 +3093,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -977,11 +3105,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -989,11 +3117,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1001,115 +3129,541 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],
   },
 
   {
-    gradeId: 9,
+    gradeId: 4,
+    emoji: "📔",
+    color: "#FFB900",
     subject: "math",
     nameGrade: "پایه نهم",
     worksheets: [
       {
         chapter: 1,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 2,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 3,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 4,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 5,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 6,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 7,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
       {
         chapter: 8,
-        imgWorksheet: "/images/worksheet/1.jpg",
-        pdf: "/pdfs/1.pdf",
-        videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+        levels: [
+          {
+            level: "levelOne",
+            title: "آسان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelTow",
+            title: "متوسط",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelThree",
+            title: "سخت",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
+          {
+            level: "levelFour",
+            title: "تیز هوشان",
+            content: {
+              imgWorksheet: "/images/worksheet/1.jpg",
+              pdf: "/pdfs/1.pdf",
+              videos: [
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: true, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+                { isFree: false, vid: "/videos/vid.mp4" },
+              ],
+            }
+          },
         ],
       },
     ],
@@ -1119,11 +3673,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1131,11 +3685,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1143,11 +3697,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1155,11 +3709,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1167,11 +3721,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1179,11 +3733,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1191,11 +3745,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
       {
@@ -1203,11 +3757,11 @@ const courses = [
         imgExam: "/images/worksheet/1.jpg",
         pdfExam: "/pdfs/1.pdf",
         videos: [
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
-          "/videos/vid.mp4",
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: true, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
+          { isFree: false, vid: "/videos/vid.mp4" },
         ],
       },
     ],

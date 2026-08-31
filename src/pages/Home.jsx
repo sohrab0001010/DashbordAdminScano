@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import courses from "../data/dataCourses";
 
 const Home = () => {
-    const courses = [
+    const course = [
     { title: "پایه چهارم", emoji: "📒", id: 4, color: "#FFB900" }, // نارنجی
     { title: "پایه پنجم", emoji: "📙", id: 5, color: "#F97316" }, // نارنجی روشن
     { title: "پایه ششم", emoji: "📘", id: 6, color: "#2563EB" }, // آبی
@@ -49,8 +49,8 @@ const Home = () => {
             >
                 {courses.map((course) => (
                     <Link 
-                    to={`/year/${course.id}`}
-                    key={course.id}
+                    to={`/year/${course.gradeId}`}
+                    key={course.gradeId}
                     >
                         <Course
                             {...course}

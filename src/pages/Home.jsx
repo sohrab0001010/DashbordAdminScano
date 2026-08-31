@@ -1,6 +1,7 @@
 import React from "react";
 import Course from "../components/Home/Course";
 import { Link } from "react-router";
+import courses from "../data/dataCourses";
 
 const Home = () => {
     const courses = [

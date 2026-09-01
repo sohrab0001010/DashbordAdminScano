@@ -6,11 +6,7 @@ import course from '../data/dataCourses'
 const Course = () => {
 
   const paramId = useParams().yearId
-  courses.map(course => {
-    if (course.gradeId === +paramId) {
-      console.log(course)
-    }
-  })
+  const course = courses.find(course => course.gradeId == paramId)
 
 
   return (
@@ -18,23 +14,18 @@ const Course = () => {
     mainContainer
     min-h-screen
     grid
-    grid-cols-[5fr_3fr_1fr]
+    grid-cols-[8fr_5fr_2fr]
+    gap-4
+    px-12
+    py-4
 
     '>
       <div className="
-      sectionRight
+      sectionLeft
       bg-amber-100
       ">
-        {
-          courses.map((course,index) => (
-            <div key={index}>
-              <span>{course.contentCourse[index].name}</span>
-              <span></span>
-            </div>
-          ))
-        }
       </div>
-      
+
       <div className="
       sectionMiddle
       bg-amber-200
@@ -43,9 +34,54 @@ const Course = () => {
       </div>
 
       <div className="
-      sectionLeft
-      bg-amber-300
+      sectionRight
+      flex
+      flex-col
+      gap-8
+      justify-center
       ">
+        {
+          course.contentCourse.map(item => (
+            <div
+            className="
+            flex
+            flex-row-reverse
+            justify-between
+            items-center
+            cursor-pointer
+            px-4
+            py-5
+            bg-
+            border-b
+            border-gray-300
+            rounded-b-lg
+            "
+            >
+              <span className='text-gray-500'>{item.name}</span>
+              <input 
+              type="radio" 
+              name={course.nameGrade} 
+              id={item.name}
+              className="
+              appearance-none
+              w-6
+              h-6
+              rounded-full
+              border-2
+              bg-white
+              border-gray-300
+              cursor-pointer
+              p-2
+              checked:bg-sky-100
+              checked:border-sky-200
+              checked:shadow-[0_0_12px_3px_rgba(14,165,233,0.7)]
+              transition-all
+              duration-200
+              "
+               />
+            </div>
+          ))
+        }
 
       </div>
 

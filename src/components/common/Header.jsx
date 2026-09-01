@@ -16,7 +16,6 @@ const Header = () => {
         setDiscounts(existDiscount || "با اسکنو اسکن کن و یاد بگیر")
 
       } catch (error) {
-        console.log(error)
         setDiscounts("با اسکنو اسکن کن و یاد بگیر")
       }
 

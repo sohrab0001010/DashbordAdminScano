@@ -25,6 +25,7 @@ const Course = () => {
 
   return (
     <div className='
+    select-none
     mainContainer
     min-h-screen
     grid
@@ -78,7 +79,7 @@ const Course = () => {
               rounded-b-lg
               px-4
               py-5
-              mb-4
+              mt-4
               shadow-[inset_0px_0px_5px_0px_rgba(100,100,100,0.1)]
               cursor-pointer
               "
@@ -92,9 +93,44 @@ const Course = () => {
                 <div>
                   {
                     item.levels.map((level,index) => (
-                      <div key={index}>
+                      <div 
+                      key={index}
+                      onClick={() => {console.log(level.level)}}
+                      className="
+                      group
+                      flex
+                      flex-row-reverse
+                      items-center
+                      justify-between
+                      border-b
+                      border-gray-300
+                      rounded-b-sm
+                      px-4
+                      py-3
+                      text-gray-500
+                      cursor-pointer
+                      transition-all
+                      duration-300
+                      hover:border-b-sky-400
+                      hover:bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+                      hover:text-sky-50
+                      "
+                      >
                         <span>{level.title}</span>
-                        {console.log(level.content)}
+                        <img 
+                        src={level.content.img} 
+                        alt=""
+                        className="
+                        w-12
+                        h-12
+                        rounded-sm
+                        border
+                        border-gray-300
+                        group-hover:border-blue-300
+                        group-hover:border-2
+                        group-hover:shadow-[0_0_10px_0_rgb(0,255,213)]
+                        " 
+                        />
                       </div>
                     ))
                   }

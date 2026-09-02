@@ -20,23 +20,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -46,90 +46,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -145,23 +145,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -171,90 +171,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -270,23 +270,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -296,90 +296,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -395,23 +395,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -421,90 +421,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -520,23 +520,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -546,90 +546,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -645,23 +645,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -671,90 +671,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -770,23 +770,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -796,90 +796,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -895,23 +895,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -921,90 +921,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -1024,23 +1024,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1054,27 +1054,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1084,27 +1084,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1114,27 +1114,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1149,23 +1149,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1179,27 +1179,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1209,27 +1209,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1239,27 +1239,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1274,23 +1274,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1304,27 +1304,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1334,27 +1334,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1364,27 +1364,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1399,23 +1399,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1429,27 +1429,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1459,27 +1459,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1489,27 +1489,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1524,23 +1524,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1554,27 +1554,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1584,27 +1584,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1614,27 +1614,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1649,23 +1649,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1679,27 +1679,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1709,27 +1709,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1739,27 +1739,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1774,23 +1774,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1804,27 +1804,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1834,27 +1834,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1864,27 +1864,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -1899,23 +1899,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1929,27 +1929,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -1959,27 +1959,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -1989,27 +1989,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2029,23 +2029,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2059,27 +2059,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2089,27 +2089,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2119,27 +2119,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2154,23 +2154,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2184,27 +2184,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2214,27 +2214,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2244,27 +2244,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2279,23 +2279,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2309,27 +2309,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2339,27 +2339,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2369,27 +2369,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2404,23 +2404,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2434,27 +2434,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2464,27 +2464,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2494,27 +2494,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2529,23 +2529,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2559,27 +2559,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2589,27 +2589,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2619,27 +2619,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2654,23 +2654,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2684,27 +2684,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2714,27 +2714,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2744,27 +2744,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2779,23 +2779,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2809,27 +2809,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2839,27 +2839,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2869,27 +2869,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -2904,23 +2904,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2934,27 +2934,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -2964,27 +2964,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -2994,27 +2994,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -3044,23 +3044,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3070,90 +3070,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3169,23 +3169,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3195,90 +3195,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3294,23 +3294,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3320,90 +3320,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3419,23 +3419,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3445,90 +3445,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3544,23 +3544,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3570,90 +3570,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3669,23 +3669,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3695,90 +3695,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3794,23 +3794,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3820,90 +3820,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -3919,23 +3919,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3945,90 +3945,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -4048,23 +4048,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4078,27 +4078,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4108,27 +4108,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4138,27 +4138,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4173,23 +4173,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4203,27 +4203,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4233,27 +4233,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4263,27 +4263,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4298,23 +4298,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4328,27 +4328,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4358,27 +4358,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4388,27 +4388,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4423,23 +4423,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4453,27 +4453,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4483,27 +4483,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4513,27 +4513,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4548,23 +4548,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4578,27 +4578,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4608,27 +4608,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4638,27 +4638,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4673,23 +4673,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4703,27 +4703,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4733,27 +4733,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4763,27 +4763,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4798,23 +4798,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4828,27 +4828,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4858,27 +4858,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -4888,27 +4888,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -4923,23 +4923,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4953,27 +4953,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -4983,27 +4983,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5013,27 +5013,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5053,23 +5053,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5083,27 +5083,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5113,27 +5113,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5143,27 +5143,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5178,23 +5178,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5208,27 +5208,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5238,27 +5238,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5268,27 +5268,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5303,23 +5303,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5333,27 +5333,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5363,27 +5363,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5393,27 +5393,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5428,23 +5428,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5458,27 +5458,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5488,27 +5488,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5518,27 +5518,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5553,23 +5553,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5583,27 +5583,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5613,27 +5613,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5643,27 +5643,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5678,23 +5678,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5708,27 +5708,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5738,27 +5738,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5768,27 +5768,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5803,23 +5803,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5833,27 +5833,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5863,27 +5863,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -5893,27 +5893,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -5928,23 +5928,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5958,27 +5958,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -5988,27 +5988,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -6018,27 +6018,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -6068,23 +6068,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6094,90 +6094,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6193,23 +6193,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6219,90 +6219,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6318,23 +6318,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6344,90 +6344,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6443,23 +6443,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6469,90 +6469,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6568,23 +6568,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6594,90 +6594,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6693,23 +6693,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6719,90 +6719,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6818,23 +6818,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6844,90 +6844,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -6943,23 +6943,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6969,90 +6969,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -7072,23 +7072,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7102,27 +7102,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7132,27 +7132,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7162,27 +7162,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7197,23 +7197,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7227,27 +7227,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7257,27 +7257,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7287,27 +7287,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7322,23 +7322,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7352,27 +7352,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7382,27 +7382,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7412,27 +7412,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7447,23 +7447,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7477,27 +7477,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7507,27 +7507,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7537,27 +7537,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7572,23 +7572,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7602,27 +7602,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7632,27 +7632,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7662,27 +7662,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7697,23 +7697,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7727,27 +7727,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7757,27 +7757,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7787,27 +7787,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7822,23 +7822,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7852,27 +7852,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -7882,27 +7882,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -7912,27 +7912,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -7947,23 +7947,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7977,27 +7977,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8007,27 +8007,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8037,27 +8037,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8077,23 +8077,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8107,27 +8107,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8137,27 +8137,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8167,27 +8167,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8202,23 +8202,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8232,27 +8232,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8262,27 +8262,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8292,27 +8292,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8327,23 +8327,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8357,27 +8357,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8387,27 +8387,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8417,27 +8417,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8452,23 +8452,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8482,27 +8482,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8512,27 +8512,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8542,27 +8542,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8577,23 +8577,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8607,27 +8607,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8637,27 +8637,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8667,27 +8667,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8702,23 +8702,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8732,27 +8732,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8762,27 +8762,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8792,27 +8792,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8827,23 +8827,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8857,27 +8857,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -8887,27 +8887,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -8917,27 +8917,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -8952,23 +8952,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8982,27 +8982,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -9012,27 +9012,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -9042,27 +9042,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -9092,23 +9092,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9118,90 +9118,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9217,23 +9217,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9243,90 +9243,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9342,23 +9342,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9368,90 +9368,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9467,23 +9467,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9493,90 +9493,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9592,23 +9592,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9618,90 +9618,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9717,23 +9717,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9743,90 +9743,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9842,23 +9842,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9868,90 +9868,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -9967,23 +9967,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9993,90 +9993,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -10096,23 +10096,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10126,27 +10126,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10156,27 +10156,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10186,27 +10186,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10221,23 +10221,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10251,27 +10251,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10281,27 +10281,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10311,27 +10311,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10346,23 +10346,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10376,27 +10376,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10406,27 +10406,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10436,27 +10436,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10471,23 +10471,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10501,27 +10501,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10531,27 +10531,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10561,27 +10561,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10596,23 +10596,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10626,27 +10626,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10656,27 +10656,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10686,27 +10686,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10721,23 +10721,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10751,27 +10751,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10781,27 +10781,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10811,27 +10811,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10846,23 +10846,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10876,27 +10876,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -10906,27 +10906,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -10936,27 +10936,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -10971,23 +10971,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11001,27 +11001,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11031,27 +11031,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11061,27 +11061,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11101,23 +11101,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11131,27 +11131,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11161,27 +11161,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11191,27 +11191,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11226,23 +11226,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11256,27 +11256,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11286,27 +11286,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11316,27 +11316,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11351,23 +11351,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11381,27 +11381,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11411,27 +11411,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11441,27 +11441,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11476,23 +11476,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11506,27 +11506,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11536,27 +11536,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11566,27 +11566,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11601,23 +11601,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11631,27 +11631,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11661,27 +11661,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11691,27 +11691,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11726,23 +11726,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11756,27 +11756,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11786,27 +11786,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11816,27 +11816,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11851,23 +11851,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11881,27 +11881,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -11911,27 +11911,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -11941,27 +11941,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -11976,23 +11976,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12006,27 +12006,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -12036,27 +12036,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -12066,27 +12066,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -12116,23 +12116,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12142,90 +12142,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12241,23 +12241,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12267,90 +12267,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12366,23 +12366,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12392,90 +12392,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12491,23 +12491,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12517,90 +12517,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12616,23 +12616,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12642,90 +12642,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12741,23 +12741,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12767,90 +12767,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12866,23 +12866,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12892,90 +12892,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -12991,23 +12991,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13017,90 +13017,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -13120,23 +13120,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13150,27 +13150,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13180,27 +13180,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13210,27 +13210,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13245,23 +13245,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13275,27 +13275,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13305,27 +13305,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13335,27 +13335,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13370,23 +13370,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13400,27 +13400,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13430,27 +13430,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13460,27 +13460,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13495,23 +13495,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13525,27 +13525,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13555,27 +13555,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13585,27 +13585,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13620,23 +13620,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13650,27 +13650,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13680,27 +13680,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13710,27 +13710,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13745,23 +13745,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13775,27 +13775,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13805,27 +13805,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13835,27 +13835,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13870,23 +13870,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13900,27 +13900,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -13930,27 +13930,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -13960,27 +13960,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -13995,23 +13995,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14025,27 +14025,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14055,27 +14055,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14085,27 +14085,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14125,23 +14125,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14155,27 +14155,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14185,27 +14185,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14215,27 +14215,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14250,23 +14250,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14280,27 +14280,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14310,27 +14310,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14340,27 +14340,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14375,23 +14375,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14405,27 +14405,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14435,27 +14435,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14465,27 +14465,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14500,23 +14500,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14530,27 +14530,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14560,27 +14560,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14590,27 +14590,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14625,23 +14625,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14655,27 +14655,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14685,27 +14685,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14715,27 +14715,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14750,23 +14750,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14780,27 +14780,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14810,27 +14810,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14840,27 +14840,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -14875,23 +14875,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14905,27 +14905,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -14935,27 +14935,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -14965,27 +14965,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -15000,23 +15000,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15030,27 +15030,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -15060,27 +15060,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -15090,27 +15090,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -15140,23 +15140,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15166,90 +15166,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15265,23 +15265,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15291,90 +15291,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15390,23 +15390,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15416,90 +15416,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15515,23 +15515,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15541,90 +15541,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15640,23 +15640,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15666,90 +15666,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15765,23 +15765,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15791,90 +15791,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -15890,23 +15890,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15916,90 +15916,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -16015,23 +16015,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16041,90 +16041,90 @@ const course = [
                 level: "levelTow",
                 title: "متوسط",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
                 content: {
-                  pdf: "/pdfs/1.pdf",
+                  pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
+                  img: "/images/worksheet/4.jpg",
                 },
               },
             ],
@@ -16144,23 +16144,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16174,27 +16174,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16204,27 +16204,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16234,27 +16234,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16269,23 +16269,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16299,27 +16299,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16329,27 +16329,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16359,27 +16359,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16394,23 +16394,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16424,27 +16424,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16454,27 +16454,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16484,27 +16484,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16519,23 +16519,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16549,27 +16549,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16579,27 +16579,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16609,27 +16609,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16644,23 +16644,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16674,27 +16674,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16704,27 +16704,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16734,27 +16734,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16769,23 +16769,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16799,27 +16799,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16829,27 +16829,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16859,27 +16859,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -16894,23 +16894,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16924,27 +16924,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -16954,27 +16954,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -16984,27 +16984,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17019,23 +17019,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17049,27 +17049,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17079,27 +17079,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17109,27 +17109,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17149,23 +17149,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17179,27 +17179,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17209,27 +17209,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17239,27 +17239,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17274,23 +17274,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17304,27 +17304,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17334,27 +17334,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17364,27 +17364,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17399,23 +17399,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17429,27 +17429,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17459,27 +17459,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17489,27 +17489,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17524,23 +17524,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17554,27 +17554,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17584,27 +17584,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17614,27 +17614,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17649,23 +17649,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17679,27 +17679,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17709,27 +17709,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17739,27 +17739,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17774,23 +17774,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17804,27 +17804,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17834,27 +17834,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17864,27 +17864,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -17899,23 +17899,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17929,27 +17929,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -17959,27 +17959,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -17989,27 +17989,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],
@@ -18024,23 +18024,23 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -18054,27 +18054,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/2.jpg",
+                  pdf: "/pdfs/2.pdf",
                 },
               },
               {
@@ -18084,27 +18084,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/3.jpg",
+                  pdf: "/pdfs/3.pdf",
                 },
               },
               {
@@ -18114,27 +18114,27 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid1.mp4",
                     },
                     {
                       isFree: true,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid2.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid3.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid4.mp4",
                     },
                     {
                       isFree: false,
-                      vid: "/videos/vid.mp4",
+                      vid: "/videos/vid5.mp4",
                     },
                   ],
-                  img: "/images/worksheet/1.jpg",
-                  pdf: "/pdfs/1.pdf",
+                  img: "/images/worksheet/4.jpg",
+                  pdf: "/pdfs/4.pdf",
                 },
               },
             ],

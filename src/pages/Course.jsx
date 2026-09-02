@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router'
 import courses from '../data/dataCourses'
+import { FiChevronUp } from "react-icons/fi";
+import { BsFillHandIndexFill } from 'react-icons/bs';
 
 const Course = () => {
 
@@ -8,10 +10,17 @@ const Course = () => {
   const course = courses.find(course => course.gradeId == paramId)
 
 
-  const [selctContent,setSelectContent] = useState(course.contentCourse[0].name)
+  const [selectContent,setSelectContent] = useState(course.contentCourse[0].name);
+  const [openChapter,setOpenChapter] = useState(null);
 
 
-  
+  const selectedContent = course.contentCourse.find(item => 
+    item.name === selectContent
+  )
+
+  const toggleChapter = chapter => {
+    setOpenChapter(prev => prev === chapter? null : chapter)
+  }
 
 
   return (
@@ -47,13 +56,53 @@ const Course = () => {
         inline-block
         text-center
         py-5
+        mt-4
         rounded-t-lg
         text-gray-500
         "
         >{course.nameGrade}</span>
         <div>
           {
+            selectedContent.content.map((item,index) => (
+              <div key={index}
+                onClick={() => toggleChapter(item.chapter)}
+              >
+              <div
+              className="
+              flex
+              flex-row-reverse
+              items-center
+              justify-between
+              border-b
+              border-gray-200
+              rounded-b-lg
+              px-4
+              py-5
+              mb-4
+              shadow-[inset_0px_0px_5px_0px_rgba(100,100,100,0.1)]
+              cursor-pointer
+              "
+              >
+                <span>فصل{item.chapter} {course.nameGrade} {selectContent}</span>
+                <span><FiChevronUp/></span>
+              </div>
 
+              {
+                openChapter === item.chapter && 
+                <div>
+                  {
+                    item.levels.map((level,index) => (
+                      <div key={index}>
+                        <span>{level.title}</span>
+                        {console.log(level.content)}
+                      </div>
+                    ))
+                  }
+                </div>
+              }
+              
+              </div>
+            ))
           }
         </div>
       </div>
@@ -85,7 +134,9 @@ const Course = () => {
               <span className='text-gray-500'>{item.name}</span>
               <input 
               type="radio" 
-              name={course.nameGrade} 
+              name={course.nameGrade}
+              checked={selectContent === item.name}
+              onChange={() => setSelectContent(item.name)} 
               id={item.name}
               className="
               appearance-none

@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router'
 import courses from '../data/dataCourses'
-import course from '../data/dataCourses'
 
 const Course = () => {
 
   const paramId = useParams().yearId
   const course = courses.find(course => course.gradeId == paramId)
+
+
+  const [selctContent,setSelectContent] = useState(course.contentCourse[0].name)
+
+
+  
 
 
   return (
@@ -17,7 +22,7 @@ const Course = () => {
     grid-cols-[8fr_5fr_2fr]
     gap-4
     px-12
-    py-4
+    py-20
 
     '>
       <div className="
@@ -28,9 +33,29 @@ const Course = () => {
 
       <div className="
       sectionMiddle
-      bg-amber-200
+      shadow-[inset_0px_0px_4px_0px_rgba(0,0,0,0.1)]
+      rounded-lg
+      flex
+      flex-col
+      gap-8
+      px-4
+      py-2      
       ">
+        <span
+        className="
+        shadow-[inset_0_0_10px_0_rgba(0,145,255,0.2)]
+        inline-block
+        text-center
+        py-5
+        rounded-t-lg
+        text-gray-500
+        "
+        >{course.nameGrade}</span>
+        <div>
+          {
 
+          }
+        </div>
       </div>
 
       <div className="

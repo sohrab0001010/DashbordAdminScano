@@ -12,7 +12,7 @@ const Course = ({ nameGrade, emoji, color = "#2563EB" }) => {
         justify-center
         gap-3
 
-        min-h-[120px]
+        min-h-30
         px-10
         py-6
 
@@ -36,7 +36,7 @@ const Course = ({ nameGrade, emoji, color = "#2563EB" }) => {
         hover:-translate-y-2
         hover:scale-[1.02]
 
-        hover:border-[color:var(--course-color)]
+        hover:border-(--course-color)
 
         hover:bg-[linear-gradient(135deg,color-mix(in_srgb,var(--course-color)_85%,black)_0%,var(--course-color)_28%,color-mix(in_srgb,var(--course-color)_55%,white)_72%,color-mix(in_srgb,var(--course-color)_85%,black)_100%)]
 

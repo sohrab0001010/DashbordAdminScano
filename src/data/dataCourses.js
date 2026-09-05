@@ -3,7 +3,7 @@ const course = [
     gradeId: 4,
     emoji: "📒",
     color: "#FFB900",
-    subject: "math",
+    subject: "ریاضی",
     nameGrade: "پایه چهارم",
     contentCourse: [
       {
@@ -3026,8 +3026,8 @@ const course = [
   {
     gradeId: 5,
     emoji: "📙",
-    color: "#FFB900",
-    subject: "math",
+    color: "#F97316",
+    subject: "ریاضی",
     nameGrade: "پایه پنجم",
     contentCourse: [
       {
@@ -6050,8 +6050,8 @@ const course = [
   {
     gradeId: 6,
     emoji: "📘",
-    color: "#FFB900",
-    subject: "math",
+    color: "#2563EB",
+    subject: "ریاضی",
     nameGrade: "پایه ششم",
     contentCourse: [
       {
@@ -9074,8 +9074,8 @@ const course = [
   {
     gradeId: 7,
     emoji: "📗",
-    color: "#FFB900",
-    subject: "math",
+    color: "#16A34A",
+    subject: "ریاضی",
     nameGrade: "پایه هفتم",
     contentCourse: [
       {
@@ -12098,8 +12098,8 @@ const course = [
   {
     gradeId: 8,
     emoji: "📕",
-    color: "#FFB900",
-    subject: "math",
+    color: "#DC2626",
+    subject: "ریاضی",
     nameGrade: "پایه هشتم",
     contentCourse: [
       {
@@ -15122,8 +15122,8 @@ const course = [
   {
     gradeId: 9,
     emoji: "📔",
-    color: "#FFB900",
-    subject: "math",
+    color: "#F7D7C4",
+    subject: "ریاضی",
     nameGrade: "پایه نهم",
     contentCourse: [
       {

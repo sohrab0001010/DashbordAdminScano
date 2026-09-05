@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const SectionRight = ({ course,selectedSection }) => {
 
@@ -12,9 +13,12 @@ const SectionRight = ({ course,selectedSection }) => {
     <div>
 
           {
-            course.contentCourse[0].content.map((item,index) => (
-              <div
+            sectionActive.content.map((item,index) => (
+              <Link
               key={index}
+              to={`/${sectionActive.title}/${item.chapter}`}
+              >
+              <div
               className='
               group
               flex
@@ -25,6 +29,7 @@ const SectionRight = ({ course,selectedSection }) => {
               mt-12
               border-b
               border-gray-200
+              bg-white
               shadow-[0_0_10px_0_rgba(0,0,0,0.1)]
               cursor-pointer
               rounded-tl-4xl
@@ -60,6 +65,7 @@ const SectionRight = ({ course,selectedSection }) => {
                 '
                 >فصل{item.chapter}</span>
               </div>
+              </Link>
             ))
           }
         

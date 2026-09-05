@@ -8,6 +8,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -1013,6 +1014,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,
@@ -2018,6 +2020,7 @@ const course = [
       },
       {
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,
@@ -3032,6 +3035,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -4037,6 +4041,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,
@@ -6056,6 +6061,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -7061,6 +7067,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,
@@ -9080,6 +9087,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -10085,6 +10093,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,
@@ -12104,6 +12113,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -13109,6 +13119,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,
@@ -15128,6 +15139,7 @@ const course = [
     contentCourse: [
       {
         name: "کاربرگ ها",
+        title: "workSheet",
         content: [
           {
             chapter: 1,
@@ -16133,6 +16145,7 @@ const course = [
       },
       {
         name: "امتحانات دی ماه",
+        title: "examDey",
         content: [
           {
             chapter: 1,

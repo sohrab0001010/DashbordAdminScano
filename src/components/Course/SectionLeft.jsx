@@ -14,11 +14,11 @@ const SectionLeft = ({contentCourse,nameGrade,onSelect,selected}) => {
         gap-8
         py-4
         px-8
-        bg-blue-white
         border-b
         border-gray-300
         mb-4
         text-gray-500
+        bg-white
         cursor-pointer
         shadow-[inset_0_0_10px_0_rgba(0,0,0,0.1)]
         rounded-l-full

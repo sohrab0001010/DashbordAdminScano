@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
+import Chapter from './pages/Chapter'
 
 const router = createBrowserRouter([
     {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
             {
                 path: "contactUs",
                 element: <ContactUs/>
+            },
+            {
+                path: ":nameCase/:numChapter",
+                element: <Chapter/>
             }
         ]
     },

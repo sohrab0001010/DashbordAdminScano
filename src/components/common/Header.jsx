@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link,NavLink } from 'react-router'
+import { MdOutlineQrCodeScanner } from "react-icons/md"
 
 
 const Header = () => {
@@ -131,7 +132,7 @@ const Header = () => {
         h-16
         w-16
         ">
-          <img src="/images/logo/logo.jpeg" alt="" />
+          <MdOutlineQrCodeScanner/>
         </span>
 
       </div>

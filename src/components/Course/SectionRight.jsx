@@ -16,7 +16,7 @@ const SectionRight = ({ course,selectedSection }) => {
             sectionActive.content.map((item,index) => (
               <Link
               key={index}
-              to={`/${sectionActive.title}/${item.chapter}`}
+              to={`/year/${course.gradeId}/${sectionActive.title}/${item.chapter}`}
               >
               <div
               className='

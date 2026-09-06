@@ -42,7 +42,7 @@ const router = createBrowserRouter([
                 element: <ContactUs/>
             },
             {
-                path: ":nameCase/:numChapter",
+                path: "year/:yearId/:titleCase/:numChapter",
                 element: <Chapter/>
             }
         ]

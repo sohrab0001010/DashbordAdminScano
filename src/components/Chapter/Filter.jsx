@@ -1,14 +1,8 @@
 import React from 'react'
 
-const Filter = () => {
+const Filter = ({arrayFilter,setFiltered}) => {
 
-const arrayFilter = [
-        {filtered: "تیز هوشان"},
-        {filtered: "سخت"},
-        {filtered: "متوسط"},
-        {filtered: "آسان"},
-        {filtered: "همه"},
-    ]
+
 
 
   return (
@@ -22,6 +16,7 @@ const arrayFilter = [
                 arrayFilter.map((item) => (
                   <label
                   key={item.filtered}
+                  onClick={() => setFiltered(item)}
                   className={`
                     cursor-pointer
                     text-center
@@ -33,6 +28,7 @@ const arrayFilter = [
                     border
                     border-blue-200
                     rounded-sm
+                    shadow-[0_0_10px_0_rgba(0,0,0,0.1)]
                     bg-[rgba(49,128,255,0.05)]
                     has-checked:bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
                     has-checked:text-[rgb(0,255,210)]

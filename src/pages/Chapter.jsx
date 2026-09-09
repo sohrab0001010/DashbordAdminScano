@@ -109,7 +109,7 @@ const Chapter = () => {
                 key={index}
                 lable={item.title}
                 icon={item.icon}
-                content={item.content}
+                content={item}
                 />
               ))
             }

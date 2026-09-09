@@ -58,7 +58,15 @@ const Level = ({ lable, icon: Icon, content }) => {
 
       <div className="levelContent">
         <div>
-          
+          {
+            content?.content?.videos.map((video,index) => (
+              <div
+              key={index}
+              >
+                {video.subjectVid}
+              </div>
+            ))
+          }
           
         </div>
       </div>

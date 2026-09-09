@@ -7,27 +7,53 @@ import Level from '../components/Chapter/Level'
 const Chapter = () => {
 
   const arrayFilter = [
-        {filtered: "تیز هوشان"},
-        {filtered: "سخت"},
-        {filtered: "متوسط"},
-        {filtered: "آسان"},
-        {filtered: "همه"},
+        {
+          filter: "تیز هوشان",
+          levelFilter: "levelFour"
+        },
+        {
+          filter: "سخت",
+          levelFilter: "levelThree"
+        },
+        {
+          filter: "متوسط",
+          levelFilter: "levelTow"
+        },
+        {
+          filter: "آسان",
+          levelFilter: "levelOne"
+        },
+        {
+          filter: "همه",
+          levelFilter: "all"
+        },
     ]
 
     const param = useParams()
 
-    const [filtered,setFiltered] = useState(null)
     
-
-
+    
+    
     const grade = courses.find(item => item.gradeId === +param.yearId)
     const title = grade.contentCourse.find(item => item.title === param.titleCase)
     const chapter = title.content.find(item => item.chapter === +param.numChapter)
 
-    const onShowLevel = level => (
-      filtered
-      ?chapter
-    )
+    
+    const [filtered,setFiltered] = useState("all")
+    const [arrayLevels,setArrayLevels] = useState(chapter.levels)
+
+
+    const settingArrayLevel = level => {
+      if (level === "all") {
+        setArrayLevels(chapter.levels)
+
+      } else {
+        setArrayLevels(
+          chapter.levels.filter(item => item.level === level)
+        )
+        console.log(chapter.levels.filter(item => item.level === level))
+      }
+    }
 
 
   return (
@@ -60,6 +86,8 @@ const Chapter = () => {
           <Filter 
         arrayFilter={arrayFilter}
         setFiltered={setFiltered}
+        onFilter={settingArrayLevel}
+        filtered={filtered}
           />
           <div className="
           bottom
@@ -67,25 +95,23 @@ const Chapter = () => {
           w-full
           shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
           rounded-lg
-          bg-[(rgba(255,255,255,0.1)]
+          bg-[(rgba(255,255,255,0.1))]
           backdrop-blur-[3px]
           flex
           flex-col
-          gap-4
+          gap-6
           py-8
           px-4
           ">
             {
-              !filtered
-              ?chapter.levels.map((item,index) => (
+              arrayLevels.map((item,index) => (
                 <Level
+                key={index}
                 lable={item.title}
+                icon={item.icon}
+                content={item.content}
                 />
               ))
-
-              :<div>
-                {console.log(singleLevel(filtered))}
-              </div>
             }
           </div>
 

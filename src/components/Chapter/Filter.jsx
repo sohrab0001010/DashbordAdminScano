@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Filter = ({arrayFilter,setFiltered}) => {
+const Filter = ({ arrayFilter, setFiltered, onFilter, filtered }) => {
 
 
 
@@ -12,12 +12,11 @@ const Filter = ({arrayFilter,setFiltered}) => {
             grid-cols-5
             gap-2
             `}>
-              {
-                arrayFilter.map((item) => (
-                  <label
-                  key={item.filtered}
-                  onClick={() => setFiltered(item)}
-                  className={`
+      {
+        arrayFilter.map((item) => (
+          <label
+            key={item.filter}
+            className={`
                     cursor-pointer
                     text-center
                     text-gray-500
@@ -36,18 +35,23 @@ const Filter = ({arrayFilter,setFiltered}) => {
                     has-checked:scale-110
                     has-checked:-translate-y-2
                     `}
-                  >
-                    {console.log(item)}
-                    <span>{item.filtered}</span>
-                    <input 
-                    type="radio" 
-                    name="levels" 
-                    id=""
-                    className="peer sr-only"
-                    />
-                  </label>
-                ))
-              }
+          >
+            <span>{item.filter}</span>
+            <input
+              onClick={() => {
+                setFiltered(item.levelFilter)
+                onFilter(item.levelFilter)
+                console.log(filtered)
+              }}
+              checked={filtered === item.levelFilter}
+              type="radio"
+              name="levels"
+              id=""
+              className="peer sr-only"
+            />
+          </label>
+        ))
+      }
     </div>
   )
 }

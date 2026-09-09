@@ -1,3 +1,8 @@
+import { FcLike } from "react-icons/fc";
+import { FcReading } from "react-icons/fc";
+import { FcGraduationCap } from "react-icons/fc";
+import { FcFlashOn } from "react-icons/fc";
+
 const course = [
   {
     gradeId: 4,
@@ -16,28 +21,40 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -46,154 +63,214 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
@@ -201,28 +278,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -231,28 +319,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -264,155 +363,215 @@ const course = [
             chapter: 3,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 4,
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -421,28 +580,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -451,28 +621,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -480,154 +661,214 @@ const course = [
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 5,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -641,28 +882,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -671,153 +923,213 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 7,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -826,28 +1138,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -856,28 +1179,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -891,128 +1225,177 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
         ],
       },
       {
+        
         name: "امتحانات دی ماه",
         title: "examDey",
         content: [
@@ -1022,27 +1405,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1052,153 +1446,213 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 2,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
@@ -1207,28 +1661,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
@@ -1237,27 +1702,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -1269,127 +1745,176 @@ const course = [
           {
             chapter: 3,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 4,
@@ -1397,27 +1922,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1427,27 +1963,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -1457,27 +2004,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -1485,154 +2043,214 @@ const course = [
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 5,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -1647,27 +2265,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -1676,183 +2305,254 @@ const course = [
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 7,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -1862,27 +2562,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -1897,128 +2608,177 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
         ],
       },
       {
+        
         name: "امتحانات خرداد ماه",
         title: "examKhordad",
         content: [
@@ -2028,27 +2788,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2058,27 +2829,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -2088,153 +2870,213 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 2,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
@@ -2243,27 +3085,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -2275,127 +3128,176 @@ const course = [
           {
             chapter: 3,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 4,
@@ -2403,29 +3305,40 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
@@ -2433,27 +3346,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -2463,27 +3387,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -2491,29 +3426,40 @@ const course = [
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -2521,219 +3467,301 @@ const course = [
                 },
               },
             ],
+            
           },
           {
             chapter: 5,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 6,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -2743,27 +3771,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -2778,152 +3817,212 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 8,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -2933,27 +4032,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -2963,27 +4073,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -2993,36 +4114,49 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
         ],
+        
       },
     ],
   },
@@ -3031,10 +4165,12 @@ const course = [
     emoji: "📙",
     color: "#F97316",
     subject: "ریاضی",
+    
     nameGrade: "پایه پنجم",
     contentCourse: [
       {
         name: "کاربرگ ها",
+        
         title: "workSheet",
         content: [
           {
@@ -3043,28 +4179,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3073,28 +4220,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -3103,154 +4261,214 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
@@ -3258,28 +4476,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -3293,28 +4522,35 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3323,28 +4559,34 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -3353,123 +4595,147 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
-          {
-            chapter: 4,
+          {            chapter: 4,
             levels: [
               {
-                level: "levelOne",
-                title: "آسان",
+                level: "levelOne",                title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
-                    },
-                    {
+                      subjectVid: "عنوان آزمایشی",
+                    },                    {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
-                      isFree: false,
-                      vid: "/videos/vid5.mp4",
+                      isFree: false,                      vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
-                  ],
-                  img: "/images/worksheet/1.jpg",
+                  ],                  img: "/images/worksheet/1.jpg",
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
-                    },
-                    {
+                      subjectVid: "عنوان آزمایشی",
+                    },                    {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
-                      isFree: false,
-                      vid: "/videos/vid4.mp4",
+                      isFree: false,                      vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
-                    {
-                      isFree: false,
+                    {                      isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -3478,28 +4744,35 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
-                  videos: [
-                    {
+                  videos: [                    {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -3508,28 +4781,36 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -3543,28 +4824,35 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3573,28 +4861,34 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -3603,28 +4897,34 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -3633,63 +4933,86 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 6,
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3698,28 +5021,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -3728,28 +5062,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -3758,153 +5103,213 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 7,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -3918,28 +5323,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -3948,98 +5364,136 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
         ],
       },
       {
+        
         name: "امتحانات دی ماه",
         title: "examDey",
         content: [
@@ -4049,27 +5503,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4079,27 +5544,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -4109,153 +5585,213 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
@@ -4264,28 +5800,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
@@ -4299,184 +5846,255 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 4,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
@@ -4484,29 +6102,40 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
@@ -4514,27 +6143,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -4547,154 +6187,214 @@ const course = [
             chapter: 5,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 6,
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4704,27 +6404,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -4734,27 +6445,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -4763,153 +6485,213 @@ const course = [
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 7,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -4924,27 +6706,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -4954,127 +6747,176 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
         ],
       },
       {
+        
         name: "امتحانات خرداد ماه",
         content: [
           {
             chapter: 1,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5084,27 +6926,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -5114,27 +6967,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -5144,219 +7008,301 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 3,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
@@ -5364,29 +7310,40 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
@@ -5394,27 +7351,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -5427,154 +7395,214 @@ const course = [
             chapter: 4,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 5,
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5584,27 +7612,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -5614,27 +7653,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -5643,153 +7693,213 @@ const course = [
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 6,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -5804,27 +7914,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -5834,152 +7955,212 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 8,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -5989,27 +8170,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -6019,27 +8211,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -6050,47 +8253,63 @@ const course = [
           },
         ],
       },
+      
     ],
   },
   {
     gradeId: 6,
+    
     emoji: "📘",
     color: "#2563EB",
     subject: "ریاضی",
     nameGrade: "پایه ششم",
+    
     contentCourse: [
       {
         name: "کاربرگ ها",
         title: "workSheet",
+        
         content: [
           {
             chapter: 1,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6099,28 +8318,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -6129,28 +8359,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -6159,28 +8400,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -6191,127 +8443,176 @@ const course = [
           {
             chapter: 2,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 3,
@@ -6319,28 +8620,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6349,28 +8661,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -6379,183 +8702,254 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 4,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -6569,28 +8963,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6598,154 +9003,214 @@ const course = [
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 6,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -6754,28 +9219,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -6784,28 +9260,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -6814,127 +9301,176 @@ const course = [
             ],
           },
           {
+            
             chapter: 7,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
@@ -6944,28 +9480,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -6974,28 +9521,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -7004,28 +9562,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -7034,128 +9603,177 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
         ],
+        
       },
       {
         name: "امتحانات دی ماه",
         title: "examDey",
+        
         content: [
           {
             chapter: 1,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -7165,27 +9783,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -7196,127 +9825,176 @@ const course = [
           },
           {
             chapter: 2,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
@@ -7325,28 +10003,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
@@ -7355,27 +10044,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -7385,154 +10085,214 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 4,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
@@ -7540,29 +10300,40 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
@@ -7575,27 +10346,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -7603,154 +10385,214 @@ const course = [
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 6,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -7760,27 +10602,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -7790,27 +10643,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -7819,63 +10683,85 @@ const course = [
               },
             ],
           },
+          
           {
             chapter: 7,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -7885,27 +10771,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -7915,152 +10812,212 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 8,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -8076,127 +11033,176 @@ const course = [
         content: [
           {
             chapter: 1,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
@@ -8205,28 +11211,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
@@ -8235,27 +11252,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -8265,154 +11293,214 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 3,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
@@ -8420,29 +11508,40 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
@@ -8455,27 +11554,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8483,154 +11593,214 @@ const course = [
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 5,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -8640,27 +11810,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -8670,27 +11851,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -8699,158 +11891,218 @@ const course = [
               },
             ],
           },
+          
           {
             chapter: 6,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 7,
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -8860,27 +12112,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -8890,27 +12153,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -8920,152 +12194,212 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 8,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -9086,97 +12420,135 @@ const course = [
     nameGrade: "پایه هفتم",
     contentCourse: [
       {
+        
         name: "کاربرگ ها",
         title: "workSheet",
         content: [
           {
+            
             chapter: 1,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -9185,28 +12557,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -9220,154 +12603,214 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 3,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
@@ -9375,28 +12818,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -9405,28 +12859,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -9435,155 +12900,215 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 4,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
@@ -9595,28 +13120,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9625,28 +13161,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -9655,28 +13202,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -9684,154 +13242,214 @@ const course = [
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 6,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -9845,28 +13463,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -9875,153 +13504,213 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 8,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -10030,28 +13719,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -10060,28 +13760,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -10091,127 +13802,176 @@ const course = [
           },
         ],
       },
+      
       {
         name: "امتحانات دی ماه",
         title: "examDey",
         content: [
+          
           {
             chapter: 1,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -10226,153 +13986,213 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 3,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
@@ -10381,28 +14201,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
@@ -10411,27 +14242,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -10441,62 +14283,84 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 4,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10506,27 +14370,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -10536,27 +14411,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -10564,154 +14450,214 @@ const course = [
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 5,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -10726,27 +14672,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -10755,153 +14712,213 @@ const course = [
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 7,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
+                  
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -10911,27 +14928,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -10941,27 +14969,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -10971,127 +15010,176 @@ const course = [
             ],
           },
           {
+            
             chapter: 8,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
@@ -11106,153 +15194,213 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 2,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
@@ -11261,28 +15409,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
@@ -11291,27 +15450,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -11321,159 +15491,219 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 3,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
           {
             chapter: 4,
@@ -11481,29 +15711,40 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
@@ -11511,27 +15752,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -11541,27 +15793,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -11569,29 +15832,40 @@ const course = [
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -11599,127 +15873,176 @@ const course = [
                 },
               },
             ],
+            
           },
           {
             chapter: 5,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
@@ -11731,27 +16054,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -11760,153 +16094,213 @@ const course = [
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 7,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
+                  
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -11916,27 +16310,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -11946,27 +16351,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -11976,127 +16392,176 @@ const course = [
             ],
           },
           {
+            
             chapter: 8,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                   pdf: "/pdfs/2.pdf",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
@@ -12112,127 +16577,176 @@ const course = [
     nameGrade: "پایه هشتم",
     contentCourse: [
       {
+        
         name: "کاربرگ ها",
         title: "workSheet",
         content: [
           {
+            
             chapter: 1,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -12246,28 +16760,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12276,28 +16801,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -12306,154 +16842,214 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 3,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
@@ -12461,29 +17057,40 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
@@ -12496,183 +17103,254 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 5,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                 },
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -12681,28 +17359,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -12711,28 +17400,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -12740,127 +17440,176 @@ const course = [
               },
             ],
           },
+          
           {
             chapter: 6,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                 },
               },
             ],
@@ -12871,28 +17620,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -12901,28 +17661,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -12931,153 +17702,213 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 8,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -13086,28 +17917,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -13127,27 +17969,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13157,27 +18010,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -13187,153 +18051,213 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
@@ -13342,28 +18266,39 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
@@ -13377,154 +18312,214 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 4,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
@@ -13532,27 +18527,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -13562,27 +18568,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -13592,27 +18609,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -13620,127 +18648,176 @@ const course = [
                 },
               },
             ],
+            
           },
           {
             chapter: 5,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
@@ -13752,27 +18829,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -13782,27 +18870,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -13811,153 +18910,213 @@ const course = [
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
               },
+              
             ],
           },
           {
             chapter: 7,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -13967,27 +19126,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -14002,27 +19172,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14032,127 +19213,176 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
         ],
       },
       {
+        
         name: "امتحانات خرداد ماه",
         content: [
           {
             chapter: 1,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14162,27 +19392,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -14192,27 +19433,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -14222,153 +19474,213 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
                 },
+                
               },
             ],
           },
           {
+            
             chapter: 2,
             levels: [
               {
                 level: "levelOne",
+                
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                   pdf: "/pdfs/1.pdf",
                 },
               },
               {
+                
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
@@ -14382,154 +19694,214 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
               },
+              
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
                 },
+                
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
           },
+          
           {
             chapter: 4,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
@@ -14537,29 +19909,40 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
@@ -14567,27 +19950,38 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -14597,27 +19991,38 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -14625,127 +20030,176 @@ const course = [
                 },
               },
             ],
+            
           },
           {
             chapter: 5,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
@@ -14757,27 +20211,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -14787,27 +20252,38 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -14816,58 +20292,80 @@ const course = [
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                   pdf: "/pdfs/3.pdf",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -14876,127 +20374,176 @@ const course = [
               },
             ],
           },
+          
           {
             chapter: 7,
             levels: [
               {
+                
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/1.jpg",
                   pdf: "/pdfs/1.pdf",
                 },
               },
+              
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
+                
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                   pdf: "/pdfs/4.pdf",
+                  
                 },
               },
             ],
@@ -15007,27 +20554,38 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15037,102 +20595,140 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                   pdf: "/pdfs/2.pdf",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
                   pdf: "/pdfs/3.pdf",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
+                  
                   pdf: "/pdfs/4.pdf",
                 },
               },
             ],
+            
           },
         ],
       },
     ],
+    
   },
   {
     gradeId: 9,
     emoji: "📔",
+    
     color: "#F7D7C4",
     subject: "ریاضی",
     nameGrade: "پایه نهم",
@@ -15147,153 +20743,213 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
+                
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
+                
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
+                  
                 },
               },
               {
                 level: "levelFour",
+                
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/4.jpg",
                 },
               },
             ],
+            
           },
           {
             chapter: 2,
             levels: [
+              
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15302,28 +20958,39 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -15332,28 +20999,39 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -15362,154 +21040,214 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
+                  
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 3,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
                 },
+                
               },
               {
                 level: "levelTow",
                 title: "متوسط",
+                
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
+                  
                 },
               },
               {
                 level: "levelThree",
+                
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/3.jpg",
                 },
               },
               {
+                
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
@@ -15522,28 +21260,39 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15552,183 +21301,254 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
+                  
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
+                
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
+                  
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
+                      
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/3.jpg",
                 },
               },
+              
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
+                
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
+                      
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                   ],
                   img: "/images/worksheet/4.jpg",
                 },
               },
+              
             ],
           },
           {
             chapter: 5,
+            
             levels: [
               {
                 level: "levelOne",
                 title: "آسان",
+                
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
+                  
                 },
               },
               {
                 level: "levelTow",
+                
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
+                  
                   img: "/images/worksheet/2.jpg",
                 },
               },
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
+                    
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
+                      
                     },
                     {
                       isFree: false,
+                      
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
+                      
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -15737,28 +21557,34 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -15772,28 +21598,34 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15802,28 +21634,34 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -15832,28 +21670,34 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -15862,28 +21706,34 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -15897,28 +21747,34 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -15927,28 +21783,34 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -15957,28 +21819,34 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -15987,28 +21855,34 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16022,28 +21896,34 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   pdf: "/pdfs/1.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16052,28 +21932,34 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   pdf: "/pdfs/2.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16082,28 +21968,34 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   pdf: "/pdfs/3.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16112,28 +22004,34 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   pdf: "/pdfs/4.pdf",
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16153,27 +22051,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16183,27 +22087,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16213,27 +22123,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16243,27 +22159,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16278,27 +22200,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16308,27 +22236,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16338,27 +22272,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16368,27 +22308,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16403,27 +22349,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16433,27 +22385,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16463,27 +22421,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16493,27 +22457,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16528,27 +22498,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16558,27 +22534,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16588,27 +22570,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16618,27 +22606,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16653,27 +22647,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16683,27 +22683,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16713,27 +22719,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16743,27 +22755,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16778,27 +22796,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16808,27 +22832,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16838,27 +22868,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16868,27 +22904,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -16903,27 +22945,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -16933,27 +22981,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -16963,27 +23017,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -16993,27 +23053,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17028,27 +23094,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17058,27 +23130,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17088,27 +23166,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17118,27 +23202,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17158,27 +23248,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17188,27 +23284,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17218,27 +23320,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17248,27 +23356,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17283,27 +23397,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17313,27 +23433,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17343,27 +23469,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17373,27 +23505,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17408,27 +23546,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17438,27 +23582,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17468,27 +23618,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17498,27 +23654,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17533,27 +23695,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17563,27 +23731,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17593,27 +23767,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17623,27 +23803,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17658,27 +23844,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17688,27 +23880,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17718,27 +23916,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17748,27 +23952,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17783,27 +23993,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17813,27 +24029,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17843,27 +24065,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17873,27 +24101,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -17908,27 +24142,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -17938,27 +24178,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -17968,27 +24214,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -17998,27 +24250,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",
@@ -18033,27 +24291,33 @@ const course = [
               {
                 level: "levelOne",
                 title: "آسان",
+                icon:FcLike,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/1.jpg",
@@ -18063,27 +24327,33 @@ const course = [
               {
                 level: "levelTow",
                 title: "متوسط",
+                icon:FcReading,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/2.jpg",
@@ -18093,27 +24363,33 @@ const course = [
               {
                 level: "levelThree",
                 title: "سخت",
+                icon:FcGraduationCap,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/3.jpg",
@@ -18123,27 +24399,33 @@ const course = [
               {
                 level: "levelFour",
                 title: "تیز هوشان",
+                icon:FcFlashOn,
                 content: {
                   videos: [
                     {
                       isFree: true,
                       vid: "/videos/vid1.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: true,
                       vid: "/videos/vid2.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid3.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid4.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                     {
                       isFree: false,
                       vid: "/videos/vid5.mp4",
+                      subjectVid: "عنوان آزمایشی",
                     },
                   ],
                   img: "/images/worksheet/4.jpg",

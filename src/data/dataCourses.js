@@ -6877,6 +6877,7 @@ const course = [
       {
         
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,
@@ -11030,6 +11031,7 @@ const course = [
       },
       {
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,
@@ -15187,6 +15189,7 @@ const course = [
       },
       {
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,
@@ -19343,6 +19346,7 @@ const course = [
       {
         
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,
@@ -23241,6 +23245,7 @@ const course = [
       },
       {
         name: "امتحانات خرداد ماه",
+        title: "examKhordad",
         content: [
           {
             chapter: 1,

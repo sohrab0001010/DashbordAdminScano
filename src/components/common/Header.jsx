@@ -129,8 +129,8 @@ const Header = () => {
         <span className="
         logo
         cursor-pointer
-        h-16
-        w-16
+        text-4xl
+        text-sky-500
         ">
           <MdOutlineQrCodeScanner/>
         </span>

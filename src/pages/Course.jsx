@@ -21,8 +21,8 @@ const Course = () => {
     className='
     min-h-screen
     bg-white
-    bg-[linear-gradient(rgba(35,35,255,0.2)_1px,transparent_1px)] 
-    bg-size-[100%_42px]
+    bg-[linear-gradient(rgba(150,150,150,0.3)_1px,transparent_1px)] 
+    bg-size-[100%_60px]
     '
     >
     <div className="

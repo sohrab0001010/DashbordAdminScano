@@ -4,7 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo }) => {
 
   const [isOpen,setIsOpen] = useState(false)
 
@@ -86,6 +86,11 @@ const Level = ({ lable, icon: Icon, content }) => {
             content?.content?.videos.map((video, index) => (
               <div
                 key={index}
+                onClick={() => {
+                  video.isFree
+                  ?onSelecteVideo(video)
+                  :console.log("error")
+                }}
                 className={`
                 flex
                 flex-row-reverse

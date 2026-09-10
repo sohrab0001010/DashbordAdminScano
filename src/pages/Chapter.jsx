@@ -3,6 +3,7 @@ import { useParams } from 'react-router'
 import courses from "../data/dataCourses"
 import Filter from '../components/Chapter/Filter'
 import Level from '../components/Chapter/Level'
+import Video from '../components/Video/Video'
 
 const Chapter = () => {
 
@@ -41,6 +42,7 @@ const Chapter = () => {
     
     const [filtered,setFiltered] = useState("all")
     const [arrayLevels,setArrayLevels] = useState(chapter.levels)
+    const [selectedVideo,setSelectedVideo] = useState(null)
 
 
     const settingArrayLevel = level => {
@@ -67,14 +69,15 @@ const Chapter = () => {
     gap-12
     py-8
     px-8
-    bg-[linear-gradient(rgba(35,35,255,0.2)_1px,transparent_1px)] 
-    bg-size-[100%_42px]
+    bg-[linear-gradient(rgba(150,150,150,0.3)_1px,transparent_1px)] 
+    bg-size-[100%_60px]
     '
     >
       <div className={`
         sectionLeft
         bg-blue-50
         `}>
+          <Video video={selectedVideo}/>
         </div>
 
       <div className={`
@@ -110,6 +113,7 @@ const Chapter = () => {
                 lable={item.title}
                 icon={item.icon}
                 content={item}
+                onSelecteVideo={setSelectedVideo}
                 />
               ))
             }

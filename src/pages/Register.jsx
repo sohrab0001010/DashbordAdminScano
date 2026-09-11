@@ -3,6 +3,7 @@ import { useLocation } from 'react-router'
 import { CgArrowLeft } from "react-icons/cg";
 import { IoIosEyeOff } from "react-icons/io";
 import { IoIosEye } from "react-icons/io";
+import {MdOutlineQrCodeScanner} from "react-icons/md"
 import OTPInput from '../components/OTPInput/OTPInput';
 import OTPTimer from '../components/OTPTimer/OTPTimer';
 import Modal from '../components/Modal/Modal';
@@ -178,16 +179,8 @@ const Register = () => {
       }
 
       {/* Logo */}
-      <img
-        src="/images/logo/logo.jpeg"
-        alt="Logo"
-        className="
-          relative
-          z-20
-          w-20
-          sm:w-24
-        "
-      />
+      <span className="text-5xl text-sky-500 cursor-pointer"><MdOutlineQrCodeScanner/></span>
+
 
       {/* Form Wrapper */}
       <div

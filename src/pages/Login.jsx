@@ -7,6 +7,8 @@ import users from "../data/dataUsers"
 import OTPTimer from "../components/OTPTimer/OTPTimer";
 import Modal from "../components/Modal/Modal";
 import modalConfig from "../components/Modal/modalConfig";
+import { MdOutlineQrCodeScanner } from "react-icons/md"
+
 
 const Login = () => {
   const [number, setNumber] = useState("");
@@ -114,16 +116,7 @@ const Login = () => {
 
 
       {/* Logo */}
-      <img
-        src="/images/logo/logo.jpeg"
-        alt="Logo"
-        className="
-          relative
-          z-20
-          w-20
-          sm:w-24
-        "
-      />
+      <span className="text-5xl text-sky-500 cursor-pointer"><MdOutlineQrCodeScanner/></span>
 
       {/* Form Wrapper */}
       <div

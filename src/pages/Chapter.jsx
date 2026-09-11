@@ -113,6 +113,7 @@ const Chapter = () => {
                 lable={item.title}
                 icon={item.icon}
                 content={item}
+                code={item.codeNumber}
                 onSelecteVideo={setSelectedVideo}
                 />
               ))

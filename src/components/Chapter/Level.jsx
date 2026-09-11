@@ -4,7 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
 
   const [isOpen,setIsOpen] = useState(false)
 
@@ -60,8 +60,12 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo }) => {
         right 
         flex
         justify-end
+        gap-4
         text-gray-500
         ">
+          <span
+          className='group-hover:text-gray-50'
+          >کد : {code}</span>
           <span
             className='group-hover:text-gray-50'
           >{lable}</span>
@@ -110,9 +114,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo }) => {
                 transition-all
                 duration-200
                 hover:scale-105
-                hover:translate-y-2
-
-                
+                hover:translate-y-2                
                 `}
               >
                 <span

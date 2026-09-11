@@ -16,7 +16,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
         className={`
         group
         grid
-        grid-cols-[2fr_6fr]
+        grid-cols-[2fr_6fr_3fr]
         items-center
         py-3
         px-12
@@ -42,7 +42,6 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
         flex
         gap-4
         items-center
-        
         ">
           <span 
           className={`
@@ -55,6 +54,30 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
           text-4xl
           '>{Icon && <Icon />}</span>
         </div>
+
+        <div className={`
+          middle
+          text-[0.7rem]
+          font-medium
+          grid
+          grid-cols-[1fr_1fr_1fr]
+          text-gray-600
+          transition-all
+          duration-200
+          group-hover:text-sky-50
+          `}>
+          {
+            content?.content?.videos.map((item,index) => (
+              <span 
+              key={index}
+              className=''
+              >
+                {item.subjectVid}
+              </span>
+            ))
+          }
+        </div>
+
         <div
           className="
         right 

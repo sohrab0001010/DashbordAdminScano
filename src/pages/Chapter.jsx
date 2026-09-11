@@ -65,12 +65,10 @@ const Chapter = () => {
     min-h-screen
     bg-white
     grid
-    grid-cols-[4fr_2fr]
+    grid-cols-[4fr_5fr]
     gap-12
     py-8
     px-8
-    bg-[linear-gradient(rgba(150,150,150,0.3)_1px,transparent_1px)] 
-    bg-size-[100%_60px]
     '
     >
       <div className={`

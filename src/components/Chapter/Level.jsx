@@ -4,7 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,onSelectFirstVideo }) => {
 
   const [isOpen,setIsOpen] = useState(false)
 
@@ -12,7 +12,10 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code }) => {
     <div>
 
       <div
-        onClick={() => setIsOpen(prev => !prev)}
+        onClick={() => {
+          setIsOpen(prev => !prev)
+          onSelectFirstVideo()
+        }}
         className={`
         group
         grid

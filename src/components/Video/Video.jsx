@@ -13,7 +13,7 @@ const Video = ({video,firstVideo}) => {
     '
     >
       {
-        !video || !firstVideo
+        !video && !firstVideo
 
         /*No video is seleted in this case*/
 
@@ -48,7 +48,14 @@ const Video = ({video,firstVideo}) => {
           /*In this case the video is selected*/
 
         :firstVideo
-        ?
+
+        ?<div>
+          <video src={video.vid}  controls className="w-full h-full rounded-lg"/>
+          <div>
+            {console.log(video.vid[0])}
+          </div>
+        </div>
+
         :<div className='h-100'>
           <video src={video.vid}  controls className="w-full h-full rounded-lg"/>
           <div>

@@ -79,6 +79,7 @@ const Chapter = () => {
           <Video 
           video={selectedVideo}
           firstVideo={firstVideo}
+          
           />
         </div>
 

@@ -43,6 +43,7 @@ const Chapter = () => {
     const [filtered,setFiltered] = useState("all")
     const [arrayLevels,setArrayLevels] = useState(chapter.levels)
     const [selectedVideo,setSelectedVideo] = useState(null)
+    const [firstVideo,setFirstVideo] = useState(null)
 
 
     const settingArrayLevel = level => {
@@ -75,7 +76,10 @@ const Chapter = () => {
         sectionLeft
         bg-blue-50
         `}>
-          <Video video={selectedVideo}/>
+          <Video 
+          video={selectedVideo}
+          firstVideo={firstVideo}
+          />
         </div>
 
       <div className={`
@@ -113,6 +117,7 @@ const Chapter = () => {
                 content={item}
                 code={item.codeNumber}
                 onSelecteVideo={setSelectedVideo}
+                onSelectFirstVideo={setFirstVideo}
                 />
               ))
             }

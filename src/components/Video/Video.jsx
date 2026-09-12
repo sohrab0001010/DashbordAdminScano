@@ -3,7 +3,7 @@ import { PiStudentFill } from "react-icons/pi";
 import { RiQrScan2Line } from "react-icons/ri";
 
 
-const Video = ({video}) => {
+const Video = ({video,firstVideo}) => {
 
   return (
     <div
@@ -13,7 +13,7 @@ const Video = ({video}) => {
     '
     >
       {
-        !video
+        !video || !firstVideo
 
         /*No video is seleted in this case*/
 
@@ -21,7 +21,7 @@ const Video = ({video}) => {
         className={`
           substitute
           w-full
-          h-[25rem]
+          h-100
           rounded-lg
           text-blue-50
           flex
@@ -47,8 +47,13 @@ const Video = ({video}) => {
 
           /*In this case the video is selected*/
 
-        :<div className='h-[25rem]'>
+        :firstVideo
+        ?
+        :<div className='h-100'>
           <video src={video.vid}  controls className="w-full h-full rounded-lg"/>
+          <div>
+            {console.log(video)}
+          </div>
         </div>
       }
     </div>

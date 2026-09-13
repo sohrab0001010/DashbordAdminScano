@@ -43,7 +43,13 @@ const Chapter = () => {
     const [filtered,setFiltered] = useState("all")
     const [arrayLevels,setArrayLevels] = useState(chapter.levels)
     const [selectedVideo,setSelectedVideo] = useState(null)
+    const [openCode,setOpenCode] = useState(null)
     const [firstVideo,setFirstVideo] = useState(null)
+
+
+    const handleToggle = code => {
+      setOpenCode(prev => (prev === code ? null : code))
+    }
 
 
     const settingArrayLevel = level => {
@@ -79,7 +85,6 @@ const Chapter = () => {
           <Video 
           video={selectedVideo}
           firstVideo={firstVideo}
-          
           />
         </div>
 
@@ -118,6 +123,8 @@ const Chapter = () => {
                 content={item}
                 code={item.codeNumber}
                 onSelecteVideo={setSelectedVideo}
+                isOpen={openCode === item.codeNumber}
+                onToggle={() => handleToggle(item.codeNumber)}
                 onSelectFirstVideo={setFirstVideo}
                 />
               ))

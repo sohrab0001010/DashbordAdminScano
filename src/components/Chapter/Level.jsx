@@ -4,9 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,onSelectFirstVideo }) => {
-
-  const [isOpen,setIsOpen] = useState(false)
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,onSelectFirstVideo }) => {
 
 
   const showFirstVideo = () => {
@@ -18,8 +16,9 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,onSelectFirstVi
 
       <div
         onClick={() => {
-          setIsOpen(prev => !prev)
-          showFirstVideo()
+        onToggle()
+        onSelectFirstVideo(content.content)
+
         }}
         className={`
         group

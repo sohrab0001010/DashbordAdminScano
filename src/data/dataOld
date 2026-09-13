@@ -34,8 +34,7 @@ const course = [
                       
                     },
                     {
-                      isFree: true,
-                      
+                      isFree: true, 
                       vid: "/videos/vid2.mp4",
                       subjectVid: "عنوان آزمایشی",
                     },
@@ -72,7 +71,6 @@ const course = [
                   videos: [
                     {
                       isFree: true,
-                      
                       vid: "/videos/vid1.mp4",
                       subjectVid: "عنوان آزمایشی",
                     },
@@ -229,7 +227,6 @@ const course = [
                     },
                     {
                       isFree: false,
-                      
                       vid: "/videos/vid5.mp4",
                       subjectVid: "عنوان آزمایشی",
                     },
@@ -265,8 +262,7 @@ const course = [
                       
                     },
                     {
-                      isFree: false,
-                      
+                      isFree: false,  
                       vid: "/videos/vid4.mp4",
                       subjectVid: "عنوان آزمایشی",
                     },
@@ -344,8 +340,7 @@ const course = [
                       
                     },
                     {
-                      isFree: false,
-                      
+                      isFree: false, 
                       vid: "/videos/vid3.mp4",
                       subjectVid: "عنوان آزمایشی",
                     },

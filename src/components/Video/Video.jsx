@@ -49,18 +49,13 @@ const Video = ({video,firstVideo}) => {
 
         :firstVideo
 
-        ?<div>
-          <video src={video.vid}  controls className="w-full h-full rounded-lg"/>
-          <div>
-            {console.log(video.vid[0])}
-          </div>
+        ?<div className='h-100'>
+          <video src={firstVideo}  controls className="w-full h-full rounded-lg"/>
         </div>
 
         :<div className='h-100'>
           <video src={video.vid}  controls className="w-full h-full rounded-lg"/>
-          <div>
-            {console.log(video)}
-          </div>
+
         </div>
       }
     </div>

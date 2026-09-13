@@ -8,13 +8,18 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,onSelectFirstVi
 
   const [isOpen,setIsOpen] = useState(false)
 
+
+  const showFirstVideo = () => {
+    return console.log(content.content)
+  }
+
   return (
     <div>
 
       <div
         onClick={() => {
           setIsOpen(prev => !prev)
-          onSelectFirstVideo()
+          showFirstVideo()
         }}
         className={`
         group

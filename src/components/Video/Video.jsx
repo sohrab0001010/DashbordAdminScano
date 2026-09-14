@@ -3,7 +3,7 @@ import React from 'react'
 import { PiStudentFill } from "react-icons/pi";
 import { RiQrScan2Line } from "react-icons/ri";
 
-const Video = ({ video, firstVideo }) => {
+const Video = ({ video }) => {
   return (
     <div
       className="
@@ -54,7 +54,7 @@ const Video = ({ video, firstVideo }) => {
         : (
           <div className="h-100">
             <video
-              src={video.vid}
+              src={video}
               controls
               className="w-full h-full rounded-lg"
             />

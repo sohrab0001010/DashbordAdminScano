@@ -4,12 +4,9 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,onSelectFirstVideo }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,onSetVideo }) => {
 
 
-  const showFirstVideo = () => {
-    return console.log(content.content)
-  }
 
   return (
     <div>
@@ -17,8 +14,6 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
       <div
         onClick={() => {
         onToggle()
-        onSelectFirstVideo(content.content)
-
         }}
         className={`
         group
@@ -122,7 +117,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
                 key={index}
                 onClick={() => {
                   video.isFree
-                  ?onSelecteVideo(video)
+                  ?onSelecteVideo(video.vid)
                   :console.log("error")
                 }}
                 className={`

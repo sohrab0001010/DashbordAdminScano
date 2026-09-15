@@ -3,7 +3,7 @@ import React from 'react'
 import { PiStudentFill } from "react-icons/pi";
 import { RiQrScan2Line } from "react-icons/ri";
 
-const Video = ({ video }) => {
+const Video = ({ video,contentLevel }) => {
   return (
     <div
       className="
@@ -52,12 +52,38 @@ const Video = ({ video }) => {
         /* In this case the video is selected */
 
         : (
+          <div
+          className='
+          flex
+          flex-col
+          gap-8
+          '
+          >
           <div className="h-100">
             <video
               src={video}
               controls
               className="w-full h-full rounded-lg"
             />
+          </div>
+
+          <div
+          className='
+          h-20 
+          bg-blue-700
+          flex
+          flex-row
+          justify-between
+          '
+          >
+            <div>
+              <span>{contentLevel.img}</span>
+              <span>
+                مشاهده سوالات
+                
+              </span>
+            </div>
+          </div>
           </div>
         )
       }

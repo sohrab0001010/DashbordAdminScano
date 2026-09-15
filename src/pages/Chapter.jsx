@@ -50,7 +50,7 @@ const Chapter = () => {
     const handleToggle = item => {
       setOpenCode(prev => (prev === item.codeNumber ? null : item.codeNumber))
       setSelectedVideo(item.content.videos[0].vid)
-      console.log(item.content)
+      setContentLevel(item.content)
     }
 
 
@@ -86,6 +86,7 @@ const Chapter = () => {
         `}>
           <Video 
           video={selectedVideo}
+          contentLevel={contentLevel}
           />
         </div>
 

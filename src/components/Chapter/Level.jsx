@@ -4,7 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,onSetVideo }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle }) => {
 
 
 

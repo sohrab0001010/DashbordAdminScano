@@ -82,7 +82,6 @@ const Chapter = () => {
     >
       <div className={`
         sectionLeft
-        bg-blue-50
         `}>
           <Video 
           video={selectedVideo}
@@ -106,10 +105,7 @@ const Chapter = () => {
           bottom
           h-full
           w-full
-          shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
           rounded-lg
-          bg-[(rgba(255,255,255,0.1))]
-          backdrop-blur-[3px]
           flex
           flex-col
           gap-6

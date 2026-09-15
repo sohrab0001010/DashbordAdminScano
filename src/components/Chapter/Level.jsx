@@ -127,7 +127,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
                 items-center
                 px-12
                 py-4
-                mt-3
+                mt-6
                 mb-3
                 cursor-pointer
                 rounded-bl-full

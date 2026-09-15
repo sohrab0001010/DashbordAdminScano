@@ -1,7 +1,9 @@
 import React from 'react'
+import { ImGift } from 'react-icons/im';
 
 import { PiStudentFill } from "react-icons/pi";
 import { RiQrScan2Line } from "react-icons/ri";
+import { RiFileDownloadFill } from "react-icons/ri";
 
 const Video = ({ video,contentLevel }) => {
   return (
@@ -63,26 +65,57 @@ const Video = ({ video,contentLevel }) => {
             <video
               src={video}
               controls
-              className="w-full h-full rounded-lg"
+              className="
+              w-full 
+              h-full 
+              rounded-lg
+              shadow-[0_0_10px_0_rgba(0,0,0,0.1)]
+              "
             />
           </div>
 
           <div
           className='
           h-20 
-          bg-blue-700
           flex
           flex-row
           justify-between
+          px-4
           '
           >
-            <div>
-              <span>{contentLevel.img}</span>
+            <div
+            className='
+            flex
+            flex-col
+            justify-center
+            items-center
+            gap-2
+            cursor-pointer
+            '
+            >
+              <img 
+              className='
+              h-10
+              w-10 
+              '
+              src={contentLevel.img} 
+              alt="" />
               <span>
-                مشاهده سوالات
-                
+                مشاهده سوالات 
               </span>
             </div>
+
+            <div className='
+            text-xl
+            flex
+            items-center
+            gap-3
+            cursor-pointer
+            '>
+              <span><RiFileDownloadFill/></span>
+              <span>دانلود سوالات</span>
+            </div>
+
           </div>
           </div>
         )

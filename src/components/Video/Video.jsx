@@ -84,7 +84,10 @@ const Video = ({ video,contentLevel }) => {
           px-4
           '
           >
-            <div
+            <a
+            href={contentLevel.pdf}
+            target='_blank'
+            rel="noopener onreferrer"
             className='
             flex
             flex-col
@@ -97,8 +100,11 @@ const Video = ({ video,contentLevel }) => {
             duration-200
             bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             p-10
+            border
+            border-blue-800
             rounded-lg
-            hover:text-green-400
+            hover:text-[rgb(0,255,213)]
+            hover:border-[rgb(0,255,213)]
             active:text-red-400
             '
             >
@@ -113,9 +119,12 @@ const Video = ({ video,contentLevel }) => {
               <span>
                 مشاهده سوالات 
               </span>
-            </div>
+            </a>
 
-            <div className='
+            <a 
+            href={contentLevel.pdf}
+            download
+            className='
             text-xl
             flex
             items-center
@@ -127,12 +136,15 @@ const Video = ({ video,contentLevel }) => {
             rounded-lg
             transition-all
             duration-200
-            hover:text-green-400
+            border
+            border-blue-700
+            hover:text-[rgb(0,255,213)]
+            hover:border-[rgb(0,255,213)]
             active:text-red-400
             '>
               <span><RiFileDownloadFill/></span>
               <span>دانلود سوالات</span>
-            </div>
+            </a>
 
           </div>
           </div>

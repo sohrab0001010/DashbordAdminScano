@@ -11,6 +11,7 @@ const Video = ({ video,contentLevel }) => {
       className="
         h-full
         w-full
+        select-none
       "
     >
 
@@ -69,7 +70,7 @@ const Video = ({ video,contentLevel }) => {
               w-full 
               h-full 
               rounded-lg
-              shadow-[0_0_10px_0_rgba(0,0,0,0.1)]
+              shadow-[0_0_20px_0_rgba(0,0,0,0.2)]
               "
             />
           </div>
@@ -89,14 +90,23 @@ const Video = ({ video,contentLevel }) => {
             flex-col
             justify-center
             items-center
-            gap-2
+            gap-1
             cursor-pointer
+            text-gray-50
+            transition-all
+            duration-200
+            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+            p-10
+            rounded-lg
+            hover:text-green-400
+            active:text-red-400
             '
             >
               <img 
               className='
               h-10
               w-10 
+              rounded-sm
               '
               src={contentLevel.img} 
               alt="" />
@@ -111,6 +121,14 @@ const Video = ({ video,contentLevel }) => {
             items-center
             gap-3
             cursor-pointer
+            text-gray-50
+            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+            p-10
+            rounded-lg
+            transition-all
+            duration-200
+            hover:text-green-400
+            active:text-red-400
             '>
               <span><RiFileDownloadFill/></span>
               <span>دانلود سوالات</span>

@@ -4,7 +4,7 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle }) => {
+const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,setShowModalVideo }) => {
 
 
 
@@ -118,7 +118,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
                 onClick={() => {
                   video.isFree
                   ?onSelecteVideo(video.vid)
-                  :console.log("error")
+                  :setShowModalVideo(true)
                 }}
                 className={`
                 flex

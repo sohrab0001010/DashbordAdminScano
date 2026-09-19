@@ -46,6 +46,7 @@ const Chapter = () => {
     const [selectedVideo,setSelectedVideo] = useState(null)
     const [openCode,setOpenCode] = useState(null)
     const [contentLevel,setContentLevel] = useState(null)
+    const [showModalVideo,setShowModalVideo] = useState(false)
 
 
     const handleToggle = item => {
@@ -125,6 +126,7 @@ const Chapter = () => {
                 onSelecteVideo={setSelectedVideo}
                 isOpen={openCode === item.codeNumber}
                 onToggle={() => handleToggle(item)}
+                setShowModalVideo={setShowModalVideo}
                 />
               ))
             }
@@ -132,7 +134,10 @@ const Chapter = () => {
 
       </div>
 
-      <VideoModal/>
+      <VideoModal
+      setShowModalVideo={setShowModalVideo}
+      sohwModalVideo={showModalVideo}
+      />
     </div>
   )
 }

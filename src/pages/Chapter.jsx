@@ -4,6 +4,7 @@ import courses from "../data/dataCourses"
 import Filter from '../components/Chapter/Filter'
 import Level from '../components/Chapter/Level'
 import Video from '../components/Video/Video'
+import VideoModal from '../components/Video/VideoModal'
 
 const Chapter = () => {
 
@@ -71,6 +72,7 @@ const Chapter = () => {
     <div
     className='
     chapterContainer
+    relative
     min-h-screen
     bg-white
     grid
@@ -128,7 +130,9 @@ const Chapter = () => {
             }
           </div>
 
-        </div>
+      </div>
+
+      <VideoModal/>
     </div>
   )
 }

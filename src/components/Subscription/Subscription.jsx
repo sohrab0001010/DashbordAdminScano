@@ -1,10 +1,18 @@
 import React from 'react'
+import { Link, useParams } from 'react-router'
 
 const Subscription = () => {
+
+  const param = useParams()
+  console.log(param)
+
+  const year = param.yearId
+
   return (
-    <button
+    <Link
+    to={`/year/buy/${year}`}
     className='
-    bg-yellow-300    
+    bg-yellow-500    
     text-center
     text-yellow-100
     px-6
@@ -13,11 +21,10 @@ const Subscription = () => {
     cursor-pointer
     border
     border-yellow-100
-
     '
     >
         خرید اشتراک
-    </button>
+    </Link>
   )
 }
 

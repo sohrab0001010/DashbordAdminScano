@@ -8,6 +8,7 @@ import Register from './pages/Register'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Chapter from './pages/Chapter'
+import Buy from './pages/Buy'
 
 const router = createBrowserRouter([
     {
@@ -44,7 +45,12 @@ const router = createBrowserRouter([
             {
                 path: "year/:yearId/:titleCase/:numChapter",
                 element: <Chapter/>
+            },
+            {
+                path: "year/buy/:yearId",
+                element: <Buy/>
             }
+            
         ]
     },
 

@@ -10,6 +10,8 @@ const course = [
     color: "#FFB900",
     subject: "ریاضی",
     nameGrade: "پایه چهارم",
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     contentCourse: [
       {
         name: "کاربرگ ها",
@@ -4257,6 +4259,8 @@ const course = [
     color: "#F97316",
     subject: "ریاضی",
     
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     nameGrade: "پایه پنجم",
     contentCourse: [
       {
@@ -8450,6 +8454,8 @@ const course = [
     emoji: "📘",
     color: "#2563EB",
     subject: "ریاضی",
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     nameGrade: "پایه ششم",
     
     contentCourse: [
@@ -12703,6 +12709,8 @@ const course = [
     color: "#16A34A",
     subject: "ریاضی",
     nameGrade: "پایه هفتم",
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     contentCourse: [
       {
         
@@ -16957,6 +16965,8 @@ const course = [
     color: "#DC2626",
     subject: "ریاضی",
     nameGrade: "پایه هشتم",
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     contentCourse: [
       {
         
@@ -21210,6 +21220,8 @@ const course = [
     
     color: "#F7D7C4",
     subject: "ریاضی",
+    priceGold: "599000 تومان",
+    priceSilver: "299000 تومان",
     nameGrade: "پایه نهم",
     contentCourse: [
       {

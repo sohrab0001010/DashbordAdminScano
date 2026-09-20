@@ -2,6 +2,7 @@ import React from "react";
 import Course from "../components/Home/Course";
 import { Link } from "react-router";
 import courses from "../data/dataCourses";
+import books  from "../data/dataBooks";
 
 const Home = () => {
     const course = [
@@ -23,6 +24,7 @@ const Home = () => {
         items-center
         px-6
         py-12
+        gap-12
       "
         >
             <h1
@@ -57,6 +59,47 @@ const Home = () => {
                         />
                     </Link>
                 ))}
+            </div>
+
+            <h2
+            className="
+            text-4xl
+            font-bold
+            text-[#082567]
+            mt-40
+            "
+            >
+                کتاب های گروه آموزشی ویژا
+            </h2>
+
+            <div
+            className="
+            grid
+            grid-cols-3
+            gap-6
+            "
+            >
+                {
+                    books.map((item,index) => (
+                        <Link
+                        key={index}
+                        className="
+                        "
+                        >
+                            <img 
+                            className="
+                            w-12
+                            h-12
+                            "
+                            src={item.imgBook} 
+                            alt={item.name} />
+
+                            <span>نویسنده : {item.author}</span>
+                            <span>قیمت : {item.price} تومان</span>
+                            <span>موجودی : {item.count} عدد</span>
+                        </Link>
+                    ))
+                }
             </div>
         </main>
     );

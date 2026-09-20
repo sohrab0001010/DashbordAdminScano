@@ -73,6 +73,7 @@ const Chapter = () => {
     <div
     className='
     chapterContainer
+    overflow-x-hidden
     relative
     min-h-screen
     bg-white
@@ -83,6 +84,7 @@ const Chapter = () => {
     px-8
     '
     >
+
       <div className={`
         sectionLeft
         `}>
@@ -136,7 +138,7 @@ const Chapter = () => {
 
       <VideoModal
       setShowModalVideo={setShowModalVideo}
-      sohwModalVideo={showModalVideo}
+      showModalVideo={showModalVideo}
       />
     </div>
   )

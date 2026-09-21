@@ -6,7 +6,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/5.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 7_500_00,
+        discount: 20,
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/6.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 7_900_00,
+        discount: 20,
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/7.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 7_700_00,
+        discount: 20,
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/9.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 9_000_00,
+        discount: 20,
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/10.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 9_500_00,
+        discount: 20,
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ const BOOKS = [
         imgBook: "/images/imgBooks/11.jpg",
         author: "احمدرضا زمانی",
         count: 100,
-        price: 8_000_00
+        price: 9_200_00,
+        discount: 20,
     },
 ]
 

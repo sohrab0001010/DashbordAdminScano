@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link,NavLink } from 'react-router'
 import { MdOutlineQrCodeScanner } from "react-icons/md"
+import { FaShoppingCart } from "react-icons/fa";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 
 const Header = () => {
@@ -125,6 +127,13 @@ const Header = () => {
         </div>
 
 
+        <div
+        className='
+        flex
+        gap-8
+        items-center
+        '
+        >
 
         <span className="
         logo
@@ -134,6 +143,49 @@ const Header = () => {
         ">
           <MdOutlineQrCodeScanner/>
         </span>
+
+        <div
+        className='
+        flex
+        gap-1
+        h-10
+        '
+        >
+          <div
+          className='
+          flex
+          flex-col
+          justify-end
+          '
+          ><Link
+          className='
+          text-3xl
+          text-gray-500
+          '
+          ><AiOutlineShoppingCart/></Link></div>
+          <div
+          className='
+          flex
+          flex-col
+          justify-start
+          '
+          ><span
+          className='
+          felx
+          flex-col
+          justify-center
+          items-center
+          px-4
+          bg-[rgb(0,255,0)]
+          rounded-full
+          rounded-bl-none
+          text-white
+          transition-all
+          duration-300
+          '
+          >0</span></div>
+        </div>
+        </div>
 
       </div>
 

@@ -1,6 +1,14 @@
 import React from 'react'
 
-const Book = ({imgBook,name,price,author,count}) => {
+const Book = ({imgBook,name,price,author,count,discount}) => { 
+
+
+
+
+    const discountedPrice = price - price*discount
+
+
+
     return (
         <div
         className='
@@ -33,7 +41,22 @@ const Book = ({imgBook,name,price,author,count}) => {
                 alt={name} />
 
             <span>نویسنده : {author}</span>
-            <span>قیمت : {price} تومان</span>
+            {
+                discount 
+                ?<>
+                <div>
+                    <span className='line-through'>{price}</span>
+                    <span>{discount}% تخفیف</span>
+                </div>
+                <span>
+                    قیمت با تخفیف: {discountedPrice} تومان
+                </span>
+                </>
+                :<>
+                <span>قیمت : {price} تومان</span>     
+                </>
+                
+            }
             <span>موجودی : {count} عدد</span>
             <button
             onClick={() => console.log('click')}

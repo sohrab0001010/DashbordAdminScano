@@ -5,7 +5,7 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
 
 
 
-    const discountedPrice = price - price*discount
+    const discountedPrice = price - price*discount/100
 
 
 
@@ -41,12 +41,27 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
                 alt={name} />
 
             <span>نویسنده : {author}</span>
+            <span>عنوان : {name}</span>
             {
                 discount 
                 ?<>
-                <div>
+                <div
+                className='
+                flex
+                gap-4
+                items-center
+                '
+                >
                     <span className='line-through'>{price}</span>
-                    <span>{discount}% تخفیف</span>
+                    <span
+                    className='
+                    bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+                    py-2
+                    px-4
+                    text-[rgb(0,255,213)]
+                    rounded-lg
+                    '
+                    > تخفیف %{discount}</span>
                 </div>
                 <span>
                     قیمت با تخفیف: {discountedPrice} تومان
@@ -61,15 +76,14 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
             <button
             onClick={() => console.log('click')}
             className='
-            bg-green-500
+            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             text-white
             cursor-pointer
             p-4
             rounded-2xl
             transition-all
             duration-300
-            hover:bg-[rgb(0,255,0)]
-            hover:text-green-700
+            hover:text-[rgb(0,255,213)]
             '
             >+ افزودن به سبد خرید</button>
         </div>

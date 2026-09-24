@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Chapter from './pages/Chapter'
 import Buy from './pages/Buy'
+import BasketShop from './pages/BasketShop'
 
 const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
             {
                 path: "year/buy/:yearId",
                 element: <Buy/>
+            },
+            {
+                path: "basket-shop",
+                element: <BasketShop/>
             }
             
         ]

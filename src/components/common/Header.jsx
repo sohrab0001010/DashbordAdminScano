@@ -158,6 +158,7 @@ const Header = () => {
           justify-end
           '
           ><Link
+          to={'basket-shop'}
           className='
           text-3xl
           text-gray-500

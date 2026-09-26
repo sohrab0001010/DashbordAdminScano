@@ -1,13 +1,13 @@
 import React from 'react'
 import { RouterProvider } from 'react-router'
 import router from "./routes"
-import BasketContext from './components/context/BasketContext'
+import BasketProvider from './components/context/BasketProvider'
 
 const App = () => {
   return (
-    <BasketContext.Provider>
+    <BasketProvider>
       <RouterProvider router={router}/>
-    </BasketContext.Provider>
+    </BasketProvider>
   )
 }
 

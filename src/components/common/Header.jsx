@@ -31,6 +31,7 @@ const Header = () => {
 
 
   return (
+    <>
     <header
       className="
     flex
@@ -51,16 +52,25 @@ const Header = () => {
       text-sky-100
       text-xl
       ">{discounts}</div>
+
+
+    </header>
+    
       <div className="
       section-bottom
       flex
       flex-row-reverse
       items-center
       justify-between
+      sticky
+      top-0
+      z-50
       p-10
       border-b
       border-gray-100
+      backdrop-blur-[3rem]
       shadow-[0_4px_15px_rgba(0,0,0,0.08)]
+      rounded-b-2xl
       ">
         <div className="
         flex
@@ -77,10 +87,11 @@ const Header = () => {
            gap-3
            rounded-lg
            border
-           border-gray-400
+           border-gray-500
            px-4
            py-2
-           text-gray-400
+           text-gray-500
+           font-medium
            text-[1.2rem]
            select-none
            transition-all
@@ -100,7 +111,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
+            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
           }}end
           to={"/"}
           >خانه</NavLink>
@@ -110,7 +121,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
+            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
           }}end
           to={"/aboutUs"}
           >درباره ما</NavLink>
@@ -120,7 +131,7 @@ const Header = () => {
 
             return isActive
             ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-400 hover:text-[#0C2965]"
+            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
           }}end
           to={"/contactUs"}
           >تماس با ما</NavLink>
@@ -190,7 +201,7 @@ const Header = () => {
 
       </div>
 
-    </header>
+    </>
   )
 }
 

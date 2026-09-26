@@ -86,7 +86,7 @@ const Home = () => {
                         key={index} 
                         >
                             <Book
-                            {...book}
+                            book={book}
                             />
                         </Link>
                     ))

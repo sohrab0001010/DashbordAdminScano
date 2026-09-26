@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import BasketContext from '../context/BasketContext'
 
-const Book = ({imgBook,name,price,author,count,discount}) => { 
+const Book = ({book}) => { 
 
 
 
+    const { addToBasket } = useContext(BasketContext)
 
-    const discountedPrice = price - price*discount/100
+    const discountedPrice = book.price - book.price*book.discount/100
 
 
 
@@ -37,13 +39,13 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
                 rounded-sm
                 shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
                 "
-                src={imgBook}
-                alt={name} />
+                src={book.imgBook}
+                alt={book.name} />
 
-            <span>نویسنده : {author}</span>
-            <span>عنوان : {name}</span>
+            <span>نویسنده : {book.author}</span>
+            <span>عنوان : {book.name}</span>
             {
-                discount 
+                book.discount 
                 ?<>
                 <div
                 className='
@@ -52,7 +54,7 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
                 items-center
                 '
                 >
-                    <span className='line-through'>{price}</span>
+                    <span className='line-through'>{book.price}</span>
                     <span
                     className='
                     bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
@@ -61,20 +63,20 @@ const Book = ({imgBook,name,price,author,count,discount}) => {
                     text-[rgb(0,255,213)]
                     rounded-lg
                     '
-                    > تخفیف %{discount}</span>
+                    > تخفیف %{book.discount}</span>
                 </div>
                 <span>
-                    قیمت با تخفیف: {discountedPrice} تومان
+                    قیمت با تخفیف: {book.discountedPrice} تومان
                 </span>
                 </>
                 :<>
-                <span>قیمت : {price} تومان</span>     
+                <span>قیمت : {book.price} تومان</span>     
                 </>
                 
             }
-            <span>موجودی : {count} عدد</span>
+            <span>موجودی : {book.count} عدد</span>
             <button
-            onClick={() => console.log('click')}
+            onClick={() => addToBasket(book)}
             className='
             bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             text-white

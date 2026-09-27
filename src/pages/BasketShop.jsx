@@ -2,17 +2,17 @@ import React, { useContext } from 'react'
 import BasketContext from '../components/context/BasketContext'
 import { ImFilesEmpty } from "react-icons/im";
 import LeftBasket from '../components/BasketShop/LeftBasket';
+import RightBasket from '../components/BasketShop/RightBasket';
 
 const BasketShop = () => {
 
   const {basket} = useContext(BasketContext)
 
-  console.log(basket.length)
+  console.log(basket)
 
   return (
     <div
     className='
-    bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
     px-24
     py-8
     '
@@ -58,10 +58,12 @@ const BasketShop = () => {
           
           <div className="
           rightBasket
-          bg-black
-          h-10
+          py-4
+          px-2
           ">
-
+            <RightBasket
+            basket={basket}
+            />
           </div>
         </div>
       }

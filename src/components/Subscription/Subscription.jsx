@@ -1,3 +1,5 @@
+{/* this section  relates to hte subscription purchese button */}
+
 import React from 'react'
 import { Link, useParams } from 'react-router'
 

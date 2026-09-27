@@ -66,7 +66,7 @@ const Book = ({book}) => {
                     > تخفیف %{book.discount}</span>
                 </div>
                 <span>
-                    قیمت با تخفیف: {book.discountedPrice} تومان
+                    قیمت با تخفیف: {discountedPrice} تومان
                 </span>
                 </>
                 :<>

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { VscTrash } from "react-icons/vsc";
 
 const RightBasket = ({basket}) => {
+
+  const [quantity,setQuantity] = useState(1)
 
 
 
@@ -38,7 +40,7 @@ const RightBasket = ({basket}) => {
           dir='rtl'
           className='
           grid
-          grid-cols-[2fr_2fr_3fr_1fr]
+          grid-cols-[2fr_3fr_4fr_2fr]
           gap-8
           items-center
           '
@@ -112,9 +114,48 @@ const RightBasket = ({basket}) => {
             <div className="
             trash
             flex
-            justify-end
+            flex-col
+            gap-8
             ">
-              <VscTrash/>
+              <span>تعداد : {quantity}</span>
+              
+              <div
+              className='
+              flex
+              items-center
+              justify-between
+              '
+              >
+                <span
+                className='
+                px-2
+                py-0.5
+                rounded-sm
+                bg-green-400
+                text-white
+                cursor-pointer
+                '
+                >+</span>
+                <VscTrash
+                className='
+                cursor-pointer
+                transition-all
+                duration-300
+                hover:text-xl
+                '
+                />
+                <span
+                className='
+                px-2
+                py-0.5
+                rounded-sm
+                bg-red-400
+                text-white
+                cursor-pointer
+                '
+                >-</span>
+              </div>
+
             </div>
           </div>
         ))

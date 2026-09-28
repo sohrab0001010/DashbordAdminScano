@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import BasketContext from '../components/context/BasketContext'
 import { ImFilesEmpty } from "react-icons/im";
 import LeftBasket from '../components/BasketShop/LeftBasket';
@@ -6,7 +6,8 @@ import RightBasket from '../components/BasketShop/RightBasket';
 
 const BasketShop = () => {
 
-  const {basket} = useContext(BasketContext)
+  const {basket} = useContext(BasketContext);
+
 
   console.log(basket)
 

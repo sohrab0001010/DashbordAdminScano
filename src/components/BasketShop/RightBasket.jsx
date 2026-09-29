@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { VscTrash } from "react-icons/vsc";
+import BasketContext from '../context/BasketContext';
 
 const RightBasket = ({basket}) => {
 
-  const [quantity,setQuantity] = useState(1)
 
 
 
@@ -127,6 +127,7 @@ const RightBasket = ({basket}) => {
               '
               >
                 <span
+                onClick={() => increaseQuantity(item.id)}
                 className='
                 px-2
                 py-0.5
@@ -137,6 +138,7 @@ const RightBasket = ({basket}) => {
                 '
                 >+</span>
                 <VscTrash
+                onClick={() => removeBook(item.id)}
                 className='
                 cursor-pointer
                 transition-all
@@ -145,6 +147,7 @@ const RightBasket = ({basket}) => {
                 '
                 />
                 <span
+                onClick={() => decreaseQuantity(item.id)}
                 className='
                 px-2
                 py-0.5

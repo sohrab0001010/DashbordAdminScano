@@ -1,13 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link,NavLink } from 'react-router'
 import { MdOutlineQrCodeScanner } from "react-icons/md"
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import BasketContext from '../context/BasketContext';
 
 
 const Header = () => {
 
   const [discounts, setDiscounts] = useState("")
+
+  const { basket } = useContext(BasketContext)
+
+  const orderQuantity = basket.reduce(
+    (sum,item) => sum + item.quantity,0
+  )
 
   useEffect(() => {
     const fetchDiscount = async () => {
@@ -195,7 +202,7 @@ const Header = () => {
           transition-all
           duration-300
           '
-          >0</span></div>
+          >{orderQuantity}</span></div>
         </div>
         </div>
 

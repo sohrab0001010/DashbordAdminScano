@@ -1,7 +1,41 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router'
+import BasketContext from '../context/BasketContext';
+
+
 
 const LeftBasket = () => {
+
+    const {basket} = useContext(BasketContext)
+
+    {/*
+        Total amount before discount            
+    */}
+    const totalAmount = basket.reduce(
+        (sum,item) => sum + item.price * item.quantity,0
+    )
+
+
+    {/*
+        Total discount on all books    
+    */}
+    const totalDiscount =
+    Math.round(
+        basket.reduce(
+            (sum,item) => 
+                sum + (item.price*(item.discount || 0)/100)*item.quantity,0
+        )
+    ) 
+
+    {/*
+        Amount payable
+    */}
+    const payable = totalAmount - totalDiscount
+
+
+
+
+
   return (
     <div
     className='
@@ -45,7 +79,7 @@ const LeftBasket = () => {
             items-center
             ">
                 <span dir='rtl'>
-                    <span>3000000</span>
+                    <span>{totalAmount}</span>
                     تومان
                 </span>
                 <span>مبلغ کل</span>
@@ -62,7 +96,7 @@ const LeftBasket = () => {
             ">
                 <span>مبلغ تخفیف</span>
                 <span>
-                    <span>200000</span>
+                    <span>{totalDiscount}</span>
                     تومان
                 </span>
             </div>
@@ -70,7 +104,7 @@ const LeftBasket = () => {
             <hr 
             className='
             w-full
-            border-t-1
+            border-t
             border-gray-200
             '
             />
@@ -86,7 +120,7 @@ const LeftBasket = () => {
             ">
                 <span> قابل پرداخت</span>
                 <span>
-                    <span>280000</span>
+                    <span>{payable}</span>
                     تومان
                 </span>
             </div>

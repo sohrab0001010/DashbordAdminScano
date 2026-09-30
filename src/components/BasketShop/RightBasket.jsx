@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { VscTrash } from "react-icons/vsc";
 import BasketContext from '../context/BasketContext';
 
 const RightBasket = ({basket}) => {
 
-
+const {increaseQuantity,removeBook,decreaseQuantity} = useContext(BasketContext)
 
 
 
@@ -20,6 +20,7 @@ const RightBasket = ({basket}) => {
     shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
     rounded-lg
     text-gray-500
+    select-none
     '
     >
       <h2
@@ -117,7 +118,7 @@ const RightBasket = ({basket}) => {
             flex-col
             gap-8
             ">
-              <span>تعداد : {quantity}</span>
+              <span>تعداد : {item.quantity}</span>
               
               <div
               className='

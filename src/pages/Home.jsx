@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Course from "../components/Home/Course";
 import { Link } from "react-router";
 import courses from "../data/dataCourses";
 import books  from "../data/dataBooks";
 import Book from "../components/Home/Book";
+import Modal from "../components/Modal/Modal";
+import modalConfig from "../components/Modal/modalConfig";
 
 const Home = () => {
     const course = [
@@ -14,6 +16,10 @@ const Home = () => {
     { title: "پایه هشتم", emoji: "📕", id: 8, color: "#DC2626" }, // قرمز
     { title: "پایه نهم", emoji: "📔", id: 9, color: "#F7D7C4" }, // صورتی
 ];
+
+
+    const [showModal,setShowModal] = useState(false)
+    const [keyModal,setKeyModal] = useState(0)
     
 
     return (
@@ -87,11 +93,24 @@ const Home = () => {
                         >
                             <Book
                             book={book}
+                            onShowModal={setShowModal}
+                            onKey={setKeyModal}
                             />
                         </Link>
                     ))
                 }
             </div>
+            {
+                showModal && 
+                <Modal
+                key={keyModal}
+                title={modalConfig.error.title}
+                message={modalConfig.existProduct.message}
+                icon={modalConfig.error.icon}
+                bgIcon={modalConfig.error.iconBg}
+                borderIcon={modalConfig.error.borderIcon}
+                />
+            }
         </main>
     );
 };

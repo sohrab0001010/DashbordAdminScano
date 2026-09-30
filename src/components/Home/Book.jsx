@@ -1,7 +1,8 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import BasketContext from '../context/BasketContext'
 
-const Book = ({book}) => { 
+
+const Book = ({book,onShowModal,onKey}) => { 
 
 
 
@@ -9,7 +10,15 @@ const Book = ({book}) => {
 
     const discountedPrice = book.price - book.price*book.discount/100
 
+    const handleAddToBasket = () => {
+        if (book.count > 0) {
+            addToBasket(book)
 
+        } else {
+            onKey(prev => prev + 1)
+            onShowModal(true)
+        }
+    }
 
     return (
         <div
@@ -76,7 +85,7 @@ const Book = ({book}) => {
             }
             <span>موجودی : {book.count} عدد</span>
             <button
-            onClick={() => addToBasket(book)}
+            onClick={handleAddToBasket}
             className='
             bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             text-white

@@ -34,6 +34,10 @@ const modalConfig = {
 
   successLogin : {message : "شما وارد حساب خود شدید"},
 
+  existProduct : {message : "فعلا این محصول در انبار مجود نمی‌باشد"},
+
+  beingLow : {message : "بیش از این تعداد در انبار مجود نمی باشد"}
+
 
 
   // emptyFields : {message : "message"},

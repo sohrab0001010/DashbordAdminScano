@@ -27,7 +27,7 @@ const Modal = ({
         fixed
         top-4
         left-4
-        z-50
+        z-110
 
         flex
         flex-row-reverse

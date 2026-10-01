@@ -36,7 +36,7 @@ const modalConfig = {
 
   existProduct : {message : "فعلا این محصول در انبار مجود نمی‌باشد"},
 
-  beingLow : {message : "بیش از این تعداد در انبار مجود نمی باشد"}
+  beingLow : {message : "بیشتر از این تعداد در انبار مجود نمی باشد"}
 
 
 

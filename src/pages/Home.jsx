@@ -20,6 +20,14 @@ const Home = () => {
 
     const [showModal,setShowModal] = useState(false)
     const [keyModal,setKeyModal] = useState(0)
+    const [modalType,setModalType] = useState("")
+
+
+    const handleShowModal = type => {
+        setModalType(type)
+        setShowModal(true)
+        setKeyModal(prev => prev + 1)
+    }
     
 
     return (
@@ -93,8 +101,7 @@ const Home = () => {
                         >
                             <Book
                             book={book}
-                            onShowModal={setShowModal}
-                            onKey={setKeyModal}
+                            onShowModal={handleShowModal}
                             />
                         </Link>
                     ))
@@ -105,7 +112,11 @@ const Home = () => {
                 <Modal
                 key={keyModal}
                 title={modalConfig.error.title}
-                message={modalConfig.existProduct.message}
+                message={
+                    modalType === "beingLow"
+                    ?modalConfig.beingLow.message
+                    :modalConfig.existProduct.message
+                }
                 icon={modalConfig.error.icon}
                 bgIcon={modalConfig.error.iconBg}
                 borderIcon={modalConfig.error.borderIcon}

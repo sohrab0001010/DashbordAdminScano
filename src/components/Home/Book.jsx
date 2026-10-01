@@ -2,11 +2,11 @@ import React, { useContext, useState } from 'react'
 import BasketContext from '../context/BasketContext'
 
 
-const Book = ({book,onShowModal,onKey}) => { 
+const Book = ({book,onShowModal}) => { 
 
 
 
-    const { addToBasket } = useContext(BasketContext)
+    const { addToBasket,basket } = useContext(BasketContext)
 
     const discountedPrice = book.price - book.price*book.discount/100
 
@@ -14,9 +14,10 @@ const Book = ({book,onShowModal,onKey}) => {
         if (book.count > 0) {
             addToBasket(book)
 
+        } else if (book.quantity === basket.quantity){
+            onShowModal("beingLow")
         } else {
-            onKey(prev => prev + 1)
-            onShowModal(true)
+            onShowModal("notExist")
         }
     }
 

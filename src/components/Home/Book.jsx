@@ -11,14 +11,23 @@ const Book = ({book,onShowModal}) => {
     const discountedPrice = book.price - book.price*book.discount/100
 
     const handleAddToBasket = () => {
-        if (book.count > 0) {
-            addToBasket(book)
+        const choosenBook = basket.find(item => item.id == book.id)
 
-        } else if (book.quantity === basket.quantity){
-            onShowModal("beingLow")
-        } else {
+        const currentQuantity = choosenBook
+        ?choosenBook.quantity
+        :0
+
+        if (book.count === 0) {
             onShowModal("notExist")
+            return
         }
+
+        if (currentQuantity === book.count) {
+            onShowModal("beingLow")
+            return
+        }
+
+        addToBasket(book)
     }
 
     return (

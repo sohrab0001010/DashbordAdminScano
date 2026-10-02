@@ -8,6 +8,8 @@ const LeftBasket = () => {
 
     const {basket} = useContext(BasketContext)
 
+    console.log(basket)
+
     {/*
         Total amount before discount            
     */}
@@ -126,6 +128,7 @@ const LeftBasket = () => {
             </div>
 
             <Link
+            to={'/get-address'}
             className='
             bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
             text-[rgb(0,255,213)]

@@ -3,25 +3,28 @@ import BasketContext from '../components/context/BasketContext'
 import { ImFilesEmpty } from "react-icons/im";
 import LeftBasket from '../components/BasketShop/LeftBasket';
 import RightBasket from '../components/BasketShop/RightBasket';
+import Modal from "../components/Modal/Modal"
+import modalConfig from "../components/Modal/modalConfig";
 
 const BasketShop = () => {
 
-  const {basket} = useContext(BasketContext);
-
+  const { basket } = useContext(BasketContext);
+  const [showModal, setShowModal] = useState(false)
+  const [keyModal,setKeyModal] = useState(0)
 
   console.log(basket)
 
   return (
     <div
-    className='
+      className='
     px-24
     py-8
     '
     >
       {
         basket.length === 0
-        ?<div
-        className='
+          ? <div
+            className='
         border
         bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
         border-gray-400
@@ -34,39 +37,52 @@ const BasketShop = () => {
         rounded-2xl
         text-gray-100
         '
-        >
-          <span>
-            سبد خرید شما خالی است
-          </span>
-          <span className='text-3xl'>
-            <ImFilesEmpty/>
-          </span>
-        </div>
-        :<div
-        className='
+          >
+            <span>
+              سبد خرید شما خالی است
+            </span>
+            <span className='text-3xl'>
+              <ImFilesEmpty />
+            </span>
+          </div>
+          : <div
+            className='
         bg-white
         grid
         grid-cols-[4fr_6fr]
         '
-        >
-          <div className="
+          >
+            <div className="
           leftBasket
           py-4
           px-2
           ">
-            <LeftBasket/>
-          </div>
-          
-          <div className="
+              <LeftBasket />
+            </div>
+
+            <div className="
           rightBasket
           py-4
           px-2
           ">
-            <RightBasket
-            basket={basket}
-            />
+              <RightBasket
+                basket={basket}
+                onKey={setKeyModal}
+                onShowModal={setShowModal}
+              />
+            </div>
           </div>
-        </div>
+      }
+      {
+        showModal &&
+        <Modal
+        key={keyModal}
+        title={modalConfig.error.title}
+        message={modalConfig.beingLow.message}
+        icon={modalConfig.error.icon}
+        bgIcon={modalConfig.error.iconBg}
+        borderIcon={modalConfig.error.borderIcon}
+        />
       }
     </div>
   )

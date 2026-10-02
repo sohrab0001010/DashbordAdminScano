@@ -2,9 +2,21 @@ import React, { useContext, useState } from 'react';
 import { VscTrash } from "react-icons/vsc";
 import BasketContext from '../context/BasketContext';
 
-const RightBasket = ({basket}) => {
+const RightBasket = ({basket,onKey,onShowModal}) => {
 
 const {increaseQuantity,removeBook,decreaseQuantity} = useContext(BasketContext)
+
+const handleAddBook = id => {
+  const chosenBook = basket.find(item => item.id === id)
+
+  if (chosenBook.quantity === chosenBook.count) {
+    onShowModal(true)
+    onKey(prev => prev + 1)
+
+  } else {
+    increaseQuantity(id)
+  }
+}
 
 
 
@@ -128,7 +140,7 @@ const {increaseQuantity,removeBook,decreaseQuantity} = useContext(BasketContext)
               '
               >
                 <span
-                onClick={() => increaseQuantity(item.id)}
+                onClick={() => handleAddBook(item.id)}
                 className='
                 px-2
                 py-0.5

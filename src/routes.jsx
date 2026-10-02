@@ -10,6 +10,7 @@ import ContactUs from './pages/ContactUs'
 import Chapter from './pages/Chapter'
 import Buy from './pages/Buy'
 import BasketShop from './pages/BasketShop'
+import Payment from './pages/Payment'
 
 const router = createBrowserRouter([
     {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
             {
                 path: "basket-shop",
                 element: <BasketShop/>
+            },
+            {
+                path: 'get-address',
+                element: <Payment/>
             }
             
         ]

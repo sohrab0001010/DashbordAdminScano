@@ -12,8 +12,29 @@
     console.log(basket)
 
    return (
-     <div>
-        is final payment
+     <div
+     className="
+     flex
+     h-screen
+     "
+     >
+       <div className="
+       left-section
+       bg-blue-300
+       h-full
+       w-full
+       ">
+
+       </div>
+       
+       <div className="
+       right-section
+       bg-blue-500
+       h-full
+       w-full
+       ">
+
+       </div>
      </div>
    )
  }

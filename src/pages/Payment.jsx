@@ -3,6 +3,8 @@
  */}
  import React, { useContext } from 'react'
  import BasketContext from '../components/context/BasketContext';
+import Selected from '../components/Payment/Selected';
+import  Form  from '../components/Payment/Form';
 
 
  
@@ -20,20 +22,31 @@
      >
        <div className="
        left-section
-       bg-blue-300
        h-full
        w-full
+       py-24
+       px-24
        ">
-
+        <Form/>
        </div>
        
        <div className="
        right-section
-       bg-blue-500
        h-full
        w-full
+       py-4
+       px-24
+       flex
+       flex-col
+       gap-4
        ">
-
+          {
+            basket.map(item => (
+              <Selected
+              {...item}
+              />
+            ))
+          }     
        </div>
      </div>
    )

@@ -86,10 +86,10 @@ const Form = () => {
             placeholder='شهر'
             />
 
-            <input
+            <textarea
+            rows={4}
             dir='rtl' 
             type="textaria"
-            aria-rowcount={2}
             row
             className='
             bg-white

@@ -16,7 +16,7 @@ const modalConfig = {
     borderIcon: "bg-red-200",
   },
 
-  inValidPhone : {message : "لطفا  یک فرمت صحیح وارد کنید"},
+  inValidPhone : {message : "لطفا شماره تلفن را با فرمت صحیح وارد کنید"},
 
   emptyFields : {message : "لطفا تمام فیلد ها را پر کنید"},
 
@@ -36,7 +36,9 @@ const modalConfig = {
 
   existProduct : {message : "فعلا این محصول در انبار مجود نمی‌باشد"},
 
-  beingLow : {message : "بیشتر از این تعداد در انبار مجود نمی باشد"}
+  beingLow : {message : "بیشتر از این تعداد در انبار مجود نمی باشد"},
+
+  inValidPostalCode : {message : "لطفا کد پستی را با فرمت صحیح وارد کنید"}
 
 
 

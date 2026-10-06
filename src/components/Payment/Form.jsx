@@ -210,7 +210,20 @@ const Form = () => {
 
         {
           conditionModal && 
-          <Modal/>
+          <Modal
+          key={keyModal}
+          title={modalConfig.error.title}
+          message={
+            conditionModal === "emptyInput"
+            ?modalConfig.emptyFields.message
+            :conditionModal === "notValidPhone"
+            ?modalConfig.inValidPhone.message
+            :modalConfig.inValidPostalCode.message
+          }
+          icon={modalConfig.error.icon}
+          bgIcon={modalConfig.error.iconBg}
+          borderIcon={modalConfig.error.borderIcon}
+          />
         }
     </div>
   )

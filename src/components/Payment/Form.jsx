@@ -1,12 +1,63 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from '../Modal/Modal'
+import modalConfig from '../Modal/modalConfig'
+import { useNavigate } from 'react-router'
 
 const Form = () => {
+
+  const navigate = useNavigate();
+
+  const [phone,setPhone] = useState()
+  const [postalCode,setPostalCode] = useState()
+  const [username,setUsername] = useState("")
+  const [province,setProvince] = useState("")
+  const [city,setCity] = useState("")
+  const [address,setAddress] = useState("")
+  const [conditionModal,setConditionModal] = useState(false)
+  const [keyModal,setKeyModal] = useState(0)
+
+
+
+  const validPostal = /^\d{10}$/
+  const validPhone = /^09\d{9}$/
+
+  const validationForm = e => {
+
+    e.preventDefault()
+    
+    if (
+      !username || !phone   || !province
+      || !city  || !address || !postalCode
+    ) {
+      setConditionModal("emptyInput")
+      setKeyModal(prev => prev + 1)
+      return
+    }
+
+    if (!validPhone.test(phone)) {
+      setConditionModal("notValidPhone")
+      setKeyModal(prev => prev + 1)
+      return
+    }
+
+    if (!validPostal.test(postalCode)) {
+      setConditionModal("notValidPostal")
+      setKeyModal(prev => prev + 1)
+      return
+    }
+
+
+    navigate("/final-payment")
+  }
+
+
+
   return (
     <div
 
     >
         <form 
-        action=""
+        onSubmit={validationForm}
         className='
         flex
         flex-col
@@ -14,6 +65,8 @@ const Form = () => {
         '
         >
             <input
+            value={username}
+            onChange={e => setUsername(e.target.value)}
             dir='rtl' 
             type="text" 
             className='
@@ -32,9 +85,11 @@ const Form = () => {
             />
 
             <input
+            onChange={e => setPhone(e.target.value)}
             dir='rtl' 
             type="text"
             inputMode="numeric" 
+            value={phone}
             className='
             bg-white
             py-2
@@ -51,6 +106,8 @@ const Form = () => {
             />
 
             <input
+            value={province}
+            onChange={e => setProvince(e.target.value)}
             dir='rtl' 
             type="text" 
             className='
@@ -69,6 +126,8 @@ const Form = () => {
             />
 
             <input
+            value={city}
+            onChange={e => setCity(e.target.value)}
             dir='rtl' 
             type="text" 
             className='
@@ -87,6 +146,8 @@ const Form = () => {
             />
 
             <textarea
+            value={address}
+            onChange={e => setAddress(e.target.value)}
             rows={4}
             dir='rtl' 
             type="textaria"
@@ -107,6 +168,8 @@ const Form = () => {
             />
 
             <input
+            value={postalCode}
+            onChange={e => setPostalCode(e.target.value)}
             dir='rtl' 
             type="text" 
             inputMode="numeric"
@@ -144,6 +207,11 @@ const Form = () => {
             '
             />
         </form>
+
+        {
+          conditionModal && 
+          <Modal/>
+        }
     </div>
   )
 }

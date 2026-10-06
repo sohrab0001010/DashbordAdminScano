@@ -11,6 +11,8 @@ import Chapter from './pages/Chapter'
 import Buy from './pages/Buy'
 import BasketShop from './pages/BasketShop'
 import Payment from './pages/Payment'
+import { FaTerminal } from 'react-icons/fa'
+import FinalPayment from './pages/FinalPayment'
 
 const router = createBrowserRouter([
     {
@@ -59,6 +61,10 @@ const router = createBrowserRouter([
             {
                 path: 'get-address',
                 element: <Payment/>
+            },
+            {
+                path: "final-payment",
+                element: <FinalPayment/>
             }
             
         ]

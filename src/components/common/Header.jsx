@@ -86,7 +86,8 @@ const Header = () => {
         gap-8
         text-[1.2rem]
         ">
-          {<Link to={"/login"}>
+          {
+            <Link to={"/login"}>
             <div className="
            flex
            flex-row-reverse
@@ -111,7 +112,8 @@ const Header = () => {
               <span className="opacity-50">|</span>
               <span>ثبت نام</span>
             </div>
-          </Link>}
+            </Link>
+          }
 
           <NavLink 
           className={({isActive}) => {

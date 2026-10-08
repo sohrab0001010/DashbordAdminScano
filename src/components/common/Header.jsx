@@ -4,6 +4,7 @@ import { MdOutlineQrCodeScanner } from "react-icons/md"
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { LuUserRound } from "react-icons/lu";
+import { BiHomeSmile } from "react-icons/bi";
 import BasketContext from '../context/BasketContext';
 import {AuthContext} from "../context/AuthContext"
 
@@ -95,20 +96,71 @@ const Header = () => {
             ?<div
             className='
             flex
-            items-center
+            flex-col
             gap-4
-            border
-            border-white
-            px-4
-            py-2
-            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
-            text-[rgb(0,255,213)]
-            rounded-lg
-            cursor-pointer
             '
             >
+              <span
+              className='
+              w-14
+              h-14
+              flex
+              items-center
+              justify-center
+              shirink-0
+              border
+              border-[rgb(0,255,213)]
+              p-4
+              bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+              text-[rgb(0,255,213)]
+              rounded-full
+              cursor-pointer
+              '
+              >
               <LuUserRound/>
-              <span>{user.name}</span>
+              </span>
+              <div className="
+              felx
+              flex-col
+              gap-8
+              items-center
+              absolute
+              top-25
+              mt-3
+              right-12
+              px-4
+              py-6
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              ">
+
+                <div className="
+                propertyUser
+                flex
+                flex-col
+                gap-4
+                ">
+                <span>Mohammad Reza Zamani</span>
+                <span>09902436396</span>
+                </div>
+
+                <div className="
+                userDashbord
+                flex
+                flex-col
+                border
+                ">
+                <div className="
+                flex
+                items-center
+                gpa-4
+                ">
+                  <span><BiHomeSmile/></span>
+                  <span>پیشخوان</span>
+                </div>
+
+                </div>
+
+              </div>
             </div>
 
             :<Link to={"/login"}>

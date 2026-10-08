@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { useNavigate } from "react-router";
 import { CgArrowLeft } from "react-icons/cg";
@@ -7,7 +7,8 @@ import users from "../data/dataUsers"
 import OTPTimer from "../components/OTPTimer/OTPTimer";
 import Modal from "../components/Modal/Modal";
 import modalConfig from "../components/Modal/modalConfig";
-import { MdOutlineQrCodeScanner } from "react-icons/md"
+import { MdOutlineQrCodeScanner } from "react-icons/md";
+import { AuthContext } from "../components/context/AuthContext";
 
 
 const Login = () => {
@@ -17,6 +18,9 @@ const Login = () => {
   const [modalkey, setModalkey] = useState(0)
   const inputRef = useRef([]);
   const navigate = useNavigate()
+
+
+  const { user, setUser } = useContext(AuthContext)
 
   const phoneRegex = /^09\d{9}$/;
 
@@ -48,10 +52,20 @@ const Login = () => {
   };
 
   const handleLogin = type => {
-    if (type === "valid") {
-      setCondition("loginUser")
-      setModalkey(prev => prev + 1)
 
+    const userLogged = users.find(user => user.phone == number)
+
+    if (userLogged) {
+      setUser(userLogged)
+
+      if (type === "valid") {
+        setCondition("loginUser")
+        setModalkey(prev => prev + 1)
+      }
+
+      setTimeout(() => {
+        navigate("/")
+      },2000)
     }
   }
 
@@ -85,30 +99,30 @@ const Login = () => {
           key={modalkey}
           title={
             condition === "loginUser"
-            ?modalConfig.success.title
-            :modalConfig.error.title
+              ? modalConfig.success.title
+              : modalConfig.error.title
           }
           message={
             condition === "empty"
               ? modalConfig.emptyFields.message
-              :condition === "loginUser"
-              ?modalConfig.successLogin.message
-              : modalConfig.inValidPhone.message
+              : condition === "loginUser"
+                ? modalConfig.successLogin.message
+                : modalConfig.inValidPhone.message
           }
           icon={
             condition === "loginUser"
-            ?modalConfig.success.icon
-            :modalConfig.error.icon
+              ? modalConfig.success.icon
+              : modalConfig.error.icon
           }
           bgIcon={
             condition === "loginUser"
-            ?modalConfig.success.iconBg
-            :modalConfig.error.iconBg
+              ? modalConfig.success.iconBg
+              : modalConfig.error.iconBg
           }
           borderIcon={
             condition === "loginUser"
-            ?modalConfig.success.borderIcon
-            :modalConfig.error.borderIcon
+              ? modalConfig.success.borderIcon
+              : modalConfig.error.borderIcon
           }
         />
       )}
@@ -116,7 +130,7 @@ const Login = () => {
 
 
       {/* Logo */}
-      <span className="text-5xl text-sky-500 cursor-pointer"><MdOutlineQrCodeScanner/></span>
+      <span className="text-5xl text-sky-500 cursor-pointer"><MdOutlineQrCodeScanner /></span>
 
       {/* Form Wrapper */}
       <div
@@ -185,8 +199,8 @@ const Login = () => {
           {
             confirm &&
             <button
-            onClick={() => setConfirm(false)}
-            className="
+              onClick={() => setConfirm(false)}
+              className="
             bg-transparent
             border-none
             outline-none
@@ -285,8 +299,8 @@ const Login = () => {
                     کد به شماره {number} ارسال شد
                   </span>
                 </div>
-                <OTPInput 
-                onLogin={handleLogin}
+                <OTPInput
+                  onLogin={handleLogin}
                 />
               </>
             ) : (

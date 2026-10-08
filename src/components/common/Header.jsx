@@ -3,14 +3,17 @@ import { Link,NavLink } from 'react-router'
 import { MdOutlineQrCodeScanner } from "react-icons/md"
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { LuUserRound } from "react-icons/lu";
 import BasketContext from '../context/BasketContext';
+import {AuthContext} from "../context/AuthContext"
 
 
 const Header = () => {
 
   const [discounts, setDiscounts] = useState("")
 
-  const { basket } = useContext(BasketContext)
+  const { basket } = useContext(BasketContext) 
+  const { user } = useContext(AuthContext)
 
   const orderQuantity = basket.reduce(
     (sum,item) => sum + item.quantity,0
@@ -87,7 +90,28 @@ const Header = () => {
         text-[1.2rem]
         ">
           {
-            <Link to={"/login"}>
+            user
+
+            ?<div
+            className='
+            flex
+            items-center
+            gap-4
+            border
+            border-white
+            px-4
+            py-2
+            bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+            text-[rgb(0,255,213)]
+            rounded-lg
+            cursor-pointer
+            '
+            >
+              <LuUserRound/>
+              <span>{user.name}</span>
+            </div>
+
+            :<Link to={"/login"}>
             <div className="
            flex
            flex-row-reverse

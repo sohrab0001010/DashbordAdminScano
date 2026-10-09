@@ -5,6 +5,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { LuUserRound } from "react-icons/lu";
 import { BiHomeSmile } from "react-icons/bi";
+import { TbTransactionDollar } from "react-icons/tb";
+import { TbLocationQuestion } from "react-icons/tb";
 import BasketContext from '../context/BasketContext';
 import {AuthContext} from "../context/AuthContext"
 
@@ -120,9 +122,9 @@ const Header = () => {
               <LuUserRound/>
               </span>
               <div className="
-              felx
+              flex
               flex-col
-              gap-8
+              gap-4
               items-center
               absolute
               top-25
@@ -131,34 +133,108 @@ const Header = () => {
               px-4
               py-6
               shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              bg-white
+              rounded-lg
               ">
 
                 <div className="
                 propertyUser
                 flex
                 flex-col
-                gap-4
+                items-end
+                gap-2
+                text-gray-600
+                bg-gray-50
+                py-2
+                px-6
+                rounded-lg
                 ">
-                <span>Mohammad Reza Zamani</span>
-                <span>09902436396</span>
+                <span>{user.name}</span>
+                <span>{user.phone}</span>
                 </div>
 
                 <div className="
                 userDashbord
                 flex
                 flex-col
-                border
+                gap-2
+                py-6
+                border-b
+                border-t
+                border-b-gray-300
+                border-t-gray-300
                 ">
-                <div className="
+                <Link className="
                 flex
                 items-center
-                gpa-4
+                justify-end
+                gap-4
+                w-60
+                p-2
+                text-gray-600
+                rounded-lg
+                hover:bg-sky-50
+                transition-all
+                duration-200
                 ">
-                  <span><BiHomeSmile/></span>
                   <span>پیشخوان</span>
-                </div>
+                  <span
+                  className='text-2xl'
+                  ><BiHomeSmile/></span>
+                </Link>
+
+                <Link className="
+                flex
+                items-center
+                justify-end
+                gap-4
+                w-60
+                p-2
+                text-gray-600
+                rounded-lg
+                hover:bg-sky-50
+                transition-all
+                duration-200
+                ">
+                  <span>تراکنش ها</span>
+                  <span
+                  className='text-2xl'
+                  ><TbTransactionDollar/></span>
+                </Link>
+
+                <Link className="
+                flex
+                items-center
+                justify-end
+                gap-4
+                w-60
+                p-2
+                text-gray-600
+                rounded-lg
+                hover:bg-sky-50
+                transition-all
+                duration-200
+                ">
+                  <span>پرسش و پاسخ</span>
+                  <span
+                  className='text-2xl'
+                  ><TbLocationQuestion/></span>
+                </Link>
 
                 </div>
+
+                <button
+                className='
+                bg-red-100
+                text-red-600
+                rounded-lg
+                px-4
+                py-2
+                cursor-pointer
+                '
+                >
+                  خروج از حساب کاربری
+                </button>
 
               </div>
             </div>

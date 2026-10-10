@@ -13,6 +13,7 @@ import BasketShop from './pages/BasketShop'
 import Payment from './pages/Payment'
 import { FaTerminal } from 'react-icons/fa'
 import FinalPayment from './pages/FinalPayment'
+import PanelUser from './pages/PanelUser'
 
 const router = createBrowserRouter([
     {
@@ -65,6 +66,11 @@ const router = createBrowserRouter([
             {
                 path: "final-payment",
                 element: <FinalPayment/>
+            },
+            {
+                path: "panel-user",
+                element: <PanelUser/>,
+                handle:{hideHeaderFooter:true}
             }
             
         ]

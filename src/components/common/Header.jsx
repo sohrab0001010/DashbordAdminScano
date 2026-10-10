@@ -16,7 +16,7 @@ const Header = () => {
   const [discounts, setDiscounts] = useState("")
 
   const { basket } = useContext(BasketContext) 
-  const { user } = useContext(AuthContext)
+  const { user,setUser } = useContext(AuthContext)
 
   const orderQuantity = basket.reduce(
     (sum,item) => sum + item.quantity,0
@@ -97,9 +97,10 @@ const Header = () => {
 
             ?<div
             className='
+            relative
+            group
             flex
             flex-col
-            gap-4
             '
             >
               <span
@@ -127,14 +128,23 @@ const Header = () => {
               gap-4
               items-center
               absolute
-              top-25
+              top-full
               mt-3
-              right-12
+              right-0
               px-4
               py-6
               shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
               bg-white
               rounded-lg
+              opacity-0
+              invisible
+              translate-y-2
+              group-hover:opacity-100
+              group-hover:visible
+              group-hover:translate-y-0
+              transition-all
+              duration-300
+              ease-out
               ">
 
                 <div className="
@@ -164,7 +174,9 @@ const Header = () => {
                 border-b-gray-300
                 border-t-gray-300
                 ">
-                <Link className="
+                <Link
+                to={"/panel-user"}
+                className="
                 flex
                 items-center
                 justify-end
@@ -183,7 +195,9 @@ const Header = () => {
                   ><BiHomeSmile/></span>
                 </Link>
 
-                <Link className="
+                <Link
+                to={"/panel-user"}
+                className="
                 flex
                 items-center
                 justify-end
@@ -202,7 +216,9 @@ const Header = () => {
                   ><TbTransactionDollar/></span>
                 </Link>
 
-                <Link className="
+                <Link
+                to={"/panel-user"}
+                className="
                 flex
                 items-center
                 justify-end
@@ -224,6 +240,7 @@ const Header = () => {
                 </div>
 
                 <button
+                onClick={() => setUser(null)}
                 className='
                 bg-red-100
                 text-red-600

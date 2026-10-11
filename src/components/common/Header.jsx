@@ -159,7 +159,13 @@ const Header = () => {
                 px-6
                 rounded-lg
                 ">
-                <span>{user.name}</span>
+                <span
+                className="
+                text-gray-900
+                text-sm
+                font-medium
+                "
+                >{user.name}</span>
                 <span>{user.phone}</span>
                 </div>
 

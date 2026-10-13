@@ -34,7 +34,7 @@ const UserCheck = ({selected,setSelected}) => {
           text-gray-100
           transition-all
           duration-200
-          has-checked:bg-white/10
+          has-checked:bg-black/30
           has-checked:text-[rgb(0,255,213)]
           ">
             <input

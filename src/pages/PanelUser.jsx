@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { GiExitDoor } from "react-icons/gi";
-import UserContent from '../components/PanelUser/UserContent';
+import UserProperty from '../components/PanelUser/UserProperty';
 import UserCheck from '../components/PanelUser/UserCheck';
+import Questions from '../components/PanelUser/Questions';
+import Transaction from '../components/PanelUser/Transaction';
 
 const PanelUser = () => {
+
+  const [selected,setSelected] = useState("question")
+
   return (
     <div
     className="
+    select-none
     h-screen
     bg-500
     grid
@@ -23,7 +29,11 @@ const PanelUser = () => {
         shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
         rounded-lg
         ">
-
+          {
+            selected === "question"
+            ? <Questions/>
+            :<Transaction/>
+          }
         </div>
 
         <div className="
@@ -36,9 +46,12 @@ const PanelUser = () => {
         items-center
         justify-between
         ">
-          <UserContent/>
+          <UserProperty/>
 
-          <UserCheck/>
+          <UserCheck
+          selected={selected}
+          setSelected={setSelected}
+          />
 
           <button
           className="

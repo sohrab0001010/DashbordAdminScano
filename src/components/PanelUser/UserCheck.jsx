@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const UserCheck = () => {
+const UserCheck = ({selected,setSelected}) => {
+
+  
+
+  const ArrCheck = [
+    {title: "پرسش و پاسخ", id: "question"},
+    {title: "تراکنش ها", id: "transaction"}
+  ] 
+
   return (
     <div className="
     w-full
@@ -9,61 +17,44 @@ const UserCheck = () => {
     gap-8
     ">
 
-      <label className="
-      w-full
-      flex 
-      items-center 
-      justify-end
-      px-4
-      py-2
-      rounded-tl-full
-      gap-2 
-      cursor-pointer
-      text-gray-100
-      transition-all
-      duration-200
-      has-checked:bg-white/10
-      has-checked:text-rgb(0,255,213)
-      ">
-        <input
-          type="checkbox"
-          name="userCheck"
-          id="question"
-          className='
-          sr-only
-          peer
-          '
-        />
-        <span>پرسش و پاسخ‌ها</span>
-      </label>
+      {
+        ArrCheck.map(item => (
+          <label 
+          key={item.id}
+          className="
+          w-full
+          flex 
+          items-center 
+          justify-end
+          px-4
+          py-2
+          rounded-tl-full
+          gap-2 
+          cursor-pointer
+          text-gray-100
+          transition-all
+          duration-200
+          has-checked:bg-white/10
+          has-checked:text-[rgb(0,255,213)]
+          ">
+            <input
+              type="checkbox"
+              name="userCheck"
+              id={item.id}
+              checked={selected === item.id}
+              onChange={() => setSelected(
+                prev => prev = item.id
+              )}
+              className='
+              sr-only
+              peer
+              '
+            />
+            <span>{item.title}</span>
+          </label>
 
-      <label className="
-      w-full
-      px-4
-      py-2
-      flex 
-      items-center
-      justify-end
-      gap-2 
-      cursor-pointer
-      rounded-tl-full
-      text-gray-100
-      transition-all
-      duration-200
-      has-checked:bg-white/10
-      has-checked:text-rgb(0,255,213)
-      ">
-        <input
-          type="checkbox"
-          name="userCheck"
-          id="transactions"
-          className='
-          peer
-          sr-only
-          '
-        />
-        <span>تراکنش‌ها</span>
-      </label>
+        ))
+      }
 
     </div>
   )

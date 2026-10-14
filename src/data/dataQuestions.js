@@ -86,7 +86,7 @@ const Questions = [
     questionsUser: [
       {
         id: "ticket-4-1",
-        status: "open",
+        status: "close",
         number: 1,
         questions: [
           {

@@ -9,11 +9,8 @@ const Questions = () => {
   const [selectedTicketId,setSelectedTicketId] = useState(null)
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
-  console.log(userFinded.questionsUser)
+  console.log(userFinded?.questionsUser)
 
-  const selectedSpeach = userFinded.questionsUser.find(
-    item => item.id
-  )
 
   return (
     selectedTicketId === null
@@ -22,7 +19,7 @@ const Questions = () => {
     className='
     flex
     flex-col
-    gap-4
+    gap-12
     px-12
     '
     >
@@ -32,7 +29,7 @@ const Questions = () => {
     flex
     flex-col
     gap-8
-    py-16
+    bg-green-100
     '
     >
       {
@@ -58,7 +55,7 @@ const Questions = () => {
             duration-200
             hover:text-[rgb(0,255,213)]
             '
-            onClick={() => setSelectedTicketId(selectedSpeach)}
+            onClick={() => setSelectedTicketId(item)}
             >{item.questions[0].question}</span>
             <span
             className={
@@ -82,7 +79,32 @@ const Questions = () => {
       '
       />
 
-      <textarea name="" id=""></textarea>
+      <div
+      className='
+      flex
+      flex-col
+      gap-4
+      '
+      >
+      <textarea 
+      dir='rtl'
+      name="" 
+      id=""
+      rows={4}
+      className='
+      outline-none
+      shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      p-4
+      text-gray-400
+      '
+      ></textarea>
+
+      <div>
+        <button>افزودن عکس</button>
+        <button>ارسال</button>
+      </div>
+
+      </div>
 
     </div>
 
@@ -91,24 +113,33 @@ const Questions = () => {
       className='
       flex
       flex-col
-      py-4
-      px-8
+      pl-16
       '
     >
     <div
     className='
-    h-full
-    bg-white
+    max-h-100
+    bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
     shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
     flex
     flex-col
-    justify-center
+    justify-start
     border-b
     border-b-gray-300
     border-t
     border-t-gray-300
     py-8
-    px-4
+    px-6
+    rounded-lg
+    overflow-y-auto
+    [&::-webkit-scrollbar]:w-2
+    [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:rounded-full
+    [&::-webkit-scrollbar-thumb]:transition-all
+    [&::-webkit-scrollbar-thumb]:duration-200
+    [&::-webkit-scrollbar-thumb]:cursor-pointer
+    [&::-webkit-scrollbar-thumb]:bg-gray-300
+    [&::-webkit-scrollbar-thumb]:hover:bg-gray-400
     '
     >
       {
@@ -116,7 +147,8 @@ const Questions = () => {
           <div
           key={item.id}
           className='
-          w-full   
+          w-full 
+          h-full  
           '
           >
             <span
@@ -128,6 +160,8 @@ const Questions = () => {
             rounded-full
             rounded-tl-none
             w-[30%]
+            text-violet-100
+            bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]
             '
             >{item.question}
             </span>
@@ -135,20 +169,20 @@ const Questions = () => {
             <div
             className='
             admin
-            bg-white
             w-full
             flex
             gap-4
             flex-col
             items-end
+            text-sky-100
             '
             >
-              {item.replyAdmin.map(item => (
+              {item.replyAdmin.map(text => (
                 <div
-                key={item.adminId}
+                key={text.adminId}
                 className='
                 w-[50%]
-                bg-blue-100
+                bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
                 flex
                 flex-col
                 px-8
@@ -159,19 +193,18 @@ const Questions = () => {
                 >
                 <span
                 className='
-                bg-blue-100
                 flex
                 flex-col
                 items-end
                 gap-4
                 '
                 >
-                  {item.ADMIN}
+                  {text.ADMIN}
                 </span>
                 <span
                 dir='rtl'
                 >
-                  {item.reply}
+                  {text.reply}
                 </span>
                 </div>
               ))}

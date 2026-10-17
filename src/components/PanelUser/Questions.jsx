@@ -32,6 +32,7 @@ const Questions = () => {
     return newTicket
   }
 
+
   const addToquestions = () => {
     dataQuestions.forEach(item => {
       if(
@@ -42,6 +43,19 @@ const Questions = () => {
       }
     })
   }
+
+
+  const handleAttachment = e => {
+    const files = Array.from(e.target.files)
+
+    files.filter(item => console.log(item))
+  }
+
+
+
+
+
+
 
 
   return (
@@ -153,7 +167,7 @@ const Questions = () => {
       gap-4
       '
       >
-        <button
+        <label
         className='
         px-4
         py-2
@@ -165,7 +179,15 @@ const Questions = () => {
         duration-200
         hover:text-[rgb(0,255,213)]
         '
-        >افزودن عکس</button>
+        >افزودن عکس
+        <input
+        type="file" 
+        accept="image/*"
+        multiple
+        hidden
+        onChange={e => handleAttachment(e)}
+        />
+        </label>
         <button
         onClick={addToquestions}
         className='

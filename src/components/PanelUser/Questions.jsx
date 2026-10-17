@@ -1,21 +1,54 @@
 import React, { useContext, useState } from 'react'
 import { AuthContext } from '../context/AuthContext';
-import dataQuestions from "../../data/dataQuestions"
+import dataQuestions from "../../data/dataQuestions";
+import { IoArrowUndoCircleSharp } from "react-icons/io5";
 
 const Questions = () => {
 
   const { user,setUser } = useContext(AuthContext)
 
   const [selectedTicketId,setSelectedTicketId] = useState(null)
+  const [ticketUser,setTicketUser] = useState("")
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
-  console.log(userFinded?.questionsUser)
+  const lastItem = userFinded.questionsUser.at(-1).number
+  const lengthQuestion = userFinded.questionsUser.at(-1).questions.length
+
+  const generatedTicket = () => {
+    const newTicket = {
+      id: `ticet-${userFinded.userId}-${lastItem+1}`,
+      status: "open",
+      number: lastItem + 1,
+      questions: [
+        {
+          id:`question-${userFinded.userId}-${lastItem}-${lengthQuestion + 1}`,
+          question: ticketUser,
+          attachments: [],
+          replyAdmin: []
+        }
+      ]
+    }
+
+    return newTicket
+  }
+
+  const addToquestions = () => {
+    dataQuestions.forEach(item => {
+      if(
+        item.userId === user.id 
+        && ticketUser.trim() !== ""
+      ) {
+        item.questionsUser.push(generatedTicket())
+      }
+    })
+  }
 
 
   return (
     selectedTicketId === null
 
-    ?<div
+    ?
+    <div
     className='
     flex
     flex-col
@@ -26,10 +59,22 @@ const Questions = () => {
 
       <div
     className='
+    max-h-100
     flex
     flex-col
     gap-8
-    bg-green-100
+    px-8
+    py-8
+    overflow-y-auto
+    shadow-[0_1px_0_0_rgba(0,0,0,0.1)]
+    [&::-webkit-scrollbar]:w-2
+    [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:rounded-full
+    [&::-webkit-scrollbar-thumb]:transition-all
+    [&::-webkit-scrollbar-thumb]:duration-200
+    [&::-webkit-scrollbar-thumb]:cursor-pointer
+    [&::-webkit-scrollbar-thumb]:bg-gray-100
+    [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
     '
     >
       {
@@ -73,11 +118,11 @@ const Questions = () => {
       }
       </div>
 
-      <hr 
+      {/* <hr 
       className='
       text-gray-300
       '
-      />
+      /> */}
 
       <div
       className='
@@ -87,9 +132,11 @@ const Questions = () => {
       '
       >
       <textarea 
+      value={ticketUser}
       dir='rtl'
       name="" 
       id=""
+      onChange={e => setTicketUser(e.target.value)}
       rows={4}
       className='
       outline-none
@@ -99,9 +146,40 @@ const Questions = () => {
       '
       ></textarea>
 
-      <div>
-        <button>افزودن عکس</button>
-        <button>ارسال</button>
+      <div
+      className='
+      flex
+      items-center
+      gap-4
+      '
+      >
+        <button
+        className='
+        px-4
+        py-2
+        bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+        rounded-lg
+        cursor-pointer
+        text-blue-950
+        transition-all
+        duration-200
+        hover:text-[rgb(0,255,213)]
+        '
+        >افزودن عکس</button>
+        <button
+        onClick={addToquestions}
+        className='
+        px-10
+        py-2
+        bg-[linear-gradient(135deg,#00ff00,#b4ffb4,#00ff00)]
+        rounded-lg
+        cursor-pointer
+        transition-all
+        duration-200
+        text-green-800
+        hover:text-green-400
+        '
+        >ارسال</button>
       </div>
 
       </div>
@@ -116,6 +194,24 @@ const Questions = () => {
       pl-16
       '
     >
+    <span
+    onClick={() => {
+      setSelectedTicketId(null)
+    }}
+    className='
+    text-[rgba(255,255,255,0.4)]
+    text-3xl
+    relative
+    left-6
+    top-12
+    cursor-pointer
+    transition-all
+    duration-200
+    hover:text-[rgba(255,255,255,0.6)]
+    '
+    >
+      <IoArrowUndoCircleSharp/>
+    </span>
     <div
     className='
     max-h-100

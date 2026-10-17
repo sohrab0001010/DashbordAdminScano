@@ -31,7 +31,7 @@ const PanelUser = () => {
         ">
           {
             selected === "question"
-            ? <Questions/>
+            ?<Questions/>
             :<Transaction/>
           }
         </div>

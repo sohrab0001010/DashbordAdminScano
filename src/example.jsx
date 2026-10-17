@@ -1,72 +1,327 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
+import { AuthContext } from '../context/AuthContext';
+import dataQuestions from "../../data/dataQuestions";
+import { IoArrowUndoCircleSharp } from "react-icons/io5";
 
-const UserCheck = () => {
+const Questions = () => {
+
+  const { user,setUser } = useContext(AuthContext)
+
+  const [selectedTicketId,setSelectedTicketId] = useState(null)
+  const [questions, setQuestions] = useState(dataQuestions)
+  const [ticketUser,setTicketUser] = useState("")
+
+  const userFinded = questions.find(item => item.userId === user?.id)
+  const lastTicket = userFinded.questionsUser.at(-1)
+  const nextNumber = (lastTicket?.number ?? 0) + 1;
+  const lengthQuestion = userFinded.questionsUser.length
+
+  const generatedTicket = () => {
+
+    if (!ticketUser.trim() || !userFinded) return;
+
+    const newTicket = {
+      id: `ticet-${userFinded.userId}-${nextNumber}`,
+      status: "open",
+      number: nextNumber,
+      questions: [
+        {
+          id:`question-${userFinded.userId}-${nextNumber}-${lengthQuestion + 1}`,
+          question: ticketUser,
+          attachments: [],
+          replyAdmin: []
+        }
+      ]
+    }
+
+    setQuestions(prev => 
+      prev.map(item => 
+        item.userId === user.id
+        ?{
+          ...item,
+          questionsUser:[
+            ...item.questionsUser,
+            newTicket
+          ]
+        }
+        :item
+      )
+    )
+
+    setTicketUser("");
+  }
+
+  
+
+
   return (
-    <div className="
-    w-full
-    flex 
-    flex-col 
+    selectedTicketId === null
+
+    ?
+    <div
+    className='
+    flex
+    flex-col
+    gap-12
+    px-12
+    '
+    >
+
+      <div
+    className='
+    max-h-100
+    flex
+    flex-col
     gap-8
-    ">
-
-      <label className="
-      w-full
-      flex 
-      items-center 
-      justify-end
-      px-4
-      py-2
-      rounded-tl-full
-      gap-2 
-      cursor-pointer
-      text-gray-100
-      transition-all
-      duration-200
-      has-checked:bg-white/10
-      has-checked:text-rgb(0,255,213)
-      ">
-        <input
-          type="checkbox"
-          name="userCheck"
-          id="question"
+    px-8
+    py-8
+    overflow-y-auto
+    shadow-[0_1px_0_0_rgba(0,0,0,0.1)]
+    [&::-webkit-scrollbar]:w-2
+    [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:rounded-full
+    [&::-webkit-scrollbar-thumb]:transition-all
+    [&::-webkit-scrollbar-thumb]:duration-200
+    [&::-webkit-scrollbar-thumb]:cursor-pointer
+    [&::-webkit-scrollbar-thumb]:bg-gray-100
+    [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
+    '
+    >
+      {
+        userFinded.questionsUser.map(item => (
+          <div
           className='
-          sr-only
-          peer
+          bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+          text-gray-100
+          flex
+          flex-col
+          items-end
+          gap-4
+          px-10
+          py-6
+          rounded-l-full
+          rounded-tr-full
           '
-        />
-        <span>پرسش و پاسخ‌ها</span>
-      </label>
+          >
+            <span
+            className='
+            cursor-pointer
+            transition-all
+            duration-200
+            hover:text-[rgb(0,255,213)]
+            '
+            onClick={() => setSelectedTicketId(item)}
+            >{item.questions[0].question}</span>
+            <span
+            className={
+              `${item.status === "open" ?"text-green-400":"text-red-500"}`
+            }
+            >
+              {
+                item.status === "open"
+                ?"در حال گفت و گو"
+                :"بسته شده"
+              }
+            </span>
+          </div>
+        ))
+      }
+      </div>
 
-      <label className="
-      w-full
-      px-4
-      py-2
-      flex 
+      {/* <hr 
+      className='
+      text-gray-300
+      '
+      /> */}
+
+      <div
+      className='
+      flex
+      flex-col
+      gap-4
+      '
+      >
+      <textarea 
+      value={ticketUser}
+      dir='rtl'
+      name="" 
+      id=""
+      onChange={e => setTicketUser(e.target.value)}
+      rows={4}
+      className='
+      outline-none
+      shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      p-4
+      text-gray-400
+      '
+      ></textarea>
+
+      <div
+      className='
+      flex
       items-center
-      justify-end
-      gap-2 
-      cursor-pointer
-      rounded-tl-full
-      text-gray-100
-      transition-all
-      duration-200
-      has-checked:bg-white/10
-      has-checked:text-rgb(0,255,213)
-      ">
-        <input
-          type="checkbox"
-          name="userCheck"
-          id="transactions"
+      gap-4
+      '
+      >
+        <button
+        className='
+        px-4
+        py-2
+        bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+        rounded-lg
+        cursor-pointer
+        text-blue-950
+        transition-all
+        duration-200
+        hover:text-[rgb(0,255,213)]
+        '
+        >افزودن عکس</button>
+        <button
+        onClick={generatedTicket}
+        className='
+        px-10
+        py-2
+        bg-[linear-gradient(135deg,#00ff00,#b4ffb4,#00ff00)]
+        rounded-lg
+        cursor-pointer
+        transition-all
+        duration-200
+        text-green-800
+        hover:text-green-400
+        '
+        >ارسال</button>
+      </div>
+
+      </div>
+
+    </div>
+
+    :
+    <div
+      className='
+      flex
+      flex-col
+      pl-16
+      '
+    >
+    <span
+    onClick={() => {
+      setSelectedTicketId(null)
+    }}
+    className='
+    text-[rgba(255,255,255,0.4)]
+    text-3xl
+    relative
+    left-6
+    top-12
+    cursor-pointer
+    transition-all
+    duration-200
+    hover:text-[rgba(255,255,255,0.6)]
+    '
+    >
+      <IoArrowUndoCircleSharp/>
+    </span>
+    <div
+    className='
+    max-h-100
+    bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
+    shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+    flex
+    flex-col
+    justify-start
+    border-b
+    border-b-gray-300
+    border-t
+    border-t-gray-300
+    py-8
+    px-6
+    rounded-lg
+    overflow-y-auto
+    [&::-webkit-scrollbar]:w-2
+    [&::-webkit-scrollbar-track]:bg-transparent
+    [&::-webkit-scrollbar-thumb]:rounded-full
+    [&::-webkit-scrollbar-thumb]:transition-all
+    [&::-webkit-scrollbar-thumb]:duration-200
+    [&::-webkit-scrollbar-thumb]:cursor-pointer
+    [&::-webkit-scrollbar-thumb]:bg-gray-300
+    [&::-webkit-scrollbar-thumb]:hover:bg-gray-400
+    '
+    >
+      {
+        selectedTicketId.questions.map(item => (
+          <div
+          key={item.id}
           className='
-          peer
-          sr-only
+          w-full 
+          h-full  
           '
-        />
-        <span>تراکنش‌ها</span>
-      </label>
+          >
+            <span
+            className='
+            user
+            bg-yellow-100
+            p-4
+            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+            rounded-full
+            rounded-tl-none
+            w-[30%]
+            text-violet-100
+            bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]
+            '
+            >{item.question}
+            </span>
+
+            <div
+            className='
+            admin
+            w-full
+            flex
+            gap-4
+            flex-col
+            items-end
+            text-sky-100
+            '
+            >
+              {item.replyAdmin.map(text => (
+                <div
+                key={text.adminId}
+                className='
+                w-[50%]
+                bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+                flex
+                flex-col
+                px-8
+                py-2
+                rounded-full
+                rounded-tr-none
+                '
+                >
+                <span
+                className='
+                flex
+                flex-col
+                items-end
+                gap-4
+                '
+                >
+                  {text.ADMIN}
+                </span>
+                <span
+                dir='rtl'
+                >
+                  {text.reply}
+                </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
 
     </div>
   )
 }
 
-export default UserCheck
+export default Questions

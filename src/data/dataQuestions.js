@@ -15,7 +15,7 @@ const Questions = [
                     id: "attachment-1",
                     type: "image",
                     name: "payment-receipt.jpg",
-                    url: "/uploads/payment-receipt.jpg"
+                    url: "/images/worksheet/git.png"
                 }
             ],
             replyAdmin: [

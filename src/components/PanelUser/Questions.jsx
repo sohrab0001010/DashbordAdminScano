@@ -7,8 +7,9 @@ const Questions = () => {
 
   const { user,setUser } = useContext(AuthContext)
 
-  const [selectedTicketId,setSelectedTicketId] = useState(null)
-  const [ticketUser,setTicketUser] = useState("")
+  const [selectedTicketId,setSelectedTicketId] = useState(null);
+  const [ticketUser,setTicketUser] = useState("");
+  const [ticketAttachments,setTicketAttachments] = useState([])
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
   const lastItem = userFinded.questionsUser.at(-1).number
@@ -23,7 +24,9 @@ const Questions = () => {
         {
           id:`question-${userFinded.userId}-${lastItem}-${lengthQuestion + 1}`,
           question: ticketUser,
-          attachments: [],
+          attachments: ticketAttachments.map(
+          ({file,...attachment}) => attachment
+          ),
           replyAdmin: []
         }
       ]
@@ -40,6 +43,8 @@ const Questions = () => {
         && ticketUser.trim() !== ""
       ) {
         item.questionsUser.push(generatedTicket())
+        setTicketUser("")
+        setTicketAttachments([])
       }
     })
   }
@@ -48,7 +53,17 @@ const Questions = () => {
   const handleAttachment = e => {
     const files = Array.from(e.target.files)
 
-    files.filter(item => console.log(item))
+    const images = files.filter(file => file.type.startsWith("image/"))
+    .map(file => ({
+      id: crypto.randomUUID(),
+      type: "image",
+      name: file.name,
+      url: URL.createObjectURL(file),
+      file: file
+    }))
+
+    setTicketAttachments(prev => [...prev,...images])
+    e.target.value = ""
   }
 
 
@@ -145,6 +160,22 @@ const Questions = () => {
       gap-4
       '
       >
+
+        
+
+
+      <div
+      dir='rtl'
+      className={`
+      rounded-sm
+      grid
+      ${ticketAttachments.length !== 0
+        &&
+        "grid-cols-[10fr_1fr]"
+      }
+      shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      `}
+      >
       <textarea 
       value={ticketUser}
       dir='rtl'
@@ -154,11 +185,70 @@ const Questions = () => {
       rows={4}
       className='
       outline-none
-      shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
       p-4
       text-gray-400
       '
       ></textarea>
+
+      {
+        ticketAttachments.length !== 0 &&
+      <div
+      className='
+      h-full
+      w-full
+      flex
+      flex-col
+      items-center
+      justify-center
+      '
+      >
+        {
+          ticketAttachments.map(item => (
+            <div
+            className='
+            w-12
+            h-16
+            flex
+            flex-col
+            '
+            >
+              <span
+              onClick={() => setTicketAttachments("")}
+              className='
+              bg-red-500
+              h-[20%]
+              cursor-pointer
+              flex
+              flex-col
+              pb-1
+              justify-center
+              items-center
+              text-red-300
+              cursor-pointer
+              rounded-t-sm
+              transition-all
+              duration-300
+              ease-in-out
+              hover:shadow-[0_0_12px_3px_rgba(255,0,0,0.8)]
+              hover:bg-red-600
+              hover:text-white
+              '
+              >×</span>
+              <img 
+              className='
+              h-[80%]
+              rounded-b-sm
+              '
+              src={item.url} 
+              alt={item.name} 
+              />
+            </div>
+          ))
+        }
+      </div>
+      }
+
+      </div>
 
       <div
       className='
@@ -181,9 +271,8 @@ const Questions = () => {
         '
         >افزودن عکس
         <input
-        type="file" 
+        type={ticketAttachments.length === 0 && `file`} 
         accept="image/*"
-        multiple
         hidden
         onChange={e => handleAttachment(e)}
         />
@@ -242,6 +331,7 @@ const Questions = () => {
     flex
     flex-col
     justify-start
+    gap-6
     border-b
     border-b-gray-300
     border-t
@@ -266,23 +356,52 @@ const Questions = () => {
           key={item.id}
           className='
           w-full 
-          h-full  
+          h-full
+          flex
+          flex-col
+          gap-8
+          items-start
+          justify-between  
           '
           >
-            <span
+            <div
             className='
             user
+            flex
+            flex-row-reverse
+            justify-between
+            gap-4
             bg-yellow-100
-            p-4
+            py-8
+            px-20
             shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
             rounded-full
             rounded-tl-none
-            w-[30%]
+            w-[80%]
             text-violet-100
             bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]
             '
-            >{item.question}
-            </span>
+            >
+              <span>{item.question}</span>
+
+            {
+              item.attachments.length !== 0 &&
+
+              item.attachments.map(secItem => (
+                <img
+                key={secItem.id}
+                src={secItem.url}
+                className='
+                h-10
+                w-12
+                rounded-sm
+                cursor-pointer
+                '
+                />
+              ))
+            }
+            </div>
+
 
             <div
             className='
@@ -299,12 +418,14 @@ const Questions = () => {
                 <div
                 key={text.adminId}
                 className='
-                w-[50%]
+                w-[80%]
                 bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
                 flex
                 flex-col
-                px-8
-                py-2
+                items-end
+                justify-end
+                px-20
+                py-4
                 rounded-full
                 rounded-tr-none
                 '

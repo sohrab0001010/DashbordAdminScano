@@ -10,6 +10,7 @@ const Questions = () => {
   const [selectedTicketId,setSelectedTicketId] = useState(null);
   const [ticketUser,setTicketUser] = useState("");
   const [ticketAttachments,setTicketAttachments] = useState([])
+  const [showImgInText,setShowImgInText] = useState(null)
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
   const lastItem = userFinded.questionsUser.at(-1).number
@@ -116,7 +117,7 @@ const Questions = () => {
           flex-col
           items-end
           gap-4
-          px-10
+          px-20
           py-6
           rounded-l-full
           rounded-tr-full
@@ -224,7 +225,6 @@ const Questions = () => {
               justify-center
               items-center
               text-red-300
-              cursor-pointer
               rounded-t-sm
               transition-all
               duration-300
@@ -238,9 +238,14 @@ const Questions = () => {
               className='
               h-[80%]
               rounded-b-sm
+              cursor-pointer
               '
               src={item.url} 
-              alt={item.name} 
+              alt="برای مشاهده عکس کلیک کنید"
+              onClick={() => {
+                setShowImgInText(item.url)
+                console.log(showImgInText)
+              }} 
               />
             </div>
           ))
@@ -452,6 +457,27 @@ const Questions = () => {
         ))
       }
     </div>
+
+    {
+      showImgInText && 
+      <img
+      style={{
+        background: `url("${showImgInText}")`
+      }}
+      className={`
+      fixed
+      inset-0
+      z-200
+      flex
+      items-center
+      justify-center
+      bg-black/80
+      bg-no-repeat
+      bg-center
+      bg-contain
+      `}
+      />
+    }
 
     </div>
   )

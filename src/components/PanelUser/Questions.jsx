@@ -11,6 +11,7 @@ const Questions = () => {
   const [ticketUser,setTicketUser] = useState("");
   const [ticketAttachments,setTicketAttachments] = useState([])
   const [showImgInText,setShowImgInText] = useState(null)
+  const [textUser,setTextUser] = useState("")
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
   const lastItem = userFinded.questionsUser.at(-1).number
@@ -75,10 +76,13 @@ const Questions = () => {
 
 
   return (
-    selectedTicketId === null
+    <>
+    {
+      selectedTicketId === null
 
     ?
-    <div
+    (
+      <div
     className='
     flex
     flex-col
@@ -110,6 +114,7 @@ const Questions = () => {
       {
         userFinded.questionsUser.map(item => (
           <div
+          key={item.id}
           className='
           bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
           text-gray-100
@@ -160,9 +165,7 @@ const Questions = () => {
       flex-col
       gap-4
       '
-      >
-
-        
+      > 
 
 
       <div
@@ -206,6 +209,7 @@ const Questions = () => {
         {
           ticketAttachments.map(item => (
             <div
+            key={item.id}
             className='
             w-12
             h-16
@@ -214,7 +218,9 @@ const Questions = () => {
             '
             >
               <span
-              onClick={() => setTicketAttachments("")}
+              onClick={() => 
+                setTicketAttachments(prev => prev.filter(a => a.id !== item.id))
+              }
               className='
               bg-red-500
               h-[20%]
@@ -300,14 +306,16 @@ const Questions = () => {
 
       </div>
 
-    </div>
+      </div>
+    )
 
     :
-    <div
+    (
+      <div
       className='
       flex
       flex-col
-      pl-16
+      gap-8
       '
     >
     <span
@@ -317,9 +325,9 @@ const Questions = () => {
     className='
     text-[rgba(255,255,255,0.4)]
     text-3xl
-    relative
-    left-6
-    top-12
+    absolute
+    left-36
+    top-16
     cursor-pointer
     transition-all
     duration-200
@@ -328,6 +336,7 @@ const Questions = () => {
     >
       <IoArrowUndoCircleSharp/>
     </span>
+
     <div
     className='
     max-h-100
@@ -341,7 +350,7 @@ const Questions = () => {
     border-b-gray-300
     border-t
     border-t-gray-300
-    py-8
+    py-4
     px-6
     rounded-lg
     overflow-y-auto
@@ -387,7 +396,7 @@ const Questions = () => {
             bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]
             '
             >
-              <span>{item.question}</span>
+              <span dir='rtl'>{item.question}</span>
 
             {
               item.attachments.length !== 0 &&
@@ -396,6 +405,7 @@ const Questions = () => {
                 <img
                 key={secItem.id}
                 src={secItem.url}
+                onClick={() => setShowImgInText(secItem.url)}
                 className='
                 h-10
                 w-12
@@ -458,28 +468,131 @@ const Questions = () => {
       }
     </div>
 
-    {
-      showImgInText && 
-      <img
-      style={{
-        background: `url("${showImgInText}")`
-      }}
+    <div
+      dir='rtl'
       className={`
-      fixed
-      inset-0
-      z-200
+      rounded-sm
+      grid
+      ${ticketAttachments.length !== 0
+        &&
+        "grid-cols-[10fr_1fr]"
+      }
+      shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      `}
+      >
+      <textarea 
+      value={textUser}
+      dir='rtl'
+      name="" 
+      id=""
+      onChange={e => setTextUser(e.target.value)}
+      rows={4}
+      className='
+      outline-none
+      p-4
+      text-gray-400
+      '
+      ></textarea>
+
+      {
+        ticketAttachments.length !== 0 &&
+      <div
+      className='
+      h-full
+      w-full
       flex
+      flex-col
       items-center
       justify-center
-      bg-black/80
-      bg-no-repeat
-      bg-center
-      bg-contain
-      `}
-      />
+      '
+      >
+        {
+          ticketAttachments.map(item => (
+            <div
+            key={item.id}
+            className='
+            w-12
+            h-16
+            flex
+            flex-col
+            '
+            >
+              <span
+              onClick={() => 
+                setTicketAttachments(prev => prev.filter(a => a.id !== item.id))
+              }
+              className='
+              bg-red-500
+              h-[20%]
+              cursor-pointer
+              flex
+              flex-col
+              pb-1
+              justify-center
+              items-center
+              text-red-300
+              rounded-t-sm
+              transition-all
+              duration-300
+              ease-in-out
+              hover:shadow-[0_0_12px_3px_rgba(255,0,0,0.8)]
+              hover:bg-red-600
+              hover:text-white
+              '
+              >×</span>
+              <img 
+              className='
+              h-[80%]
+              rounded-b-sm
+              cursor-pointer
+              '
+              src={item.url} 
+              alt="برای مشاهده عکس کلیک کنید"
+              onClick={() => {
+                setShowImgInText(item.url)
+                console.log(showImgInText)
+              }} 
+              />
+            </div>
+          ))
+        }
+      </div>
+
+      }
+
+      </div>
+    
+
+
+      </div>
+    )
     }
 
-    </div>
+    {
+      showImgInText && (
+        <div
+          className="
+          fixed inset-0 z-50
+          flex items-center justify-center
+          bg-black/80 p-4
+          "
+          onClick={() => setShowImgInText(null)}
+        >
+          <img
+          src={showImgInText}
+          alt="تصویر بزرگ‌شده"
+          className="
+          max-h-[90vh]
+          max-w-[90vw]
+          rounded-lg
+          object-contain
+          "
+          onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      ) 
+    }
+    </>
   )
 }
 

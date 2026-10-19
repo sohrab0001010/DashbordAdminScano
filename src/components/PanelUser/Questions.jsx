@@ -12,6 +12,7 @@ const Questions = () => {
   const [ticketAttachments,setTicketAttachments] = useState([])
   const [showImgInText,setShowImgInText] = useState(null)
   const [textUser,setTextUser] = useState("")
+  const [chatAttachments,setChatAttachments] = useState([])
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
   const lastItem = userFinded.questionsUser.at(-1).number
@@ -69,6 +70,31 @@ const Questions = () => {
   }
 
 
+
+  const addToChatsUser = ticket => {
+    ticket.questions.push(generatedChat(ticket))
+  }
+
+  
+  const generatedChat = ticket => {
+    const newChat = {
+      id : `question-${userFinded}-${ticket.number}-${ticket.questions.length}`,
+      question: textUser,
+      attachment: [
+
+      ]
+
+    }
+  }
+
+
+  const handleChatAttachment = e => {
+    const files = Array.from(e.target.files)
+
+    const images = files.filter(file => file.type.startsWith("image/"))
+
+    
+  }
 
 
 
@@ -468,12 +494,25 @@ const Questions = () => {
       }
     </div>
 
-    <div
+
+    {
+      selectedTicketId.status === "open" && 
+      (
+        <div
+        className='
+        flex
+        flex-col
+        gap-4
+        px-12
+        '
+        >
+          
+          <div
       dir='rtl'
       className={`
       rounded-sm
       grid
-      ${ticketAttachments.length !== 0
+      ${chatAttachments.length !== 0
         &&
         "grid-cols-[10fr_1fr]"
       }
@@ -557,13 +596,59 @@ const Questions = () => {
           ))
         }
       </div>
-
       }
 
       </div>
+
+      <div
+      className='
+      flex
+      items-center
+      gap-4
+      '
+      >
+        <label
+        className='
+        px-4
+        py-2
+        bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+        rounded-lg
+        cursor-pointer
+        text-blue-950
+        transition-all
+        duration-200
+        hover:text-[rgb(0,255,213)]
+        '
+        >افزودن عکس
+        <input
+        type={chatAttachments.length === 0 && `file`} 
+        accept="image/*"
+        hidden
+        onChange={e => console.log(e)}
+        />
+        </label>
+        <button
+        onClick={() => addToChatsUser(selectedTicketId)}
+        className='
+        px-10
+        py-2
+        bg-[linear-gradient(135deg,#00ff00,#b4ffb4,#00ff00)]
+        rounded-lg
+        cursor-pointer
+        transition-all
+        duration-200
+        text-green-800
+        hover:text-green-400
+        '
+        >ارسال</button>
+      </div>
+
+        </div>
+      )
+    }
+
     
-
-
+    
       </div>
     )
     }

@@ -13,6 +13,7 @@ import {AuthContext} from "../context/AuthContext"
 
 const Header = () => {
 
+
   const [discounts, setDiscounts] = useState("")
 
   const { basket } = useContext(BasketContext) 
@@ -181,6 +182,7 @@ const Header = () => {
                 border-t-gray-300
                 ">
                 <Link
+                state={{selected:"question"}}
                 to={"/panel-user"}
                 className="
                 flex
@@ -202,6 +204,7 @@ const Header = () => {
                 </Link>
 
                 <Link
+                state={{selected:"transaction"}}
                 to={"/panel-user"}
                 className="
                 flex
@@ -223,6 +226,7 @@ const Header = () => {
                 </Link>
 
                 <Link
+                state={{selected:"question"}}
                 to={"/panel-user"}
                 className="
                 flex

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { GiExitDoor } from "react-icons/gi";
+import { useLocation } from 'react-router';
 import UserProperty from '../components/PanelUser/UserProperty';
 import UserCheck from '../components/PanelUser/UserCheck';
 import Questions from '../components/PanelUser/Questions';
@@ -7,7 +8,8 @@ import Transaction from '../components/PanelUser/Transaction';
 
 const PanelUser = () => {
 
-  const [selected,setSelected] = useState("question")
+  const location = useLocation();
+  const [selected,setSelected] = useState(location.state?.selected ?? "question")
 
   return (
     <div

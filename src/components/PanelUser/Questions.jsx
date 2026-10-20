@@ -73,6 +73,8 @@ const Questions = () => {
 
   const addToChatsUser = ticket => {
     ticket.questions.push(generatedChat(ticket))
+    setTextUser("")
+    setChatAttachments([])
   }
 
   
@@ -80,11 +82,13 @@ const Questions = () => {
     const newChat = {
       id : `question-${userFinded}-${ticket.number}-${ticket.questions.length}`,
       question: textUser,
-      attachment: [
-
-      ]
-
+      attachments: chatAttachments.map(
+        ({file,...attachment}) => attachment
+      ),
+      replyAdmin: []
     }
+
+    return newChat
   }
 
 
@@ -92,7 +96,16 @@ const Questions = () => {
     const files = Array.from(e.target.files)
 
     const images = files.filter(file => file.type.startsWith("image/"))
+    .map(file => ({
+      id: crypto.randomUUID(),
+      type: "image",
+      name: file.name,
+      url: URL.createObjectURL(file),
+      file: file
+    }))
 
+    setChatAttachments(prev => [...prev,...images])
+    e.target.value = ""
     
   }
 
@@ -365,7 +378,7 @@ const Questions = () => {
 
     <div
     className='
-    max-h-100
+    max-h-84
     bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
     shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
     flex
@@ -534,7 +547,7 @@ const Questions = () => {
       ></textarea>
 
       {
-        ticketAttachments.length !== 0 &&
+        chatAttachments.length !== 0 &&
       <div
       className='
       h-full
@@ -546,7 +559,7 @@ const Questions = () => {
       '
       >
         {
-          ticketAttachments.map(item => (
+          chatAttachments.map(item => (
             <div
             key={item.id}
             className='
@@ -558,7 +571,7 @@ const Questions = () => {
             >
               <span
               onClick={() => 
-                setTicketAttachments(prev => prev.filter(a => a.id !== item.id))
+                setChatAttachments(prev => prev.filter(a => a.id !== item.id))
               }
               className='
               bg-red-500
@@ -621,10 +634,11 @@ const Questions = () => {
         '
         >افزودن عکس
         <input
-        type={chatAttachments.length === 0 && `file`} 
+        type="file" 
         accept="image/*"
         hidden
-        onChange={e => console.log(e)}
+        disabled={chatAttachments.length > 0}
+        onChange={e => handleChatAttachment(e)}
         />
         </label>
         <button

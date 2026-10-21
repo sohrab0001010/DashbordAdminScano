@@ -15,8 +15,8 @@ const Questions = () => {
   const [chatAttachments,setChatAttachments] = useState([])
 
   const userFinded = dataQuestions.find(item => item.userId === user?.id)
-  const lastItem = userFinded.questionsUser.at(-1).number
-  const lengthQuestion = userFinded.questionsUser.at(-1).questions.length
+  const lastItem = userFinded?.questionsUser?.at(-1)?.number ?? 0;
+  const lengthQuestion = userFinded?.questionsUser?.at(-1)?.questions?.length ?? 0;
 
   const generatedTicket = () => {
     const newTicket = {
@@ -117,7 +117,7 @@ const Questions = () => {
   return (
     <>
     {
-      selectedTicketId === null
+      selectedTicketId === null //No ticket has been selected.
 
     ?
     (
@@ -129,7 +129,10 @@ const Questions = () => {
     px-12
     '
     >
+      {
+        userFinded?.questionsUser?.length > 0
 
+        ?
       <div
     className='
     max-h-100
@@ -191,6 +194,31 @@ const Questions = () => {
         ))
       }
       </div>
+      :
+      <div
+      className='
+      flex
+      flex-col
+      justify-center
+      items-center
+      h-84
+      '
+      >
+        <span
+        className='
+        bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+        px-16
+        py-16
+        rounded-full
+        rounded-br-none
+        text-[rgb(0,255,213)]
+        '
+        >کاربر عزیز سوال خود را در  کادر زیر تایپ کنید</span>
+      </div>
+
+
+      }
+
 
       {/* <hr 
       className='
@@ -314,10 +342,10 @@ const Questions = () => {
         bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
         rounded-lg
         cursor-pointer
-        text-blue-950
+        text-[rgb(0,255,213)]
         transition-all
         duration-200
-        hover:text-[rgb(0,255,213)]
+        hover:text-gray-100
         '
         >افزودن عکس
         <input
@@ -338,7 +366,7 @@ const Questions = () => {
         transition-all
         duration-200
         text-green-800
-        hover:text-green-400
+        hover:text-gray-50
         '
         >ارسال</button>
       </div>

@@ -1,6 +1,12 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import subscriptionTransactions from "../../data/dataTransactions/datasubscriptionTransactions "
+import { AuthContext } from '../context/AuthContext';
+import TransactionBook from './TransactionBook';
+import TransactionSub from './TransactionSub';
 
 const Transaction = () => {
+
+  const { user } = useContext(AuthContext)
 
   const [selectedTransaction,setSelectedTransaction] = useState("transactionSub")
 
@@ -9,13 +15,18 @@ const Transaction = () => {
     {title: "اشتراک ها" , id: "transactionSub"}
   ]
 
+  
+  const transactionSub = subscriptionTransactions.filter(item => item.userId === user.id)
+
+  
+
   return (
     <div
     className='
     h-full
     grid
     grid-rows-[1fr_14fr]
-    gap-4
+    gap-8
     '
     >
 
@@ -25,7 +36,7 @@ const Transaction = () => {
       flex
       justify-end
       items-center
-      gap-4
+      gap-8
       pr-8
       '
       >
@@ -40,14 +51,9 @@ const Transaction = () => {
           justify-center
           cursor-pointer
           text-gray-500
-          border-r
-          border-r-gray-200
-          border-b
-          border-b-gray-200
           transition-all
           duration-200
           has-checked:text-blue-900
-          has-checked:border-b
           has-checked:border-b-blue-900
           has-checked:border-b-3
           has-checked:font-medium
@@ -74,9 +80,8 @@ const Transaction = () => {
 
       <div
       className='
-      bg-red-100
-      px-4
-      py-6
+      px-8
+      pb-8
       '
       >
         <div
@@ -85,29 +90,25 @@ const Transaction = () => {
         flex-col
         gap-4
         bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
-        px-4
+        px-8
         py-6
-        max-h-100
+        rounded-lg
+        max-h-128
         overflow-y-auto
+        [&::-webkit-scrollbar]:w-2
+        [&::-webkit-scrollbar-track]:bg-transparent
+        [&::-webkit-scrollbar-thumb]:rounded-full
+        [&::-webkit-scrollbar-thumb]:transition-all
+        [&::-webkit-scrollbar-thumb]:duration-200
+        [&::-webkit-scrollbar-thumb]:cursor-pointer
+       [&::-webkit-scrollbar-thumb]:bg-gray-100
+       [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
         '
         >
           {
-            Array.from({length : 14}).map((item,index) => (
-              <div
-              key={index}
-              className={`
-                ${
-                  index%2 == 0
-                  ?"bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]"
-                  :"bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]"
-                }
-                `}
-              >
-                <span>مبلغ تراکنش : 8000000 تومان</span>
-                <span>تاریخ تراکنش : 18/5/1405</span>
-                <span>ساعت تراکنش : 18:50</span>
-              </div>
-            ))
+            selectedTransaction === "transactionSub"
+            ? <TransactionSub/>
+            : <TransactionBook/>
           }
         </div>
       </div>

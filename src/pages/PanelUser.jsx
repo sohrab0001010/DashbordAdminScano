@@ -1,15 +1,19 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { GiExitDoor } from "react-icons/gi";
-import { useLocation } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
 import UserProperty from '../components/PanelUser/UserProperty';
 import UserCheck from '../components/PanelUser/UserCheck';
 import Questions from '../components/PanelUser/Questions';
 import Transaction from '../components/PanelUser/Transaction';
+import { AuthContext  } from '../components/context/AuthContext';
 
 const PanelUser = () => {
 
   const location = useLocation();
   const [selected,setSelected] = useState(location.state?.selected ?? "question")
+  const { setUser } = useContext(AuthContext)
+
+  const navigate = useNavigate()
 
   return (
     <div
@@ -56,6 +60,10 @@ const PanelUser = () => {
           />
 
           <button
+          onClick={() => {
+            setUser(null)
+            navigate("/")
+          }}
           className="
           w-full
           flex

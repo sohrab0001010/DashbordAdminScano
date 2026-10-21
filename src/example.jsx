@@ -1,53 +1,27 @@
-import React, { useContext } from 'react'
-import userBookOrders from "../../data/dataTransactions/userBookOrders"
-import { AuthContext  } from '../context/AuthContext';
-
-const TransactionBook = () => {
-
-    const { user } = useContext(AuthContext)
-
-const transactionBook = userBookOrders.filter(item => item.userId === user.id)
-console.log(transactionBook)
-
-
-  return (
-    <>
-      {
-            transactionBook.map((item,index) => (
-              <div
-              key={index}
-              className={`
-                flex
-                itmes-center
-                justify-between
-                py-6
-                px-10
-                font-medium
-                [clip-path:polygon(0%_0,100%_0,100%_100%,0%_100%)]
-                rounded-l-full
-                rounded-tl-4xl
-                border-l-20
-                ${
-                  index%2 == 0
-                  ?`
-                  bg-[linear-gradient(135deg,#80003D_0%,#35005E_50%,#001C57_100%)]
-                  text-[rgb(255,127,253)]
-                  `
-                  :`
-                  bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
-                  text-[rgb(0,255,213)]
-                  `
-                }
-                `}
-              >
-                <span>مبلغ تراکنش : {item.totalAmount} تومان</span>
-                <span>تاریخ تراکنش : {item.createdAt}</span>
-                <span>ساعت  تراکنش : {item.createdTime}</span>
-              </div>
-            ))
-        }
-    </>
-  )
-}
-
-export default TransactionBook
+<div
+        className='
+        flex
+        flex-col
+        gap-4
+        bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
+        px-8
+        py-6
+        rounded-lg
+        max-h-128
+        overflow-y-auto
+        [&::-webkit-scrollbar]:w-2
+        [&::-webkit-scrollbar-track]:bg-transparent
+        [&::-webkit-scrollbar-thumb]:rounded-full
+        [&::-webkit-scrollbar-thumb]:transition-all
+        [&::-webkit-scrollbar-thumb]:duration-200
+        [&::-webkit-scrollbar-thumb]:cursor-pointer
+       [&::-webkit-scrollbar-thumb]:bg-gray-100
+       [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
+        '
+        >
+          {
+            selectedTransaction === "transactionSub"
+            ? <TransactionSub/>
+            : <TransactionBook/>
+          }
+        </div>

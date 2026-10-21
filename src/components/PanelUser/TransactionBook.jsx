@@ -13,6 +13,8 @@ console.log(transactionBook.map(item => item.id))
   return (
     <>
       {
+            transactionBook.length
+            ?
             transactionBook.map((item,index) => (
               <div
               key={item.id}
@@ -45,7 +47,30 @@ console.log(transactionBook.map(item => item.id))
                 <span>ساعت  تراکنش : {item.createdTime}</span>
               </div>
             ))
-        }
+            :
+            <div
+            className='
+            h-84
+            flex
+            flex-col
+            justify-center
+            items-center
+            '
+            >
+              <span
+              className='
+              bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+              p-16
+              rounded-full
+              rounded-tr-none
+              font-medium
+              text-[rgb(0,255,220)]
+              '
+              >
+                کاربر عزیز شما کتابی خریداری نکرده اید
+              </span>
+            </div>
+      }
     </>
   )
 }

@@ -9,7 +9,9 @@ const TransactionSub = () => {
     const transactionSub = subscriptionTransactions.filter(item => item.userId === user.id)
   return (
     <>
-      {
+    
+      { transactionSub.length
+        ?
         transactionSub.map((item,index) => (
             <div
             key={item.id}
@@ -42,6 +44,29 @@ const TransactionSub = () => {
             <span>ساعت تراکنش : {item.transactionTime}</span>
             </div>
         ))
+        :
+        <div
+        className='
+        h-84
+        flex
+        flex-col
+        justify-center
+        items-center
+        '
+        >
+          <span
+          className='
+          bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
+          p-16
+          rounded-full
+          rounded-tr-none
+          font-medium
+          text-[rgb(0,255,220)]
+          '
+          >
+            کاربر عزیز شما اشتراکی خریداری نکرده اید
+          </span>
+        </div>
       }
     </>
   )

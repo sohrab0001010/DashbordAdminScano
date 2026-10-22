@@ -1,11 +1,20 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useParams } from 'react-router';
 import courses from '../data/dataCourses';
 import SectionRight from '../components/Course/SectionRight';
 import SectionLeft from '../components/Course/SectionLeft';
 import Subscription from '../components/Subscription/Subscription';
+import { AuthContext } from '../components/context/AuthContext';
 
 const Course = () => {
+
+  const { user } = useContext(AuthContext)
+
+  const currentGradeId = +useParams().yearId
+  const existSubscription = user?.subscriptions?.some(sub => 
+    sub.gradeId === currentGradeId
+    && sub.status === "ACTIVE"
+  )
 
   const course = courses.find(course =>
     course.gradeId == useParams().yearId
@@ -14,7 +23,7 @@ const Course = () => {
   const [selectedSection, setSelectedSection]
     = useState(course.contentCourse[0]?.name)
 
-
+  
 
   return (
 
@@ -32,7 +41,21 @@ const Course = () => {
       justify-between
       px-18
       ">
-        <Subscription/>
+        {
+          existSubscription
+          ?
+          <span
+          className='
+          text-xl
+          font-medium
+          text-gray-500
+          '
+          >
+            شما اشتراک فعال دارید
+          </span>
+          :
+          <Subscription/>
+        }
 
 
 

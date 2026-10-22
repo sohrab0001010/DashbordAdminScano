@@ -15,6 +15,7 @@ import { FaTerminal } from 'react-icons/fa'
 import FinalPayment from './pages/FinalPayment'
 import PanelUser from './pages/PanelUser'
 import Alows from './pages/Alows'
+import Regulation from './pages/Regulation'
 
 const router = createBrowserRouter([
     {
@@ -76,6 +77,10 @@ const router = createBrowserRouter([
             {
                 path: "page-alows",
                 element: <Alows/>
+            },
+            {
+                path: "regulation-site",
+                element: <Regulation/>
             }
             
         ]

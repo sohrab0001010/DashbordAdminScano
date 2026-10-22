@@ -1,5 +1,7 @@
 import React from "react";
 import { FaTelegramPlane, FaInstagram  } from "react-icons/fa";
+import { GrUserPolice } from "react-icons/gr";
+import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer
@@ -126,6 +128,32 @@ const Footer = () => {
           >
             <FaInstagram  />
           </a>
+          <Link
+          to={"/regulation-site"}
+          className="
+            w-12
+            h-12
+            flex
+            items-center
+            justify-center
+            rounded-full
+            border
+            border-white/20
+            bg-white/10
+            backdrop-blur-md
+            text-white
+            text-2xl
+            transition-all
+            duration-300
+            hover:text-cyan-200
+            hover:bg-cyan-400/15
+            hover:border-cyan-300/50
+            hover:scale-110
+            hover:shadow-[0_0_22px_rgba(34,211,238,0.8)]
+          "
+          >
+            <GrUserPolice/>
+          </Link>
         </div>
 
         {/* خط جداکننده */}

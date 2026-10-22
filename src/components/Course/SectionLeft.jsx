@@ -16,6 +16,7 @@ const SectionLeft = ({contentCourse,nameGrade,onSelect,selected}) => {
         px-8
         border-b
         border-gray-300
+        mt-4
         mb-4
         text-gray-500
         bg-white

@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useParams } from 'react-router'
 import courses from "../data/dataCourses"
 import Filter from '../components/Chapter/Filter'
 import Level from '../components/Chapter/Level'
 import Video from '../components/Video/Video'
 import VideoModal from '../components/Video/VideoModal'
+import { AuthContext } from '../components/context/AuthContext';
 
 const Chapter = () => {
 
@@ -32,6 +33,14 @@ const Chapter = () => {
     ]
 
     const param = useParams()
+    const { user } = useContext(AuthContext)
+    const currentGradeId = +param.yearId
+    const existSubscription = user?.subscriptions?.some(
+      subscription => 
+        subscription.gradeId === currentGradeId
+        && subscription.status === "ACTIVE"
+    ) ?? false
+    console.log(existSubscription)
 
     
     
@@ -67,6 +76,8 @@ const Chapter = () => {
         console.log(chapter.levels.filter(item => item.level === level))
       }
     }
+
+
 
 
   return (
@@ -129,6 +140,7 @@ const Chapter = () => {
                 isOpen={openCode === item.codeNumber}
                 onToggle={() => handleToggle(item)}
                 setShowModalVideo={setShowModalVideo}
+                existSubscription={existSubscription}
                 />
               ))
             }

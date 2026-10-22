@@ -4,7 +4,17 @@ import { ImUnlocked } from "react-icons/im";
 import { FaLock } from "react-icons/fa";
 
 
-const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle,setShowModalVideo }) => {
+const Level = ({ 
+  lable, 
+  icon: Icon, 
+  content, 
+  onSelecteVideo,
+  code,
+  isOpen,
+  onToggle,
+  setShowModalVideo,
+  existSubscription 
+}) => {
 
 
 
@@ -116,7 +126,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
               <div
                 key={index}
                 onClick={() => {
-                  video.isFree
+                  video.isFree || existSubscription
                   ?onSelecteVideo(video.vid)
                   :setShowModalVideo(true)
                 }}
@@ -144,7 +154,7 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
               >
                 <span
                   className={`
-                  ${video.isFree
+                  ${video.isFree || existSubscription
                       ? "text-green-500"
                       : "text-gray-500"
                     }
@@ -152,14 +162,14 @@ const Level = ({ lable, icon: Icon, content, onSelecteVideo,code,isOpen,onToggle
                 >{video.subjectVid}</span>
                 <span
                   className={`
-                  ${video.isFree
+                  ${video.isFree || existSubscription
                       ? "text-green-500"
                       : "text-red-600"
                     }
                   `}
                 >
                   {
-                    video.isFree
+                    video.isFree || existSubscription
                       ? <ImUnlocked />
                       : <FaLock />
                   }

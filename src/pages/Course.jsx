@@ -82,7 +82,7 @@ const Course = () => {
         <div className="
       sectionLeft 
       sticky
-      top-8
+      top-40
       self-start
       mt-12
       ">

@@ -142,7 +142,10 @@ const LeftBasket = () => {
 
             <p>
                 با خرید از اسکنو
-                {" "}<Link className='font-medium text-sky-500'>قواننین</Link>{" "}
+                {" "}<Link 
+                to={"/page-alows"}
+                className='font-medium text-sky-500'
+                >قواننین</Link>{" "}
                 و شرایط را مطالعه کردم و می پذیرم
             </p>
         </div>

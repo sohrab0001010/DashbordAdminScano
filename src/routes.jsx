@@ -14,6 +14,7 @@ import Payment from './pages/Payment'
 import { FaTerminal } from 'react-icons/fa'
 import FinalPayment from './pages/FinalPayment'
 import PanelUser from './pages/PanelUser'
+import Alows from './pages/Alows'
 
 const router = createBrowserRouter([
     {
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
                 path: "panel-user",
                 element: <PanelUser/>,
                 handle:{hideHeaderFooter:true}
+            },
+            {
+                path: "page-alows",
+                element: <Alows/>
             }
             
         ]

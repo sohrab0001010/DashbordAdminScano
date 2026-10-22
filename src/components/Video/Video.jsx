@@ -6,6 +6,7 @@ import { RiQrScan2Line } from "react-icons/ri";
 import { RiFileDownloadFill } from "react-icons/ri";
 
 const Video = ({ video,contentLevel }) => {
+  console.log(contentLevel)
   return (
     <div
       className="

@@ -87,7 +87,6 @@ const Chapter = () => {
     overflow-x-hidden
     relative
     min-h-screen
-    bg-white
     grid
     grid-cols-[4fr_5fr]
     gap-12

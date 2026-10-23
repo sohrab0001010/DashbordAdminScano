@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import BasketContext from '../context/BasketContext'
+import { ThemeContext } from '../context/ThemeContext';
 
 
 const Book = ({book,onShowModal}) => { 
@@ -7,6 +8,7 @@ const Book = ({book,onShowModal}) => {
 
 
     const { addToBasket,basket } = useContext(BasketContext)
+    const { theme } = useContext(ThemeContext)
 
     const discountedPrice = book.price - book.price*book.discount/100
 
@@ -32,24 +34,28 @@ const Book = ({book,onShowModal}) => {
 
     return (
         <div
-        className='
-        flex
-        flex-col
-        justify-center
-        items-center
-        gap-4
-        py-4
-        px-16
-        bg-[linear-gradient(135deg,#CBD5E1,#F1F5F9,#FFFFFF,#E2E8F0)]
-        shadow-[0_0_25px_rgba(226,232,240,0.65)]
-        rounded-lg
-        text-gray-500
-        transition-all
-        duration-300
-        hover:scale-3d
-        hover:-translate-y-2
-        hover:shadow-[0_0_20px_0_rgba(0,0,0,0.2)]
-        '
+        className={`
+            flex
+            flex-col
+            justify-center
+            items-center
+            gap-4
+            py-4
+            px-16
+            ${
+                theme === "light"
+                ?`bg-[linear-gradient(135deg,#CBD5E1,#F1F5F9,#FFFFFF,#E2E8F0)] text-gray-500`
+                :`bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-200`
+            }
+            
+            shadow-[0_0_25px_rgba(226,232,240,0.65)]
+            rounded-lg
+            transition-all
+            duration-300
+            hover:scale-3d
+            hover:-translate-y-2
+            hover:shadow-[0_0_20px_0_rgba(0,0,0,0.2)]
+            `}
         >
             <img
                 className="

@@ -5,10 +5,12 @@ import SectionRight from '../components/Course/SectionRight';
 import SectionLeft from '../components/Course/SectionLeft';
 import Subscription from '../components/Subscription/Subscription';
 import { AuthContext } from '../components/context/AuthContext';
+import { ThemeContext } from '../components/context/ThemeContext';
 
 const Course = () => {
 
   const { user } = useContext(AuthContext)
+  const { theme } = useContext(ThemeContext)
 
   const currentGradeId = +useParams().yearId
   const existSubscription = user?.subscriptions?.some(sub => 
@@ -28,10 +30,15 @@ const Course = () => {
   return (
 
     <div
-      className='
-    min-h-screen
-    bg-white
-    '
+      className={`
+        min-h-screen
+        ${
+          theme === "light"
+          ?"bg-[#fff]"
+          :"bg-gradient-to-br from-[#030303] via-[#25282D] via-[#080F1C] to-[#020817]"
+        }
+        `}
+    
     >
       
       <div className="
@@ -45,11 +52,16 @@ const Course = () => {
           existSubscription
           ?
           <span
-          className='
-          text-xl
-          font-medium
-          text-gray-500
-          '
+          className={`
+            text-xl
+            font-medium
+            ${
+              theme === "light"
+              ?`text-gray-500`
+              :`text-gray-100`
+            }
+            `}
+          
           >
             شما اشتراک فعال دارید
           </span>
@@ -67,7 +79,16 @@ const Course = () => {
     py-5
     ">
           <span
-            className="text-2xl font-medium ">
+            className={`
+              text-2xl 
+              font-medium 
+              ${
+                theme === "light"
+                ?`text-black`
+                :`text-gray-50`
+              }
+              `}
+            >
             {course.nameGrade}-{course.subject}
           </span>
           <span

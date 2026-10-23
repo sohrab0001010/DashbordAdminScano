@@ -210,7 +210,7 @@ const Questions = () => {
         px-16
         py-16
         rounded-full
-        rounded-br-none
+        rounded-tr-none
         text-[rgb(0,255,213)]
         '
         >کاربر عزیز سوال خود را در  کادر زیر تایپ کنید</span>

@@ -8,7 +8,10 @@ import { BiHomeSmile } from "react-icons/bi";
 import { TbTransactionDollar } from "react-icons/tb";
 import { TbLocationQuestion } from "react-icons/tb";
 import BasketContext from '../context/BasketContext';
-import {AuthContext} from "../context/AuthContext"
+import {AuthContext} from "../context/AuthContext";
+import { ThemeContext } from '../context/ThemeContext';
+import { TbSunFilled } from "react-icons/tb";
+import { FaMoon } from "react-icons/fa";
 
 
 const Header = () => {
@@ -18,6 +21,7 @@ const Header = () => {
 
   const { basket } = useContext(BasketContext) 
   const { user,setUser } = useContext(AuthContext)
+  const { theme,toggleTheme } = useContext(ThemeContext)
 
   const orderQuantity = basket.reduce(
     (sum,item) => sum + item.quantity,0
@@ -70,7 +74,7 @@ const Header = () => {
 
     </header>
     
-      <div className="
+      <div className={`
       section-bottom
       flex
       flex-row-reverse
@@ -85,7 +89,8 @@ const Header = () => {
       backdrop-blur-[3rem]
       shadow-[0_4px_15px_rgba(0,0,0,0.08)]
       rounded-b-2xl
-      ">
+      `}
+      >
         <div className="
         flex
         flex-row-reverse
@@ -123,7 +128,8 @@ const Header = () => {
               >
               <LuUserRound/>
               </span>
-              <div className="
+              <div className={`
+              bg-gradient-to-br from-[#050505] via-[#202328] to-[#A7ADB4]
               flex
               flex-col
               gap-4
@@ -146,26 +152,39 @@ const Header = () => {
               transition-all
               duration-300
               ease-out
-              ">
+              `}
+              >
 
-                <div className="
+                <div className={`
                 propertyUser
                 flex
                 flex-col
                 items-end
                 gap-2
-                text-gray-600
-                bg-gray-50
+                ${
+                  theme === "light"
+                  ?`text-gray-600 bg-gray-50`
+                  :`text-gray-100
+                  bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                }
+                
+                
                 py-2
                 px-6
                 rounded-lg
-                ">
+                `}
+                >
                 <span
-                className="
-                text-gray-900
-                text-sm
-                font-medium
-                "
+                className={`
+                  ${
+                    theme === "light"
+                    ?`text-gray-900`
+                    :`text-[rgb(0,255,213)]`
+                  }
+                  text-sm
+                  font-medium
+                  `}
+                
                 >{user.name}</span>
                 <span>{user.phone}</span>
                 </div>
@@ -184,19 +203,26 @@ const Header = () => {
                 <Link
                 state={{selected:"question"}}
                 to={"/panel-user"}
-                className="
-                flex
-                items-center
-                justify-end
-                gap-4
-                w-60
-                p-2
-                text-gray-600
-                rounded-lg
-                hover:bg-sky-50
-                transition-all
-                duration-200
-                ">
+                className={`
+                  flex
+                  items-center
+                  justify-end
+                  gap-4
+                  w-60
+                  p-2
+                  ${
+                    theme === "light"
+                    ?`
+                    text-gray-600 
+                    hover:bg-sky-50`
+                    :`text-gray-100 
+                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                  }
+                  rounded-lg
+                  transition-all
+                  duration-200
+                  `}
+                >
                   <span>پیشخوان</span>
                   <span
                   className='text-2xl'
@@ -206,19 +232,26 @@ const Header = () => {
                 <Link
                 state={{selected:"transaction"}}
                 to={"/panel-user"}
-                className="
-                flex
-                items-center
-                justify-end
-                gap-4
-                w-60
-                p-2
-                text-gray-600
-                rounded-lg
-                hover:bg-sky-50
-                transition-all
-                duration-200
-                ">
+                className={`
+                  flex
+                  items-center
+                  justify-end
+                  gap-4
+                  w-60
+                  p-2
+                  ${
+                    theme === "light"
+                    ?`
+                    text-gray-600 
+                    hover:bg-sky-50`
+                    :`text-gray-100 
+                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                  }
+                  rounded-lg
+                  transition-all
+                  duration-200
+                  `}
+                >
                   <span>تراکنش ها</span>
                   <span
                   className='text-2xl'
@@ -228,19 +261,26 @@ const Header = () => {
                 <Link
                 state={{selected:"question"}}
                 to={"/panel-user"}
-                className="
-                flex
-                items-center
-                justify-end
-                gap-4
-                w-60
-                p-2
-                text-gray-600
-                rounded-lg
-                hover:bg-sky-50
-                transition-all
-                duration-200
-                ">
+                className={`
+                  flex
+                  items-center
+                  justify-end
+                  gap-4
+                  w-60
+                  p-2
+                  ${
+                    theme === "light"
+                    ?`
+                    text-gray-600 
+                    hover:bg-sky-50`
+                    :`text-gray-100 
+                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                  }
+                  rounded-lg
+                  transition-all
+                  duration-200
+                  `}
+                >
                   <span>پرسش و پاسخ</span>
                   <span
                   className='text-2xl'
@@ -251,14 +291,22 @@ const Header = () => {
 
                 <button
                 onClick={() => setUser(null)}
-                className='
-                bg-red-100
-                text-red-600
-                rounded-lg
-                px-4
-                py-2
-                cursor-pointer
-                '
+                className={`
+                  rounded-lg
+                  px-4
+                  py-2
+                  cursor-pointer
+                  ${
+                    theme === "light"
+                    ?`bg-red-100
+                    text-red-600
+                    `
+                    :`bg-gradient-to-br from-black via-red-950 to-red-800
+                    text-red-200
+                    `
+                  }
+                  `}
+                
                 >
                   خروج از حساب کاربری
                 </button>
@@ -298,8 +346,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
           }}end
           to={"/"}
           >خانه</NavLink>
@@ -308,8 +356,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
           }}end
           to={"/aboutUs"}
           >درباره ما</NavLink>
@@ -318,8 +366,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?"text-lg font-bold scale-110 text-[#0C2965]"
-            :"transition-all duration-200 text-gray-600 hover:text-[#0C2965]"
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
           }}end
           to={"/contactUs"}
           >تماس با ما</NavLink>
@@ -328,6 +376,7 @@ const Header = () => {
 
         <div
         className='
+        sectionLeftHeaderBottom
         flex
         gap-8
         items-center
@@ -358,10 +407,15 @@ const Header = () => {
           '
           ><Link
           to={'basket-shop'}
-          className='
-          text-3xl
-          text-gray-500
-          '
+          className={`
+            text-3xl
+            ${
+              theme === "light"
+              ?`text-gray-500`
+              :`text-gray-100`
+            }
+            `}
+          
           ><AiOutlineShoppingCart/></Link></div>
           <div
           className='
@@ -385,6 +439,50 @@ const Header = () => {
           '
           >{orderQuantity}</span></div>
         </div>
+
+        {
+          user &&
+        <div
+        onClick={toggleTheme}
+        className={`
+          rounded-full
+          h-8
+          w-16
+          cursor-pointer
+          flex
+          items-center
+          transition-all
+          duration-300
+          ${
+            theme === "light"
+            ?"justify-start bg-sky-950"
+            :"justify-end bg-sky-200"
+          }
+          `}
+        >
+          {
+            theme === "light"
+            ?
+            <FaMoon
+            className='
+            h-full
+            w-auto
+            text-white
+            '
+            />
+            :
+            <TbSunFilled
+            className='
+            h-full
+            w-auto
+            text-yellow-200
+            '
+            />
+          }
+          
+        </div>
+        }
+
         </div>
 
       </div>

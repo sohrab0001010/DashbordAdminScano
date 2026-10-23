@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext';
 
 const Filter = ({ arrayFilter, setFiltered, onFilter, filtered }) => {
+
+  const { theme } = useContext(ThemeContext)
 
 
 
@@ -19,13 +22,18 @@ const Filter = ({ arrayFilter, setFiltered, onFilter, filtered }) => {
             className={`
                     cursor-pointer
                     text-center
-                    text-gray-500
+                    ${
+                      theme === "light"
+                      ?`text-gray-500
+                      border-blue-200`
+                      :`text-gray-100
+                      border-gray-200`
+                    }
                     backdrop-blur-[1px]
                     py-2
                     transition-all
                     duration-200
                     border
-                    border-blue-200
                     rounded-sm
                     shadow-[0_0_10px_0_rgba(0,0,0,0.1)]
                     bg-[rgba(49,128,255,0.05)]

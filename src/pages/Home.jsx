@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Course from "../components/Home/Course";
 import { Link } from "react-router";
 import courses from "../data/dataCourses";
@@ -6,8 +6,12 @@ import books  from "../data/dataBooks";
 import Book from "../components/Home/Book";
 import Modal from "../components/Modal/Modal";
 import modalConfig from "../components/Modal/modalConfig";
+import { ThemeContext } from "../components/context/ThemeContext";
 
 const Home = () => {
+
+    const { theme } = useContext(ThemeContext)
+
     const course = [
     { title: "پایه چهارم", emoji: "📒", id: 4, color: "#FFB900" }, // نارنجی
     { title: "پایه پنجم", emoji: "📙", id: 5, color: "#F97316" }, // نارنجی روشن
@@ -43,12 +47,17 @@ const Home = () => {
       "
         >
             <h1
-                className="
-          text-4xl
-          font-bold
-          text-[#082567]
-          mb-40
-        "
+                className={`
+                    text-4xl
+                    font-bold
+                    ${
+                        theme === "light"
+                        ?`text-[#082567]`
+                        :`text-[rgb(0,255,220)]`
+                    }
+                    
+                    mb-40
+                    `}
             >
                 پایه تحصیلی خود را انتخاب کنید
             </h1>
@@ -77,12 +86,17 @@ const Home = () => {
             </div>
 
             <h2
-            className="
-            text-4xl
-            font-bold
-            text-[#082567]
-            mt-40
-            "
+            className={`
+                text-4xl
+                font-bold
+                ${
+                    theme === "light"
+                    ?`text-[#082567]`
+                    :`text-[rgb(0,255,220)]`
+                }
+                mt-40
+                `}
+            
             >
                 کتاب های گروه آموزشی ویژا
             </h2>

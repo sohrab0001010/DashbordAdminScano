@@ -129,7 +129,12 @@ const Header = () => {
               <LuUserRound/>
               </span>
               <div className={`
-              bg-gradient-to-br from-[#050505] via-[#202328] to-[#A7ADB4]
+              ${
+                theme === "light"
+                ?`bg-white`
+                :`bg-linear-to-br from-[#050505] via-[#202328] to-[#A7ADB4] `
+              }
+              
               flex
               flex-col
               gap-4
@@ -165,7 +170,7 @@ const Header = () => {
                   theme === "light"
                   ?`text-gray-600 bg-gray-50`
                   :`text-gray-100
-                  bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                  bg-linear-to-br from-slate-950 via-blue-950 to-sky-950`
                 }
                 
                 
@@ -216,7 +221,7 @@ const Header = () => {
                     text-gray-600 
                     hover:bg-sky-50`
                     :`text-gray-100 
-                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                    hover:bg-linear-to-br from-slate-950 via-blue-950 to-sky-950`
                   }
                   rounded-lg
                   transition-all
@@ -245,7 +250,7 @@ const Header = () => {
                     text-gray-600 
                     hover:bg-sky-50`
                     :`text-gray-100 
-                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                    hover:bg-linear-to-br from-slate-950 via-blue-950 to-sky-950`
                   }
                   rounded-lg
                   transition-all
@@ -274,7 +279,7 @@ const Header = () => {
                     text-gray-600 
                     hover:bg-sky-50`
                     :`text-gray-100 
-                    hover:bg-gradient-to-br from-slate-950 via-blue-950 to-sky-950`
+                    hover:bg-linear-to-br from-slate-950 via-blue-950 to-sky-950`
                   }
                   rounded-lg
                   transition-all
@@ -301,7 +306,7 @@ const Header = () => {
                     ?`bg-red-100
                     text-red-600
                     `
-                    :`bg-gradient-to-br from-black via-red-950 to-red-800
+                    :`bg-linear-to-br from-black via-red-950 to-red-800
                     text-red-200
                     `
                   }
@@ -346,8 +351,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
-            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,255)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,255)]"}`
           }}end
           to={"/"}
           >خانه</NavLink>
@@ -356,8 +361,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
-            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,255)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,255)]"}`
           }}end
           to={"/aboutUs"}
           >درباره ما</NavLink>
@@ -366,8 +371,8 @@ const Header = () => {
           className={({isActive}) => {
 
             return isActive
-            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,213)]"}`
-            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,213)]"}`
+            ?`text-lg font-bold scale-110 ${theme === "light"?"text-[#0C2965]":"text-[rgb(0,255,255)]"}`
+            :`transition-all duration-200 ${theme === "light"?"text-gray-600 hover:text-[#0C2965]":"text-gray-100 hover:text-[rgb(0,255,255)]"}`
           }}end
           to={"/contactUs"}
           >تماس با ما</NavLink>
@@ -456,7 +461,7 @@ const Header = () => {
           ${
             theme === "light"
             ?"justify-start bg-sky-950"
-            :"justify-end bg-sky-200"
+            :"justify-end bg-[rgb(100,255,255)]"
           }
           `}
         >
@@ -475,7 +480,7 @@ const Header = () => {
             className='
             h-full
             w-auto
-            text-yellow-200
+            text-[rgb(255,255,0)]
             '
             />
           }

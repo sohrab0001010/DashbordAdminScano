@@ -5,8 +5,7 @@ const FinalPayment = () => {
     <div
     className='
     h-screen
-    bg-[linear-gradient(135deg,#071A4A,#123B87,#174EA6,#0B1F55)]
-    text-[rgb(0,255,213)]
+    text-[rgb(0,255,255)]
     flex
     flex-col
     items-center

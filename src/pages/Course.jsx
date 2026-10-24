@@ -32,11 +32,7 @@ const Course = () => {
     <div
       className={`
         min-h-screen
-        ${
-          theme === "light"
-          ?"bg-[#fff]"
-          :"bg-gradient-to-br from-[#030303] via-[#25282D] via-[#080F1C] to-[#020817]"
-        }
+        
         `}
     
     >

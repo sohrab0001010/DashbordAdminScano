@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../components/context/ThemeContext';
 
 const Alows = () => {
+  const {theme} = useContext(ThemeContext)
 
     const arryAlows = [
   {
@@ -49,44 +51,68 @@ const Alows = () => {
     m-h-screen
     px-16
     py-8
+    
     '
     >
       <div
-      className='
-      shadow-[0_0_10px_0_rgba(0,0,0,0.07)]
-      py-6
-      px-8
-      flex
-      flex-col
-      gap-8
-      '
+      className={`
+        shadow-[0_0_10px_0_rgba(0,0,0,0.07)]
+        py-6
+        px-8
+        flex
+        flex-col
+        gap-8
+        rounded-sm
+        ${
+        theme === 'light'
+        ?""
+        :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600`
+      }
+        `}
       >
         <h2
-        className='
-        text-2xl
-        font-medium
-        text-center
-        '
+        className={`
+          text-2xl
+          font-medium
+          text-center
+          ${
+            theme === 'light'
+            ?``
+            :`text-white`
+          }
+          `}
+        
         >
             شرایط بازگشت وجه و لغو سفارش
         </h2>
 
         <h3
-        className='
-        font-medium
-        text-gray-500
-        '
+        className={`
+          font-medium
+          ${
+            theme === 'light'
+            ?`text-gray-500`
+            :`text-gray-100`
+          }
+          `}
+        
         >
             در اسکنو تلاش می‌کنیم محصولات و خدمات با کیفیت و مطابق توضیحات درج‌شده در سایت ارائه شوند. شرایط لغو سفارش و بازگشت وجه با توجه به نوع محصول به شرح زیر است.
         </h3>
 
         <div
-        className='
-        flex
-        flex-col
-        gap-10
-        text-gray-600
-        '
+        className={`
+          flex
+          flex-col
+          gap-10
+          ${
+            theme === 'light'
+            ?`text-gray-500`
+            :`text-gray-100`
+          }
+          `}
+        
+        
         >
             {
                 arryAlows.map((item,index) => (

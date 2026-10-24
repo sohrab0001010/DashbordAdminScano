@@ -1,12 +1,14 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router'
 import BasketContext from '../context/BasketContext';
+import { ThemeContext } from '../context/ThemeContext';
 
 
 
 const LeftBasket = () => {
 
     const {basket} = useContext(BasketContext)
+    const { theme } = useContext(ThemeContext)
 
     console.log(basket)
 
@@ -40,17 +42,25 @@ const LeftBasket = () => {
 
   return (
     <div
-    className='
-    p-4
-    flex
-    flex-col
-    items-center
-    justify-center
-    gap-8
-    shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-    rounded-lg
-    text-gray-500
-    '
+    className={`
+        p-4
+        flex
+        flex-col
+        items-center
+        justify-center
+        gap-8
+        shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+        rounded-lg
+        ${
+            theme === 'light'
+            ?`text-gray-500`
+            :`
+            text-gray-200
+            bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600
+            `
+        }
+        `}
+    
     >
         <h2
         className='

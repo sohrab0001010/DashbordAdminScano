@@ -6,12 +6,14 @@ import UserCheck from '../components/PanelUser/UserCheck';
 import Questions from '../components/PanelUser/Questions';
 import Transaction from '../components/PanelUser/Transaction';
 import { AuthContext  } from '../components/context/AuthContext';
+import { ThemeContext } from '../components/context/ThemeContext';
 
 const PanelUser = () => {
 
   const location = useLocation();
   const [selected,setSelected] = useState(location.state?.selected ?? "question")
   const { setUser } = useContext(AuthContext)
+  const { theme } = useContext(ThemeContext)
 
   const navigate = useNavigate()
 
@@ -29,12 +31,17 @@ const PanelUser = () => {
     "
     >
 
-        <div className="
-        content
-        bg-white
+        <div className={`
+          content
+        ${
+          theme === "light"
+          ?`bg-white`
+          :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600`
+        }
         shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
         rounded-lg
-        ">
+        `}
+        >
           {
             selected === "question"
             ?<Questions/>

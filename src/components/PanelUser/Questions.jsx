@@ -2,10 +2,12 @@ import React, { useContext, useState } from 'react'
 import { AuthContext } from '../context/AuthContext';
 import dataQuestions from "../../data/dataQuestions";
 import { IoArrowUndoCircleSharp } from "react-icons/io5";
+import { ThemeContext } from '../context/ThemeContext';
 
 const Questions = () => {
 
   const { user,setUser } = useContext(AuthContext)
+  const { theme } = useContext(ThemeContext)
 
   const [selectedTicketId,setSelectedTicketId] = useState(null);
   const [ticketUser,setTicketUser] = useState("");
@@ -134,24 +136,36 @@ const Questions = () => {
 
         ?
       <div
-    className='
-    max-h-100
-    flex
-    flex-col
-    gap-8
-    px-8
-    py-8
-    overflow-y-auto
-    shadow-[0_1px_0_0_rgba(0,0,0,0.1)]
-    [&::-webkit-scrollbar]:w-2
-    [&::-webkit-scrollbar-track]:bg-transparent
-    [&::-webkit-scrollbar-thumb]:rounded-full
-    [&::-webkit-scrollbar-thumb]:transition-all
-    [&::-webkit-scrollbar-thumb]:duration-200
-    [&::-webkit-scrollbar-thumb]:cursor-pointer
-    [&::-webkit-scrollbar-thumb]:bg-gray-100
-    [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
-    '
+    className={`
+      max-h-100
+      flex
+      flex-col
+      gap-8
+      px-8
+      py-8
+      overflow-y-auto
+      
+      [&::-webkit-scrollbar]:w-2
+      [&::-webkit-scrollbar-track]:bg-transparent
+      [&::-webkit-scrollbar-thumb]:rounded-full
+      [&::-webkit-scrollbar-thumb]:transition-all
+      [&::-webkit-scrollbar-thumb]:duration-200
+      [&::-webkit-scrollbar-thumb]:cursor-pointer
+      ${
+        theme === "light"
+        ?`
+        [&::-webkit-scrollbar-thumb]:bg-gray-100
+        [&::-webkit-scrollbar-thumb]:hover:bg-gray-200
+        shadow-[0_1px_0_0_rgba(0,0,0,0.1)]
+        `
+        :`
+        [&::-webkit-scrollbar-thumb]:bg-gray-800
+        [&::-webkit-scrollbar-thumb]:hover:bg-gray-950
+        shadow-[0_1px_0_0_rgba(250,250,250,0.1)]
+        `
+      }
+      `}
+    
     >
       {
         userFinded.questionsUser.map(item => (
@@ -245,6 +259,13 @@ const Questions = () => {
         "grid-cols-[10fr_1fr]"
       }
       shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      ${
+          theme === "light"
+          ?`text-gray-400`
+          :`text-gray-50
+          bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600`
+
+        }
       `}
       >
       <textarea 
@@ -254,11 +275,17 @@ const Questions = () => {
       id=""
       onChange={e => setTicketUser(e.target.value)}
       rows={4}
-      className='
-      outline-none
-      p-4
-      text-gray-400
-      '
+      className={`
+        outline-none
+        p-4
+        ${
+          theme === "light"
+          ?`text-gray-400`
+          :`text-gray-50`
+        }
+        rounded-sm
+        `}
+      
       ></textarea>
 
       {
@@ -405,31 +432,47 @@ const Questions = () => {
     </span>
 
     <div
-    className='
-    max-h-84
-    bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
-    shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-    flex
-    flex-col
-    justify-start
-    gap-6
-    border-b
-    border-b-gray-300
-    border-t
-    border-t-gray-300
-    py-4
-    px-6
-    rounded-lg
-    overflow-y-auto
-    [&::-webkit-scrollbar]:w-2
-    [&::-webkit-scrollbar-track]:bg-transparent
-    [&::-webkit-scrollbar-thumb]:rounded-full
-    [&::-webkit-scrollbar-thumb]:transition-all
-    [&::-webkit-scrollbar-thumb]:duration-200
-    [&::-webkit-scrollbar-thumb]:cursor-pointer
-    [&::-webkit-scrollbar-thumb]:bg-gray-300
-    [&::-webkit-scrollbar-thumb]:hover:bg-gray-400
-    '
+    className={`
+      max-h-84
+      ${
+        theme === 'light'
+        ?`bg-[linear-gradient(135deg,#777777,#F7F7F7,#B0B0B0,#FFFFFF,#858585)]
+        border-b-gray-300
+        border-t-gray-300
+        [&::-webkit-scrollbar-thumb]:bg-gray-300
+        [&::-webkit-scrollbar-thumb]:hover:bg-gray-400
+        `
+        :`bg-[linear-gradient(115deg,#020202_0%,#111318_25%,#30343B_43%,#111318_52%,#242830_58%,#08090B_78%,#000000_100%)]
+        border-b-gray-800
+        border-t-gray-800
+        [&::-webkit-scrollbar-thumb]:bg-gray-800
+      [&::-webkit-scrollbar-thumb]:hover:bg-gray-900
+        `
+
+      }
+      shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+      flex
+      flex-col
+      justify-start
+      gap-6
+      border-b
+      
+      border-t
+      
+      py-4
+      px-6
+      rounded-lg
+      overflow-y-auto
+      [&::-webkit-scrollbar]:w-2
+      [&::-webkit-scrollbar-track]:bg-transparent
+      [&::-webkit-scrollbar-thumb]:rounded-full
+      [&::-webkit-scrollbar-thumb]:transition-all
+      [&::-webkit-scrollbar-thumb]:duration-200
+      [&::-webkit-scrollbar-thumb]:cursor-pointer
+      [&::-webkit-scrollbar-thumb]:bg-gray-300
+      [&::-webkit-scrollbar-thumb]:hover:bg-gray-400
+      `}
+    
     >
       {
         selectedTicketId.questions.map(item => (
@@ -452,7 +495,6 @@ const Questions = () => {
             flex-row-reverse
             justify-between
             gap-4
-            bg-yellow-100
             py-8
             px-20
             shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
@@ -474,8 +516,8 @@ const Questions = () => {
                 src={secItem.url}
                 onClick={() => setShowImgInText(secItem.url)}
                 className='
-                h-10
-                w-12
+                h-12
+                w-10
                 rounded-sm
                 cursor-pointer
                 '
@@ -558,6 +600,16 @@ const Questions = () => {
         "grid-cols-[10fr_1fr]"
       }
       shadow-[0_0_20px_0_rgb(0,0,0,0.1)]
+      ${
+          theme === "light"
+          ?`
+          text-gray-400
+          `
+          :`
+          text-gray-100
+          bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600
+          `
+        }
       `}
       >
       <textarea 
@@ -567,11 +619,21 @@ const Questions = () => {
       id=""
       onChange={e => setTextUser(e.target.value)}
       rows={4}
-      className='
-      outline-none
-      p-4
-      text-gray-400
-      '
+      className={`
+        outline-none
+        p-4
+        ${
+          theme === "light"
+          ?`
+          text-gray-400
+          `
+          :`
+          text-gray-100
+          `
+        }
+        `}
+      
+      
       ></textarea>
 
       {

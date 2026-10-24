@@ -2,8 +2,12 @@ import { FaSearchLocation } from "react-icons/fa";
 import { TbMailbox } from "react-icons/tb";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { HiOutlineMail } from "react-icons/hi";
+import { useContext } from "react";
+import { ThemeContext } from "../components/context/ThemeContext";
 
 const ContactUs = () => {
+
+  const { theme } = useContext(ThemeContext)
 
   const contactItems = [
     {
@@ -77,13 +81,18 @@ const ContactUs = () => {
           </span>
 
           <span
-            className="
-              text-gray-500
+            className={`
+              ${
+                theme === "light"
+                ?`text-gray-500 group-hover:text-gray-800`
+                :`text-gray-200 group-hover:text-gray-50`
+              }
               font-medium
               transition-all
               duration-300
-              group-hover:text-gray-800
-            "
+              
+              `}
+            
           >
             {item.text}
           </span>

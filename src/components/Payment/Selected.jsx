@@ -4,23 +4,32 @@
 
 
 
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext';
+
 
 
 const Selected = ({imgBook,name,quantity}) => {
+
+  const { theme } = useContext(ThemeContext)
+
   return (
     <div
-    className='
-    bg-white
-    text-gray-500
-    text-[1.2rem]
-    font-medium
-    flex
-    flex-row-reverse
-    items-center
-    justify-between
-    px-8
-    '
+    className={`
+      ${
+        theme === 'light'
+        ?`text-gray-500`
+        :`text-gray-100`
+      }
+      text-[1.2rem]
+      font-medium
+      flex
+      flex-row-reverse
+      items-center
+      justify-between
+      px-8
+      `}
+    
     >
         <img 
         src={imgBook} 

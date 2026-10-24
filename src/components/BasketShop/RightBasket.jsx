@@ -1,10 +1,12 @@
 import React, { useContext, useState } from 'react';
 import { VscTrash } from "react-icons/vsc";
 import BasketContext from '../context/BasketContext';
+import { ThemeContext } from '../context/ThemeContext';
 
 const RightBasket = ({basket,onKey,onShowModal}) => {
 
 const {increaseQuantity,removeBook,decreaseQuantity} = useContext(BasketContext)
+const { theme } = useContext(ThemeContext)
 
 const handleAddBook = id => {
   const chosenBook = basket.find(item => item.id === id)
@@ -22,18 +24,26 @@ const handleAddBook = id => {
 
   return (
     <div
-    className='
-    p-4
-    flex
-    flex-col
-    items-center
-    justify-center
-    gap-8
-    shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-    rounded-lg
-    text-gray-500
-    select-none
-    '
+    className={`
+      p-4
+      flex
+      flex-col
+      items-center
+      justify-center
+      gap-8
+      shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+      rounded-lg
+      ${
+        theme === `light`
+        ?`text-gray-500`
+        :`text-gray-200
+        bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600
+        `
+
+      }
+      select-none
+      `}
+    
     >
       <h2
       className='
@@ -98,10 +108,15 @@ const handleAddBook = id => {
               '
               >
                 <span
-                className='
-                line-through
-                text-gray-400
-                '
+                className={`
+                  line-through
+                  ${
+                    theme === "light"
+                    ?`text-gray-400`
+                    :`text-gray-50`
+                  }
+                  `}
+                
                 >{item.price} تومان</span>
                 <span
                 className='

@@ -47,7 +47,6 @@ const BasketShop = () => {
           </div>
           : <div
             className='
-        bg-white
         grid
         grid-cols-[4fr_6fr]
         '

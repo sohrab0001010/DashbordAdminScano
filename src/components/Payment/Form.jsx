@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Modal from '../Modal/Modal'
 import modalConfig from '../Modal/modalConfig'
 import { useNavigate } from 'react-router'
+import { ThemeContext } from '../context/ThemeContext';
 
 const Form = () => {
 
+  const { theme } = useContext(ThemeContext)
   const navigate = useNavigate();
 
   const [phone,setPhone] = useState()
@@ -52,6 +54,7 @@ const Form = () => {
 
 
 
+
   return (
     <div
 
@@ -69,18 +72,22 @@ const Form = () => {
             onChange={e => setUsername(e.target.value)}
             dir='rtl' 
             type="text" 
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='نام و نام خانوادگی'
             />
 
@@ -90,18 +97,22 @@ const Form = () => {
             type="text"
             inputMode="numeric" 
             value={phone}
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='شماره موبایل'
             />
 
@@ -110,18 +121,22 @@ const Form = () => {
             onChange={e => setProvince(e.target.value)}
             dir='rtl' 
             type="text" 
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='استان'
             />
 
@@ -130,18 +145,22 @@ const Form = () => {
             onChange={e => setCity(e.target.value)}
             dir='rtl' 
             type="text" 
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='شهر'
             />
 
@@ -152,18 +171,22 @@ const Form = () => {
             dir='rtl' 
             type="textaria"
             row
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='آدرس دقیق'
             />
 
@@ -174,18 +197,22 @@ const Form = () => {
             type="text" 
             inputMode="numeric"
             pattern='[0-9]*'
-            className='
-            bg-white
-            py-2
-            px-4
-            text-[1.2rem]
-            rounded-sm
-            shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
-            text-gray-500
-            outline-none
-            border-b
-            border-gray-300
-            '
+            className={`
+              ${
+                theme === 'light'
+                ?`bg-white text-gray-500`
+                :`bg-linear-to-br from-zinc-950 via-zinc-800 to-zinc-600 text-gray-100`
+              }
+              py-2
+              px-4
+              text-[1.2rem]
+              rounded-sm
+              shadow-[0_0_20px_0_rgba(0,0,0,0.1)]
+              outline-none
+              border-b
+              border-gray-300
+              `}
+            
             placeholder='کد پستی'
             />
 

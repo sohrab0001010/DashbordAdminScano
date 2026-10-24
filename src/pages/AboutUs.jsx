@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { GiRotaryPhone } from "react-icons/gi";
+import { ThemeContext } from '../components/context/ThemeContext';
 
 const AboutUs = () => {
+
+  const { theme } = useContext(ThemeContext)
+
   return (
     <div className='container'>
       <div
-        className="
+        className={`
           aboutUs
           flex
           flex-col
@@ -20,16 +24,31 @@ const AboutUs = () => {
           px-6
           sm:px-12
           lg:px-40
-          text-gray-600
-        "
+          ${
+            theme === "light"
+            ?`text-gray-800`
+            :`text-gray-50`
+          }
+          `}
+        
       >
-        <h2 className="text-gray-800 text-2xl sm:text-3xl font-medium text-center">
+        <h2 className={`
+          ${
+            theme === 'light'
+            ?`text-gray-800`
+            :`text-gray-200`
+          }
+          text-2xl sm:text-3xl 
+          font-medium 
+          text-center
+          `}
+          >
           سلام و خوش اومدید به اسکنو
         </h2>
 
         <div
           dir="rtl"
-          className="
+          className={`
             max-w-2xl
             flex
             flex-col
@@ -38,7 +57,13 @@ const AboutUs = () => {
             gap-8
             sm:gap-10
             lg:gap-12
-          "
+            ${
+              theme === 'light'
+              ?``
+              :`text-white`
+            }
+            `}
+          
         >
           <p className="text-sm sm:text-base leading-7 sm:leading-8">
             اسکنو رو از سال ۱۴۰۵ با یه هدف ساده شروع کردیم: این که یادگیری ریاضی و درس‌های دیگه رو برای دانش‌آموزای پایه چهارم تا دوازدهم راحت‌تر و شیرین‌تر کنیم.
@@ -48,12 +73,12 @@ const AboutUs = () => {
             می‌دونیم که بعضی وقت‌ها یه مبحث ریاضی، علوم، فارسی و... توی کلاس خوب جا نمی‌افته، یا دانش‌آموز دنبال یه کاربرگ خوب برای تمرین بیشتره، یا معلم عزیزی دنبال منبعی مطمئنه که بتونه سر کلاس ازش استفاده کنه، برای همینه که ما اینجاییم. چه دانش‌آموز باشید که دنبال آموزش و نمونه‌سواله، چه معلمی که می‌خواد کارش راحت‌تر بشه، چه پدر و مادری که می‌خواد کنار بچه‌ش باشه و بهترین منابع رو در اختیارش بذاره.
           </p>
 
-          <p className="text-gray-800 text-xl sm:text-2xl lg:text-3xl font-medium text-center">
+          <p className=" text-xl sm:text-2xl lg:text-3xl font-medium text-center">
             هر روز داریم صفحات آموزشی‌مون رو کامل‌تر می‌کنیم و تلاشمون اینه که اسکنو بشه یه همراه مطمئن برای همه‌ی خانواده‌هایی که دنبال یادگیری بهتر و ساده‌تر هستن
           </p>
         </div>
 
-        <hr className="w-full text-gray-400" />
+        <hr className="w-full " />
 
         <div className="flex gap-2 sm:gap-4 items-center font-medium text-sm sm:text-base">
           <span>۰۹۳۸۱۶۰۹۸۸۳</span>

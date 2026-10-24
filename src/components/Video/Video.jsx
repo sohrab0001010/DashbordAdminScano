@@ -67,6 +67,9 @@ const Video = ({ video,contentLevel }) => {
             <video
               src={video}
               controls
+              controlsList="nodownload"
+              disablePictureInPicture
+              onContextMenu={(e) => e.preventDefault()}
               className="
               w-full 
               h-full 

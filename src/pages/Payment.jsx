@@ -34,7 +34,7 @@ import  Form  from '../components/Payment/Form';
        right-section
        h-full
        w-full
-       py-4
+       py-24
        px-24
        flex
        flex-col

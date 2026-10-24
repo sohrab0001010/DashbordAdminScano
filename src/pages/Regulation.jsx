@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { GrUserPolice } from "react-icons/gr";
+import { ThemeContext } from '../components/context/ThemeContext';
 
 const Regulation = () => {
+
+  const { theme } = useContext(ThemeContext)
 
     const terms = [
   {
@@ -79,12 +82,18 @@ const Regulation = () => {
   return (
     <div
     dir='rtl'
-    className='
-    min-h-screen
-    py-8
-    px-10
-    text-gray-500
-    '
+    className={`
+      min-h-screen
+      py-8
+      px-10
+      ${
+        theme === `light`
+        ?`text-gray-500`
+        :`text-gray-100`
+      }
+      `}
+    
+    
     >
         {
             <div
@@ -96,12 +105,17 @@ const Regulation = () => {
             '
             >
                 <h2
-                className='
-                text-2xl
-                font-medium
-                text-center
-                text-black
-                '
+                className={`
+                  text-2xl
+                  font-medium
+                  text-center
+                  ${
+                    theme === 'light'
+                    ?`text-black`
+                    :`text-white`
+                  }
+                  `}
+                
                 >قوانین و مقررات استفاده از سایت اسکنو</h2>
 
                 <div

@@ -16,19 +16,20 @@ const Questions = () => {
   const [textUser,setTextUser] = useState("")
   const [chatAttachments,setChatAttachments] = useState([])
 
-  const userFinded = dataQuestions.find(item => item.userId === user?.id)
-  const lastItem = userFinded?.questionsUser?.at(-1)?.number ?? 0;
-  const lengthQuestion = userFinded?.questionsUser?.at(-1)?.questions?.length ?? 0;
 
-  const generatedTicket = () => {
-    const newTicket = {
-      id: `ticet-${userFinded.userId}-${lastItem+1}`,
+  const userFinded = dataQuestions.find(
+  item => item.userId === user?.id
+)
+
+  const generatedTicket = (userId,ticketNumber,questionText) => {
+      return {
+      id: `ticet-${userId}-${ticketNumber}`,
       status: "open",
-      number: lastItem + 1,
+      number: ticketNumber,
       questions: [
         {
-          id:`question-${userFinded.userId}-${lastItem}-${lengthQuestion + 1}`,
-          question: ticketUser,
+          id:`question-${userId}-${ticketNumber}-1`,
+          question: questionText,
           attachments: ticketAttachments.map(
           ({file,...attachment}) => attachment
           ),
@@ -37,22 +38,49 @@ const Questions = () => {
       ]
     }
 
-    return newTicket
   }
 
 
   const addToquestions = () => {
-    dataQuestions.forEach(item => {
-      if(
-        item.userId === user.id 
-        && ticketUser.trim() !== ""
-      ) {
-        item.questionsUser.push(generatedTicket())
-        setTicketUser("")
-        setTicketAttachments([])
-      }
-    })
+    const questionText = ticketUser.trim();
+
+    if (!user || questionText === "") return
+
+    let currentUserQuestions = dataQuestions.find(
+      item => item.userId === user.id
+    )
+
+    if (!currentUserQuestions) {
+      currentUserQuestions = {
+        userId:user.id,
+        questionsUser: []
+      };
+
+      dataQuestions.push(currentUserQuestions)
+    }
+
+    const lastTicketNumber = currentUserQuestions.questionsUser.reduce(
+      (max,ticket) => Math.max(max,ticket.number ?? 0),
+      0
+    );
+
+    const newTicketNumber = lastTicketNumber + 1
+
+    const newTicket = generatedTicket(
+      user.id,
+      newTicketNumber,
+      questionText
+    )
+
+    currentUserQuestions.questionsUser.push(newTicket)
+
+    setTicketUser("")
+    setTicketAttachments([])
+
   }
+
+
+
 
 
   const handleAttachment = e => {

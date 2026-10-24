@@ -320,7 +320,7 @@ const Header = () => {
             </div>
 
             :<Link to={"/login"}>
-            <div className="
+            <div className={`
            flex
            flex-row-reverse
            items-center
@@ -330,16 +330,27 @@ const Header = () => {
            border-gray-500
            px-4
            py-2
-           text-gray-500
            font-medium
            text-[1.2rem]
            select-none
            transition-all
            duration-200
-           hover:bg-[rgba(103,176,255,0.11)]
-           hover:text-[#0C2965]
-           hover:border-[#0C2965]
-            ">
+           ${
+            theme === "light"
+            ?`
+            text-gray-500
+            hover:bg-[rgba(103,176,255,0.11)]
+            hover:text-[#0C2965]
+            hover:border-[#0C2965]
+            `
+            :`
+            text-gray-100
+            hover:text-[rgb(0,255,255)]
+            hover:border-[rgb(0,255,255)]
+            `
+           }
+            `}
+            >
               <span>ورود</span>
               <span className="opacity-50">|</span>
               <span>ثبت نام</span>
@@ -445,8 +456,7 @@ const Header = () => {
           >{orderQuantity}</span></div>
         </div>
 
-        {
-          user &&
+        
         <div
         onClick={toggleTheme}
         className={`
@@ -486,7 +496,7 @@ const Header = () => {
           }
           
         </div>
-        }
+        
 
         </div>
 

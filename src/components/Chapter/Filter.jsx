@@ -25,9 +25,11 @@ const Filter = ({ arrayFilter, setFiltered, onFilter, filtered }) => {
                     ${
                       theme === "light"
                       ?`text-gray-500
-                      border-blue-200`
+                      border-blue-200
+                      `
                       :`text-gray-100
-                      border-gray-200`
+                      border-gray-200
+                      `
                     }
                     backdrop-blur-[1px]
                     py-2

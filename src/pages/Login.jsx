@@ -53,7 +53,18 @@ const Login = () => {
 
   const handleLogin = type => {
 
+     if (type === "invalid") {
+    setCondition("invalid");
+    setModalkey(prev => prev + 1);
+    return;
+  }
+
+    if (type !== "valid") return
+
     const userLogged = users.find(user => user.phone == number)
+
+    if (!userLogged) return;
+
 
     if (userLogged) {
       setUser(userLogged)

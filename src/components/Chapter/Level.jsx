@@ -63,6 +63,11 @@ const Level = ({
             transition-all
             duration-300
             ${isOpen?"-rotate-90":""}
+            ${
+              theme === `light`
+              ?``
+              :`text-gray-100`
+            }
             `}
           ><FiChevronLeft /></span>
           <span className='

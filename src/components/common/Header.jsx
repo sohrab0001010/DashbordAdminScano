@@ -85,7 +85,11 @@ const Header = () => {
       z-50
       p-10
       border-b
-      border-gray-100
+      ${
+        theme === 'light'
+        ?`border-gray-100`
+        :`border-[rgba(0,0,0,0.5)]`
+      }
       backdrop-blur-[3rem]
       shadow-[0_4px_15px_rgba(0,0,0,0.08)]
       rounded-b-2xl

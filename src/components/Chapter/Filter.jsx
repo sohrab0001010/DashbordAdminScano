@@ -28,7 +28,7 @@ const Filter = ({ arrayFilter, setFiltered, onFilter, filtered }) => {
                       border-blue-200
                       `
                       :`text-gray-100
-                      border-gray-200
+                      border-[rgba(0,0,0,0.5)]
                       `
                     }
                     backdrop-blur-[1px]

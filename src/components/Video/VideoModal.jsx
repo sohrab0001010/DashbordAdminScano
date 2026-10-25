@@ -1,11 +1,15 @@
 {/*this component is related to video*/ }
 
-import React from 'react'
+import React, { useContext } from 'react'
 import Subscription from '../Subscription/Subscription'
 import { CgArrowLeft } from "react-icons/cg";
+import { ThemeContext } from '../context/ThemeContext';
 
 
 const VideoModal = ({setShowModalVideo,showModalVideo}) => {
+
+    const { theme } = useContext(ThemeContext)
+
     return (
         <>
 
@@ -37,7 +41,12 @@ const VideoModal = ({setShowModalVideo,showModalVideo}) => {
                 backdrop-blur-[3rem]
                 bg-[rgba(74,171,255,0.05)]
                 border
-                border-[rgb(142,202,255)]
+                ${
+                    theme === 'light'
+                    ?`border-[rgb(142,202,255)]`
+                    :`border-[rgb(200,200,200)]`
+                }
+                
                 flex
                 flex-col
                 justify-center
@@ -55,13 +64,18 @@ const VideoModal = ({setShowModalVideo,showModalVideo}) => {
         >
 
             <span
-            className='
-            flex
-            justify-start
-            w-full
-            px-8
-            text-gray-700
-            '
+            className={`
+                flex
+                justify-start
+                w-full
+                px-8
+                ${
+                    theme === "light"
+                    ?`text-gray-700`
+                    :`text-gray-100`
+                }
+                `}
+            
             >
                 <CgArrowLeft
                 onClick={() => setShowModalVideo(false)}
@@ -73,10 +87,15 @@ const VideoModal = ({setShowModalVideo,showModalVideo}) => {
                 />
             </span>
             <span
-            className='
-            font-medium
-            text-gray-700
-            '
+            className={`
+                font-medium
+                ${
+                    theme === "light"
+                    ?`text-gray-700`
+                    :`text-gray-100`
+                }
+                `}
+            
             >
                 برای دیدن تمام فیلم‌های آموزشی باید اشتراک بخرید
             </span>
